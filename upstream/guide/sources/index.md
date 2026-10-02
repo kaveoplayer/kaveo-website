@@ -1,0 +1,12 @@
+---
+title: Sources
+description: Where your titles come from.
+order: 50
+---
+
+Kaveo gathers titles from folders on your computer and from media servers, and shows them together in
+one library.
+
+- [Local folders](local-folders.md) — the folders Kaveo scans for films, series and music on this
+  computer.
+- [Jellyfin](jellyfin.md) — connect a Jellyfin server, play its titles, and keep your progress in sync.
