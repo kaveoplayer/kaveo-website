@@ -25,7 +25,7 @@ export const DISCUSSIONS_URL = `${RELEASES_REPO}/discussions`;
 
 /**
  * Licence keys and anything about a licence.
- * PLACEHOLDER — the address is not decided yet. Replace before the site goes public.
+ * Temporary (2026-10-02): the maintainer's address until a dedicated one exists.
  */
 export const LICENCE_EMAIL = 'mattia.cenci@bosimano.com';
 
