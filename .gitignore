@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+
+# Build output
+dist/
+
+# Astro generated
+.astro/
+
+# The guide as Starlight reads it — generated from upstream/guide/ by scripts/import-guide.mjs
+src/content/docs/guide/
+
+# Generated at build time by scripts/generate-llms-txt.mjs
+public/llms.txt
+public/llms-full.txt
+public/robots.txt
+
+# Links validator report
+.starlight-links-validator/
+
+# Environment variables
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# TypeScript
+*.tsbuildinfo

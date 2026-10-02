@@ -1,0 +1,23 @@
+{
+  "name": "kaveo-website",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "import-guide": "node scripts/import-guide.mjs",
+    "dev": "node scripts/import-guide.mjs && astro dev",
+    "start": "npm run dev",
+    "build": "node scripts/import-guide.mjs && node scripts/generate-llms-txt.mjs && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^7.3.1",
+    "@astrojs/starlight": "^0.42.5",
+    "astro": "^7.3.5",
+    "astro-rehype-relative-markdown-links": "^0.19.2",
+    "sharp": "^0.35.5",
+    "starlight-links-validator": "^0.26.0",
+    "yaml": "^2.9.1"
+  }
+}
