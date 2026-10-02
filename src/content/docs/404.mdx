@@ -1,0 +1,15 @@
+---
+title: '404: Page not found'
+template: splash
+editUrl: false
+hero:
+  title: '404'
+  tagline: There is no page here. It may have moved — try the search, or start from the home page.
+---
+
+import { LinkButton } from '@astrojs/starlight/components';
+import { sitePath } from '../../lib/links';
+
+{/* A 404 can be served at any path, so the link home is absolute and carries the base path. */}
+
+<LinkButton href={sitePath('')} icon="right-arrow">Go home</LinkButton>

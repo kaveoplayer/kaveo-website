@@ -1,0 +1,41 @@
+---
+title: Support
+description: Where to report a bug, ask a question, or sort out a licence.
+---
+
+import { LinkButton } from '@astrojs/starlight/components';
+import { DISCUSSIONS_URL, ISSUES_URL, LICENCE_EMAIL } from '../../../site.config.mjs';
+
+## Something does not work
+
+Report it as an issue on GitHub. One problem per issue, please — and search first, in case someone
+has already reported it.
+
+<LinkButton href={ISSUES_URL} icon="external" variant="primary">Report a bug</LinkButton>
+
+A report we can act on has three things in it:
+
+1. **What you did, what you expected, and what happened instead** — and any message Kaveo showed,
+   which it can copy for you. See [Troubleshooting](guide/troubleshooting.md).
+2. **The version you are running**, from **Settings › About**. See [About](guide/settings/about.md).
+3. **A diagnostic bundle**: under **Settings › Diagnostics**, raise **Detail level**, do the thing
+   that failed again, then click **Export a diagnostic bundle** and attach the zip. See
+   [Diagnostics](guide/settings/diagnostics.md).
+
+The bundle holds recent logs, any crash reports and your machine's details. Your library folders,
+servers and lists are left out, your home folder and user name are removed, and the zip lists what
+it left out — but an issue is public, so look inside before you attach it.
+
+## A question, or an idea
+
+Ask in Discussions. It is also where to suggest a feature.
+
+<LinkButton href={DISCUSSIONS_URL} icon="external" variant="secondary">Open Discussions</LinkButton>
+
+Most "how do I…" questions are answered in the [guide](guide/index.md).
+
+## Licences
+
+Asking for a beta key, a key that will not activate, or anything else about your licence: write to
+<a href={`mailto:${LICENCE_EMAIL}`}>{LICENCE_EMAIL}</a>. Never post a licence key in an issue or a
+discussion — both are public.

@@ -1,0 +1,110 @@
+---
+title: Download
+description: Kaveo for Linux and Windows — every package and installer, and what each one needs.
+---
+
+import { Aside, LinkButton, Tabs, TabItem } from '@astrojs/starlight/components';
+import { LATEST_RELEASE_URL, RELEASES_REPO } from '../../../site.config.mjs';
+
+Every file of the current version is on the release page, with a SHA-256 checksum beside each one.
+Pick the format that matches your system below.
+
+<LinkButton href={LATEST_RELEASE_URL} icon="external" variant="primary">
+  Latest release
+</LinkButton>
+
+<Aside type="note" title="Closed beta">
+  Kaveo needs a licence key during the beta. See [Support](support.mdx) to ask for one.
+</Aside>
+
+## What you need
+
+- **Linux**: x86_64 with glibc 2.35 or newer — Ubuntu 22.04, Debian 12, Fedora 40 or anything
+  newer — on Wayland or X11, and a GPU with Vulkan 1.2.
+- **Windows**: Windows 10 or 11, 64-bit (x64).
+- **macOS** is not supported.
+
+## Linux
+
+<Tabs syncKey="linux">
+  <TabItem label="Ubuntu, Debian, Mint">
+    Download the **.deb** file and open it with your software installer, or install it from a
+    terminal in the folder you saved it to:
+
+    ```sh
+    sudo apt install ./kaveo_*.deb
+    ```
+
+    For Ubuntu 22.04 or newer, Debian 12 or newer, and the distributions built on them, such as
+    Linux Mint and Pop!_OS.
+  </TabItem>
+  <TabItem label="Fedora, openSUSE">
+    Download the **.rpm** file and install it:
+
+    ```sh
+    sudo dnf install ./kaveo-*.rpm      # Fedora
+    sudo zypper install ./kaveo-*.rpm   # openSUSE
+    ```
+
+    For Fedora 40 or newer, and openSUSE.
+  </TabItem>
+  <TabItem label="Arch, CachyOS, Manjaro">
+    Install **kaveo-bin** from the AUR with your AUR helper:
+
+    ```sh
+    yay -S kaveo-bin
+    ```
+
+    Or download the **.pkg.tar.zst** file from the release page and install it with
+    `sudo pacman -U ./kaveo-bin-*.pkg.tar.zst`. Both are the same package under the same name.
+  </TabItem>
+  <TabItem label="Any distribution">
+    **Tarball** — download the **.tar.gz** file, unpack it, and run the installer inside it. It
+    installs for your user alone, or for every user of the computer.
+
+    ```sh
+    tar xf kaveo-*.tar.gz
+    ./kaveo-*/install.sh
+    ```
+
+    **AppImage** — download the **.AppImage** file, make it executable, and run it. Nothing is
+    installed.
+
+    ```sh
+    chmod +x Kaveo-*.AppImage
+    ./Kaveo-*.AppImage
+    ```
+  </TabItem>
+</Tabs>
+
+## Windows
+
+<Aside type="caution" title="Unsigned during the beta">
+  The Windows builds are not code-signed yet, so Windows SmartScreen warns about them the first time
+  you run one. Choose **More info**, then **Run anyway**. Check the file's SHA-256 against the one
+  on the release page first if you want to be sure it is the file we published.
+</Aside>
+
+<Tabs syncKey="windows">
+  <TabItem label="Installer (.exe)">
+    The usual choice. Installs Kaveo for your user, with no administrator prompt.
+  </TabItem>
+  <TabItem label="MSI (.msi)">
+    Installs Kaveo for every user of the computer; it asks for administrator rights. Meant for
+    managed computers, where it can be deployed and its updates controlled by policy.
+  </TabItem>
+  <TabItem label="Portable (.zip)">
+    Unzip it anywhere — a folder or a USB drive — and run Kaveo from there. Nothing is installed,
+    and everything Kaveo keeps stays in that folder.
+  </TabItem>
+</Tabs>
+
+## Updates
+
+Kaveo checks for new versions by itself. When one is out it offers it, and once you accept it
+downloads, verifies and installs the update itself — whichever format you installed. The automatic
+check can be turned off; see [Privacy](privacy.md).
+
+## Older versions
+
+Every earlier release stays available on the <a href={`${RELEASES_REPO}/releases`}>releases list</a>.
