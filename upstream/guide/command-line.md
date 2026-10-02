@@ -35,6 +35,7 @@ manager's **Kaveo** menu do underneath.
 - Only the first Kaveo owns your library, history and settings. Started again with nothing to play, a
   second one just brings that window to the front; given a file, it plays it and reports back where
   you stopped.
-- Kaveo quietly ignores an option it does not recognise, and has no help or version option.
+- `kaveo --version` prints the version and exits. Kaveo has no help option, and quietly ignores an
+  option it does not recognise.
 - The same actions are in your file manager's **Kaveo** menu — see
   [From your file manager](file-manager.md).
