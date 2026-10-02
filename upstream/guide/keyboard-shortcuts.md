@@ -53,3 +53,4 @@ Three more keys cannot be changed:
 - The four actions with a dash have no shortcut until you give them one.
 - A shortcut can be a mouse button or a wheel notch as readily as a key, so some rows carry both.
 - **Toggle exclusive fullscreen (Mode 1)** has no Settings row outside Windows, where **F** is ordinary fullscreen.
+- While the subtitle editor is open it takes **[**, **]**, **↑** and **↓**: retime the line and move between lines.
