@@ -27,7 +27,7 @@ export const DISCUSSIONS_URL = `${RELEASES_REPO}/discussions`;
  * Licence keys and anything about a licence.
  * PLACEHOLDER — the address is not decided yet. Replace before the site goes public.
  */
-export const LICENCE_EMAIL = 'licence@example.invalid';
+export const LICENCE_EMAIL = 'mattia.cenci@bosimano.com';
 
 /** The site's full public address, with the base path. */
 export const SITE_ROOT = `${SITE_URL}${BASE === '/' ? '' : BASE}/`;
