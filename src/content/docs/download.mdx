@@ -13,6 +13,11 @@ Pick the format that matches your system below.
   Latest release
 </LinkButton>
 
+<Aside type="caution" title="Not released yet">
+  The first beta has not been published. This page describes the packages it will come in; the
+  release page is empty until then.
+</Aside>
+
 <Aside type="note" title="Closed beta">
   Kaveo needs a licence key during the beta. See [Support](support.mdx) to ask for one.
 </Aside>
@@ -59,13 +64,17 @@ Pick the format that matches your system below.
     `sudo pacman -U ./kaveo-bin-*.pkg.tar.zst`. Both are the same package under the same name.
   </TabItem>
   <TabItem label="Any distribution">
-    **Tarball** — download the **.tar.gz** file, unpack it, and run the installer inside it. It
-    installs for your user alone, or for every user of the computer.
+    **Tarball** — download the **.tar.xz** file, unpack it, and run the installer inside it. It
+    asks which components to use, whether to add Kaveo to your file manager's right-click menu and
+    whether to put the `kaveo` command on your PATH, then installs for your user alone — or, with
+    `--system`, for every user of the computer.
 
     ```sh
-    tar xf kaveo-*.tar.gz
-    ./kaveo-*/install.sh
+    tar xf kaveo-*-linux-x86_64.tar.xz
+    ./kaveo-*-linux-x86_64/install.sh
     ```
+
+    `install.sh --uninstall` removes exactly what it installed; your library and settings stay.
 
     **AppImage** — download the **.AppImage** file, make it executable, and run it. Nothing is
     installed.
