@@ -56,7 +56,8 @@ own pages) and pushes; the push deploys the site.
 
 ## Deploying
 
-GitHub Pages, from `.github/workflows/deploy.yml`, on the self-hosted runner. The repository's
+GitHub Pages, from `.github/workflows/deploy.yml`, on GitHub-hosted runners — never a self-hosted one: on a
+public repository a pull request could run code on that machine. The repository's
 Pages source must be set to **GitHub Actions**. Until the site has its own domain it is a project
 page at `https://mattia-cenci.github.io/kaveo-website/`; moving it means changing `SITE_URL` and
 `BASE` in `site.config.mjs` (and adding `public/CNAME`).
