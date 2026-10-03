@@ -19,7 +19,8 @@ library folder.
    every field except **Music naming**, the **Anime** ones included.
 2. Edit a template under **Movies**, **TV Series** or **Music naming**: click in a field, then click
    a token under **Available tokens** to add it to the end.
-3. Under **Options**, set **Colon replacement** and **Use dots instead of spaces**.
+3. Under **Options**, set **Colon replacement**, **Episode title language** (**English** or **Same as the
+   interface**) and **Use dots instead of spaces**.
 4. Click **Save**. *The naming templates changed* then offers **Show me what would change** —
    a preview across your whole library — or **Not now**.
 
