@@ -26,5 +26,6 @@ tools — and what each one needs that is missing.
 ## Good to know
 
 - A choice is kept at once, without **Save**; some take effect the next time Kaveo starts.
-- The video libraries are always Kaveo's own: a copy found on the computer is listed, never used in
-  their place.
+- **Video decoding libraries** are Kaveo's own unless you choose this computer's or a folder of
+  your own. Kaveo tries them before it restarts on them; if they do not work, it keeps its own and
+  says why under the row.

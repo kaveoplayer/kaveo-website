@@ -13,11 +13,17 @@ shows, or just play one file with no library at all.
 
 ## How to use it
 
-1. With nothing added, the library screen says **Your library is empty** — click **Add a folder**.
-2. That opens **Settings › Library › Folders**; click **Add folder** and choose the folder your films
+1. Installed from a package, Kaveo first shows **Welcome to Kaveo**: what is worth a look on this
+   computer, and two ticked boxes, for the right-click menu and a terminal command. Untick either,
+   then click **Continue**.
+
+![The Welcome to Kaveo dialog, listing what is worth a look, with Open Components, the two ticked boxes and Continue](../images/getting-started/first-launch-welcome.webp)
+
+2. With nothing added, the library screen says **Your library is empty** — click **Add a folder**.
+3. That opens **Settings › Library › Folders**; click **Add folder** and choose the folder your films
    or shows live in.
-3. Click **Save** — the scan starts as soon as you do, and titles appear once it finishes.
-4. Repeat for another folder, or split your library into kinds first — see
+4. Click **Save** — the scan starts as soon as you do, and titles appear once it finishes.
+5. Repeat for another folder, or split your library into kinds first — see
    [Categories](../library/categories.md).
 
 ![Settings, Library, Folders, with the Add folder button and no folders yet](../images/getting-started/first-launch-folders.webp)
@@ -25,8 +31,8 @@ shows, or just play one file with no library at all.
 ## Good to know
 
 - Drag a video onto the Kaveo window, or click **Open file** in the top bar, to play it right away —
-  no library folder needed. Kaveo never becomes your default video player; adding it to your file
-  manager's own right-click menu is a separate, opt-in step — see
+  no library folder needed. Kaveo never becomes your default video player; its place in your file
+  manager's right-click menu is the box you ticked or not — see
   [From your file manager](../file-manager.md).
 - A folder can be removed later from the same page; nothing on disk is touched — see
   [Local folders](../sources/local-folders.md) for what that page does.
