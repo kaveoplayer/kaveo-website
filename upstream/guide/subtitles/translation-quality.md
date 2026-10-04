@@ -25,7 +25,8 @@ Tell Kaveo, before it translates, how to spell names, who is speaking and how th
 
 - Kaveo proposes names, terms and speakers you did not describe, even when the subtitle names nobody;
   subtitles in other languages inside the video help it tell a man from a woman.
-- The next episodes in the same folder reuse your names, speakers and style, and a line you corrected
-  wherever that same line returns. New lines can still need fixing.
+- The next episodes in the same folder reuse your names, speakers and style, add the ones each episode
+  introduces without changing yours, and reuse a line you corrected wherever it returns. New lines can
+  still need fixing.
 - Lines that do not fit can be fixed on the translation's **All lines…** page: **Break the row** and
   **Give time** change no word.

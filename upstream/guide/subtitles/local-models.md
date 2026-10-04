@@ -31,7 +31,7 @@ Translate on this computer, and let Kaveo listen to the film's original audio.
 
 ## Good to know
 
-- Kaveo listens to a video on this computer before translating it; a second translation of the same
-  episode reuses what it heard.
+- Kaveo listens to a video on this computer before translating it, on the processor when a film
+  keeps the graphics card busy, which takes about as long as the episode; a second translation reuses it.
 - With Ollama, a model that loads while a film is open can end up on the processor, much slower, and
   stays there until Ollama unloads it.

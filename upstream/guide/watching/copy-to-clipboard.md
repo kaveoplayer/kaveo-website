@@ -9,6 +9,8 @@ order: 80
 Copy the picture on screen, without the controls or the subtitles, to paste it into a document or
 a message — or copy one of your own videos, to paste it into a folder or a message.
 
+![The player's right-click menu over a video of your own: Copy frame under Save frame, then Copy file](../images/watching/save-a-frame-menu.webp)
+
 ## How to use it
 
 ### The picture on screen

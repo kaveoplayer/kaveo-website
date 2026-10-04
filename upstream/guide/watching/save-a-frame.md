@@ -10,6 +10,8 @@ Save the picture on screen as a photo, at the video's own size and without the c
 subtitles. A frame of a video in a [personal category](../library/personal-videos.md) keeps the date
 it was filmed, and the place when the video recorded one.
 
+![The player's right-click menu over a paused video of your own: under its one separator, Save frame, Copy frame, Copy file and Export a copy…, then Fullscreen](../images/watching/save-a-frame-menu.webp)
+
 ## How to use it
 
 1. Pause on the moment you want.

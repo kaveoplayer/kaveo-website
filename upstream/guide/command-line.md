@@ -30,11 +30,20 @@ manager's **Kaveo** menu do underneath.
    kaveo --enqueue "Season 1/Episode 2.mkv"
    ```
 
+4. Add `--translate`, and the files and folders you name join the translation queue of the Kaveo that
+   owns your library; nothing plays. With none running, Kaveo opens and starts the queue.
+
+   ```
+   kaveo --translate "Season 1" "Film (2016).mkv"
+   ```
+
 ## Good to know
 
 - Only the first Kaveo owns your library, history and settings. Started again with nothing to play, a
   second one just brings that window to the front; given a file, it plays it and reports back where
   you stopped.
+- A translation added this way does not ask about episodes already translated: your
+  **Already translated** setting answers. See [Translating a whole series](subtitles/translation-queue.md).
 - `kaveo --version` prints the version and exits. Kaveo has no help option, and quietly ignores an
   option it does not recognise.
 - The same actions are in your file manager's **Kaveo** menu — see

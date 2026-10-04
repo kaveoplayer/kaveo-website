@@ -9,6 +9,8 @@ order: 120
 Copy your own videos somewhere else — a USB stick, a shared folder — keeping the date each was
 filmed, so they sort the same way there. The photos and subtitles named after a video go with it.
 
+![A video's right-click menu on its folder's page, with Copy file and Export a copy… under Open containing folder](../images/library/export-your-videos-menu.webp)
+
 ## How to use it
 
 ### One video
