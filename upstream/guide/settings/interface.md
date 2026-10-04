@@ -9,7 +9,7 @@ order: 120
 **Settings › Interface** covers how Kaveo itself looks — language, themes, hover previews and the
 featured band — plus whether it appears in your desktop's menus.
 
-![Settings shown on the Interface section: the rail listing all fourteen sections with Interface selected under App, and beside it the six rows — Language on English, App theme and Player theme on Dark, Hover preview on Clip from the video, Featured background on Gradient rather than the default Title artwork, and File manager integration unticked.](../images/settings/interface.webp)
+![Settings shown on the Interface section: the rail listing all fifteen sections with Interface selected under App, and beside it the six rows — Language on English, App theme and Player theme on Dark, Hover preview on Clip from the video, Featured background on Gradient rather than the default Title artwork, and File manager integration unticked.](../images/settings/interface.webp)
 
 ## How to use it
 

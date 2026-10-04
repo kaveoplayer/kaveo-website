@@ -21,4 +21,5 @@ group has one page for each of them.
 - [Interface](interface.md) — language, themes, hover previews.
 - [Shortcuts](shortcuts.md) — keys and mouse buttons.
 - [Diagnostics](diagnostics.md) — logs, recordings and bundles.
+- [Components](components.md) — what Kaveo uses on this computer.
 - [About](about.md) — the version you run.

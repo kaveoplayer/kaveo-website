@@ -10,7 +10,7 @@ order: 130
 them, and is where you change them.
 What each action ships with is [Keyboard shortcuts](../keyboard-shortcuts.md).
 
-![Settings shown on the Shortcuts section: the rail listing all fourteen sections with Shortcuts selected under App, and beside it the heading Player shortcuts — keyboard & mouse, the line Each action can have several shortcuts. Esc always exits fullscreen., then the first fourteen rows — Play / Pause on Space, Seek forward (+10s) and Seek backward (-10s) each carrying a key, a mouse button and a wheel notch, Frame step forward and backward, Speed up and down, Volume up and down, Mute, Cycle audio track, Cycle subtitle track, Toggle statistics overlay and Reset statistics — every shortcut followed by a cross and every row ending in Add. The list carries on below the picture.](../images/settings/shortcuts.webp)
+![Settings shown on the Shortcuts section: the rail listing all fifteen sections with Shortcuts selected under App, and beside it the heading Player shortcuts — keyboard & mouse, the line Each action can have several shortcuts. Esc always exits fullscreen., then the first fifteen rows — Play / Pause on Space, Seek forward (+10s) and Seek backward (-10s) each carrying a key, a mouse button and a wheel notch, Frame step forward and backward, Speed up and down, Volume up and down, Mute, Cycle audio track, Cycle subtitle track, Toggle statistics overlay, Reset statistics and Stats: next page — every shortcut followed by a cross and every row ending in Add. The list carries on below the picture.](../images/settings/shortcuts.webp)
 
 ## How to use it
 

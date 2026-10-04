@@ -9,7 +9,7 @@ order: 150
 **Settings › About** carries one line — *Kaveo version* and the number you are running. There is
 nothing else in the section.
 
-![Settings shown on the About section: the rail listing all fourteen sections with About selected last under App, and beside it one line, Kaveo version 0.1.0, with the rest of the page empty.](../images/settings/about.webp)
+![Settings shown on the About section: the rail listing all fifteen sections with About selected last under App, and beside it one line, Kaveo version 0.1.0, with the rest of the page empty.](../images/settings/about.webp)
 
 ## How to use it
 

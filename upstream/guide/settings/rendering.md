@@ -9,7 +9,7 @@ order: 110
 **Settings › Rendering** is the machinery under a film rather than its look: which decoder opens it,
 and how finished frames reach the screen.
 
-![Settings shown on the Rendering section: the rail listing all fourteen sections with Rendering selected last under Video & display, and beside it Decode — Decoder on Hardware (NVDEC/…), Strict (no skip on corruption) unticked, and Zero-copy decode (keep frame on GPU) unticked beside auto-falls back if unavailable — then Presentation — Frame mixer on Oversample (smooth) and Vsync hint on Auto — the Queues fold closed, and the line Changes apply live — some briefly reload the video.](../images/settings/rendering.webp)
+![Settings shown on the Rendering section: the rail listing all fifteen sections with Rendering selected last under Video & display, and beside it Decode — Decoder on Hardware (NVDEC/…), Strict (no skip on corruption) unticked, and Zero-copy decode (keep frame on GPU) unticked beside auto-falls back if unavailable — then Presentation — Frame mixer on Oversample (smooth) and Vsync hint on Auto — the Queues fold closed, and the line Changes apply live — some briefly reload the video.](../images/settings/rendering.webp)
 
 ## How to use it
 

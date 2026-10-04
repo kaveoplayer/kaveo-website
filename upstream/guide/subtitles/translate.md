@@ -40,6 +40,7 @@ Translate a subtitle with an AI model, online or on your own computer. Each line
 - A panel at the top of the player shows the progress, with **Cancel**; the result is added under
   *Subtitle files*.
 - Lines that still fail after Kaveo retries are left in their original language.
+- While the [translation queue](translation-queue.md) works, the player offers to pause it.
 - Tick **Re-read the translation** for a second pass that corrects lines saying the wrong thing. It
   helps with a large model; with a small one on your own computer it can add as many mistakes as it
   fixes.

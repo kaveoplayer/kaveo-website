@@ -9,7 +9,7 @@ order: 80
 **Settings › Picture** covers the picture as a whole: its colour, and where and at what shape it
 is drawn.
 
-![Settings shown on the Picture section: the rail listing all fourteen sections with Picture selected first under Video & display, and beside it Colour adjustment — Brightness at 0.00, Contrast, Saturation and Gamma at 1.00, Hue at 0°, Colour LUT (.cube) offering Choose… alone because no file is set, and Reset colour — then Picture placement — Aspect ratio on From the file, Pan and scan at 0.000, Zoom at 1.00×, Pan horizontally and Pan vertically at 0.000, and Reset placement.](../images/settings/picture.webp)
+![Settings shown on the Picture section: the rail listing all fifteen sections with Picture selected first under Video & display, and beside it Colour adjustment — Brightness at 0.00, Contrast, Saturation and Gamma at 1.00, Hue at 0°, Colour LUT (.cube) offering Choose… alone because no file is set, and Reset colour — then Picture placement — Aspect ratio on From the file, Pan and scan at 0.000, Zoom at 1.00×, Pan horizontally and Pan vertically at 0.000, and Reset placement.](../images/settings/picture.webp)
 
 ## How to use it
 
