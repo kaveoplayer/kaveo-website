@@ -1,0 +1,100 @@
+---
+// The landing's hero: the title and tagline from index.mdx's frontmatter, the two actions, the beta
+// note, and the library as it looks in the app.
+import { Image } from 'astro:assets';
+import { LICENCE_EMAIL } from '../../../site.config.mjs';
+import { sitePath } from '../../lib/links';
+import libraryHome from '../../assets/screenshots/interface-tour-home.webp';
+import PlayIcon from './PlayIcon.astro';
+
+const { data } = Astro.locals.starlightRoute.entry;
+const { title = data.title, tagline } = data.hero || {};
+---
+
+<section class="kv-hero not-content">
+  <div class="kv-hero-head">
+    <p class="kv-badge">Closed beta · Linux and Windows</p>
+    <h1 id="_top" data-page-title set:html={title} />
+  </div>
+  <div class="kv-hero-side">
+    {tagline && <p class="kv-tagline" set:html={tagline} />}
+    <div class="kv-actions">
+      <a class="kv-btn kv-btn--primary" href={sitePath('download/')}><PlayIcon />Download</a>
+      <a class="kv-btn kv-btn--secondary" href={sitePath('guide/')}>Read the guide</a>
+    </div>
+    <p class="kv-fine">
+      A licence key is needed during the beta — <a href={`mailto:${LICENCE_EMAIL}`}>ask for one</a>.
+    </p>
+  </div>
+</section>
+
+<Image
+  class="kv-hero-shot"
+  src={libraryHome}
+  alt="The Kaveo library home: a featured band with a Play button over rows of film and series posters"
+  loading="eager"
+  widths={[800, 1280, 2000]}
+  sizes="(min-width: 72rem) 67.5rem, 100vw"
+/>
+
+<style>
+  .kv-hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 2.5rem 4rem;
+    padding-block: 3rem 3.5rem;
+  }
+  .kv-hero-head {
+    flex: 1 1 32rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .kv-hero-side {
+    flex: 1 1 22rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .kv-badge {
+    align-self: flex-start;
+    margin: 0;
+    font-family: var(--kv-font-display);
+    font-size: var(--sl-text-xs);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--sl-color-accent-high);
+    background: var(--sl-color-accent-low);
+    border: 1px solid var(--sl-color-accent);
+    border-radius: 999rem;
+    padding: 0.125rem 0.75rem;
+  }
+  h1 {
+    margin: 0;
+    font-family: var(--kv-font-display);
+    font-weight: 600;
+    font-size: clamp(var(--sl-text-4xl), calc(1rem + 5vw), 5.25rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    color: var(--sl-color-white);
+  }
+  .kv-tagline {
+    margin: 0;
+    font-size: var(--sl-text-xl);
+    line-height: 1.6;
+    color: var(--sl-color-gray-2);
+  }
+  .kv-fine {
+    margin: 0;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-3);
+  }
+  .kv-hero-shot {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid var(--sl-color-gray-5);
+  }
+</style>

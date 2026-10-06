@@ -75,10 +75,91 @@ h1#_top,
 }
 
 
-/* The landing's two buttons, centred under the hero. */
+/* The landing's buttons (src/components/home/): pills, the primary one the app's Play button. */
 .kv-actions {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1rem;
+}
+.kv-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  border: 1px solid transparent;
+  border-radius: 999rem;
+  padding: 0.8125rem 1.375rem;
+  font-size: var(--sl-text-base);
+  line-height: 1.1875;
+  text-decoration: none;
+  outline-offset: 0.25rem;
+}
+.kv-btn:focus-visible {
+  outline: 2px solid var(--sl-color-accent);
+}
+.kv-btn--primary {
+  background: var(--sl-color-accent);
+  color: var(--sl-color-text-invert);
+  font-weight: 700;
+  padding-inline-start: 1.125rem;
+}
+.kv-btn--secondary {
+  border-color: var(--sl-color-white);
+  color: var(--sl-color-white);
+}
+/* On an accent ground: the accent's own ink as the button, the accent as its label. */
+.kv-btn--ink {
+  background: var(--sl-color-text-invert);
+  color: var(--sl-color-accent);
+  font-weight: 700;
+}
+.kv-btn:hover {
+  filter: brightness(1.08);
+}
+.kv-btn--primary:hover,
+.kv-btn--primary:focus-visible {
+  color: var(--sl-color-text-invert);
+}
+.kv-btn--ink:hover {
+  color: var(--sl-color-accent);
+}
+.kv-btn--secondary:hover {
+  color: var(--sl-color-white);
+}
+
+/* Links on the landing's own blocks, which opt out of Starlight's Markdown styles (.not-content). */
+.kv-hero a:not(.kv-btn),
+.kv-moment a,
+.kv-privacy a,
+.kv-download-os a,
+.kv-credit a {
+  color: var(--sl-color-text-accent);
+}
+
+/* The landing's privacy line and screenshot credit (index.mdx). */
+.kv-privacy {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 1rem 3rem;
+  margin-top: 7rem;
+  padding-block: 2rem;
+  border-block: 1px solid var(--sl-color-gray-5);
+}
+.kv-privacy h2 {
+  flex: 1 1 16rem;
+  margin: 0;
+  font-family: var(--kv-font-display);
+  font-size: var(--sl-text-2xl);
+  font-weight: 600;
+  color: var(--sl-color-white);
+}
+.kv-privacy p {
+  flex: 3 1 30rem;
+  margin: 0;
+  color: var(--sl-color-gray-2);
+}
+.kv-credit {
+  display: block;
+  margin-top: 3rem;
+  color: var(--sl-color-gray-3);
 }

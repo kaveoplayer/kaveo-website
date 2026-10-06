@@ -3,78 +3,70 @@ title: Kaveo
 description: A minimalist, high-quality media player with a library of its own — local files first, Jellyfin optional, HDR output, a neural upscaler, and subtitles it can fetch, sync and translate.
 template: splash
 hero:
-  tagline: A media player with a library of its own. Point it at your folders and browse films, series and music like a streaming service — or just open a file, and it plays.
-  image:
-    file: ../../assets/logo.svg
-    alt: The Kaveo icon, a dark play symbol on a teal rounded square
+  title: A media player with a library of its own.
+  tagline: Point it at your folders and browse films, series and music like a streaming service — or just open a file, and it plays.
 ---
 
-import { Aside, Card, CardGrid, LinkButton } from '@astrojs/starlight/components';
-import { LICENCE_EMAIL } from '../../../site.config.mjs';
-import { sitePath } from '../../lib/links';
+import Moment from '../../components/home/Moment.astro';
+import LibraryFacts from '../../components/home/LibraryFacts.astro';
+import PlayerFrame from '../../components/home/PlayerFrame.astro';
+import SubtitleFrame from '../../components/home/SubtitleFrame.astro';
+import HomeDownload from '../../components/home/HomeDownload.astro';
 
-{/* The buttons sit in the body rather than in the hero's `actions`: the hero neither adds the base
-    path nor accepts a relative link the validator would pass. */}
+{/* The hero (title, tagline, actions, the library screenshot) is drawn by
+    src/components/home/HomeHero.astro from the frontmatter above. Below it, three moments; their
+    text stays here in Markdown so the links validator checks every link. Only two screenshots are
+    used while the app's look still changes: the library (hero) and the player. */}
 
-<div class="kv-actions">
-  <LinkButton href={sitePath('download/')} icon="right-arrow">Download</LinkButton>
-  <LinkButton href={sitePath('guide/')} icon="open-book" variant="secondary">Read the guide</LinkButton>
+<Moment num="01" kicker="Your library" title="Your folders, laid out like a streaming service.">
+
+Kaveo finds the films, series and music in your folders and puts them in rows, with posters and
+plots from TMDB. Group a saga, see which episodes are missing — and connect a Jellyfin server if you
+have one: its titles play beside your own, keeping your place in sync.
+
+Some titles are nobody else's business: keep them in an encrypted vault, and while it is locked they
+are not in your library at all.
+
+[Your library →](guide/library/index.md)
+
+<LibraryFacts slot="visual" />
+</Moment>
+
+<Moment num="02" kicker="The picture" title="The way it was mastered." flip>
+
+An HDR film goes to an HDR-capable display the way it was mastered; an ordinary video never switches
+the display. Each frame goes through a picture pipeline — repaired, enlarged, shrunk, finished —
+with a neural model among its choices for lower-resolution sources.
+
+[HDR output →](guide/watching/hdr.md) · [Upscaler →](guide/settings/upscaler.md)
+
+<PlayerFrame slot="visual" />
+</Moment>
+
+<Moment num="03" kicker="Subtitles" title="Found, in time, in your language.">
+
+Load a subtitle beside the video or inside it, or find one on OpenSubtitles. Move it onto the right
+timing, fix a line, or translate it — a film or a whole season — with an AI model online, or on your
+own computer with Ollama or LM Studio.
+
+[Subtitles →](guide/subtitles/index.md)
+
+<SubtitleFrame slot="visual" />
+</Moment>
+
+<div class="kv-privacy not-content">
+
+## A program on your computer.
+
+Your library, your watch history and your settings stay there. No analytics, no usage statistics, no
+crash reports. TMDB, OpenSubtitles and Jellyfin are used only once you set them up, and Kaveo talks
+to each one directly. [What Kaveo sends, and to whom](privacy.md)
+
 </div>
 
-<Aside type="note" title="Closed beta">
-  Kaveo is in closed beta: it needs a licence key to run. To ask for one, write to <a href={`mailto:${LICENCE_EMAIL}`}>{LICENCE_EMAIL}</a>.
-</Aside>
+<HomeDownload />
 
-![The Kaveo library home: a featured band with a Play button over rows of film and series posters](../../assets/screenshots/interface-tour-home.webp)
-
-## What it does
-
-<CardGrid>
-  <Card title="A library, built from your folders" icon="list-format">
-    Kaveo finds the films, series and music in your folders and lays them out in rows, with posters
-    and plots from TMDB once you give it a key. Split it into categories of your own, group a saga, and see which episodes you are
-    missing. See [Your library](guide/library/index.md).
-  </Card>
-  <Card title="Or just play a file" icon="rocket">
-    Drag a video onto the window, use **Open file**, start it from a terminal or from your file
-    manager's right-click menu — no library needed. See [Getting started](guide/getting-started/index.md).
-  </Card>
-  <Card title="Jellyfin, if you have it" icon="server">
-    Connect a Jellyfin server and its films and series join your library, playing beside your local
-    files and keeping your place in sync. See [Jellyfin](guide/sources/jellyfin.md).
-  </Card>
-  <Card title="HDR output" icon="sun">
-    An HDR film goes to an HDR-capable display the way it was mastered; an ordinary video never
-    switches the display. See [HDR output](guide/watching/hdr.md).
-  </Card>
-  <Card title="A neural upscaler" icon="star">
-    A picture pipeline that repairs, enlarges and finishes each frame, with a neural model as one of
-    its choices for lower-resolution sources. See [Upscaler](guide/settings/upscaler.md).
-  </Card>
-  <Card title="Subtitles it can fetch, sync and translate" icon="comment-alt">
-    Load a subtitle beside the video or inside it, find one on OpenSubtitles, move it onto the right
-    timing, edit it, or translate it with an AI model — online or on your own computer. See
-    [Subtitles](guide/subtitles/index.md).
-  </Card>
-  <Card title="Private titles" icon="padlock">
-    Keep some titles in an encrypted vault: while it is locked, they are not in your library at all.
-    See [Private titles](guide/private/index.md).
-  </Card>
-  <Card title="Linux and Windows" icon="laptop">
-    Packages for Ubuntu, Debian, Fedora and Arch, a tarball and an AppImage; an installer, an MSI and a
-    portable build for Windows. See [Download](download.mdx).
-  </Card>
-</CardGrid>
-
-## A film's page
-
-![A film's own page in Kaveo: its poster, year, rating and format, the description, genres, and Play, Trailer, My list and Favorite buttons](../../assets/screenshots/interface-tour-title.webp)
-
-## The player
-
-![The Kaveo player: the picture with the playback bar under it — the timeline with chapter marks, the playback controls, the time, the volume and fullscreen](../../assets/screenshots/interface-tour-player.webp)
-
-<small>
+<small class="kv-credit">
   The titles in these screenshots are openly licensed films and episodes — chiefly from the Blender
   Foundation and the Morevna Project; see [Credits](guide/credits.md).
 </small>
