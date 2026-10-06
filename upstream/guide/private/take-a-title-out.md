@@ -19,8 +19,9 @@ and stops being private.
 
 ## Good to know
 
-- Nothing leaves the vault until the check passes, so stopping it, or a failure, costs you nothing:
-  the title stays private and intact.
+- Taking a title out needs a valid [licence](../getting-started/licence.md).
+- Nothing leaves the vault until the check passes: stopping it, or a failure, leaves the title
+  private and intact.
 - Kaveo never writes over a file, never uses your private folder — anything left there is made
   private again — nor a folder that would not keep the pictures' dates, as some network shares do.
   Pick another folder.

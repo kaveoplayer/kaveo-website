@@ -13,15 +13,15 @@ shows, or just play one file with no library at all.
 
 ## How to use it
 
-1. Installed from a package, Kaveo first shows **Welcome to Kaveo**: what is worth a look on this
+1. Installed from a package, Kaveo first asks for its [licence key](licence.md), then shows
+   **Welcome to Kaveo**: what is worth a look on this
    computer, and two ticked boxes, for the right-click menu and a terminal command. Untick either,
    then click **Continue**.
 
 ![The Welcome to Kaveo dialog, listing what is worth a look, with Open Components, the two ticked boxes and Continue](../images/getting-started/first-launch-welcome.webp)
 
 2. With nothing added, the library screen says **Your library is empty** — click **Add a folder**.
-3. That opens **Settings › Library › Folders**; click **Add folder** and choose the folder your films
-   or shows live in.
+3. That opens **Settings › Library › Folders**; click **Add folder** and choose your films' folder.
 4. Click **Save** — the scan starts as soon as you do, and titles appear once it finishes.
 5. Repeat for another folder, or split your library into kinds first — see
    [Categories](../library/categories.md).

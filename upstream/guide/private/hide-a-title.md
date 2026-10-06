@@ -6,7 +6,7 @@ order: 20
 
 ## What it is for
 
-Make a local title private — encrypted where it already sits, and out of your library while the vault
+Make a local title private — encrypted where it sits, and out of your library while the vault
 is locked.
 
 ![The file half of a card's menu: Open containing folder, Rename / normalize…, Make private…, and under a separator Delete file from disk…](../images/private/hide-a-title-menu.webp)
@@ -15,7 +15,7 @@ is locked.
 
 1. [Unlock the vault](lock.md), then right-click the card of a local film or episode and choose
    **Make private…**.
-2. Check that the path is the file you meant, then click **Make private**.
+2. Check the path, then click **Make private**.
 3. For a file that is not in your library, open the padlock menu and choose
    **Make a file private…**.
 4. Drop a video into your private folder (set one under **Private folder** in
@@ -34,5 +34,5 @@ is locked.
 - A film's [saved frame](../watching/save-a-frame.md) stays in Pictures, under the film's name, once
   the film is hidden.
 - If Kaveo closes during a hide, your next unlock finishes it or puts the film back, and says so.
-- You can take it back out, byte for byte — see
-  [Taking a title back out](take-a-title-out.md).
+- You can take it back out, byte for byte, with a valid [licence](../getting-started/licence.md) —
+  see [Taking a title back out](take-a-title-out.md).

@@ -18,6 +18,8 @@ Online search, translation and the **Position** setting are set up first in
 - [Translating subtitles](translate.md) — translate a subtitle with an AI model.
 - [Translating a whole series](translation-queue.md) — queue a film, a season or a series, without
   playing it.
+- [Following the translation queue](translation-queue-panel.md) — see how far it is, pause it, and
+  retry what failed.
 - [Choosing a translation model](choosing-a-model.md) — how good, how costly and how fast each kind
   of model is.
 - [Better translations](translation-quality.md) — names, speakers, style, and lines that do not fit.
