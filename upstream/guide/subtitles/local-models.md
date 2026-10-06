@@ -14,7 +14,9 @@ Translate on this computer, and let Kaveo listen to the film's original audio.
 
 ### Use a local model
 
-1. Install Ollama or LM Studio, download a model in it, and keep it running.
+1. On Linux, click **Install** on **Local AI (Ollama)** in [Components](../settings/components.md):
+   Kaveo installs Ollama and a model that suits your graphics card, and starts it when needed. Or
+   install Ollama or LM Studio yourself, with a model.
 2. In **Settings › Subtitles › Translation**, choose **Ollama (local)** or **LM Studio (local)** as
    **Provider**.
 3. Clear **Model** to see Ollama's models under *Installed here*, with their sizes; pick one and press
@@ -24,8 +26,10 @@ Translate on this computer, and let Kaveo listen to the film's original audio.
 
 ![The Choose a model menu open under Read the original audio, which reads no model: Browse…, then Download one with eight whisper.cpp models from large-v3, 2.9 GB and recommended, down to tiny, 74 MB](../images/subtitles/local-models-transcriber.webp)
 
-1. Install whisper-cli, from whisper.cpp.
-2. At the end of the **Read the original audio** row, after the path field, click the list button
+1. Click **Install** on the speech transcriber's row in
+   [Components](../settings/components.md): Kaveo picks the build for your graphics card and fetches a
+   model with it. A whisper-cli you installed yourself works too.
+2. To change the model, at the end of the **Read the original audio** row, after the path field, click the list button
    (**Choose a model**) and pick, browse to or download a model.
 3. Press **Save** once the row reads *ready*.
 

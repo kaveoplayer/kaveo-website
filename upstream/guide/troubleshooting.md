@@ -18,8 +18,9 @@ the rest of a bug report.
 3. Click the copy icon on either one to copy its full text.
 4. Raise **Detail level** under **Settings › Diagnostics**, do the thing that failed again, then set
    it back — see [Diagnostics](settings/diagnostics.md).
-5. Click **Export a diagnostic bundle** there for one file to send, and quote the version from
-   **Settings › About** — see [About](settings/about.md).
+5. Click **Export a diagnostic bundle** there for one file to send, then **Report a problem…** in
+   **Settings › About**, which opens the report form already filled in — see
+   [About](settings/about.md).
 
 ## Good to know
 
