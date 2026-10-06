@@ -24,8 +24,9 @@ and it states the version you are running. Nothing else is sent. The automatic c
 off; checking by hand always works.
 
 **Your licence.** The licence key is checked on your computer and is never sent anywhere. To be sure
-of the date, which a beta key depends on, Kaveo reads it from the update check's answer, and needs
-that answer at least once every seven days.
+of the date, which a beta key depends on, Kaveo reads it from the answer of the same releases page,
+and needs that answer at least once every seven days — so it asks for it, at most once a day, even
+when the automatic update check is turned off. The request states the version and nothing else.
 
 ## What you choose to connect
 
