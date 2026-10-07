@@ -55,6 +55,25 @@
   --sl-color-blue-high: #1e3a8a;
 }
 
+/* The landing's rhythm: the space above each of its sections, tighter on a phone, where the same
+   gap reads as an empty screen. */
+:root {
+  --kv-section-space: 7rem;
+}
+@media (max-width: 49.99rem) {
+  :root {
+    --kv-section-space: 4.5rem;
+  }
+}
+
+/* The landing's own type: titles balanced across their lines, paragraphs without a lone last word. */
+.not-content :is(h1, h2, h3, h4) {
+  text-wrap: balance;
+}
+.not-content p {
+  text-wrap: pretty;
+}
+
 /* Display type: the app sets titles in Space Grotesk and everything else in Manrope. */
 .hero h1,
 h1#_top,
@@ -157,6 +176,11 @@ h1#_top,
   max-width: 45rem;
   padding-bottom: 3rem;
 }
+@media (max-width: 49.99rem) {
+  .kv-section-head {
+    padding-bottom: 2rem;
+  }
+}
 .kv-section-head h2,
 .kv-faq h2 {
   margin: 0 0 0.5rem;
@@ -170,7 +194,7 @@ h1#_top,
 
 /* Questions: one hairline per question, the answer under its summary. */
 .kv-faq {
-  padding-top: 7rem;
+  padding-top: var(--kv-section-space);
   max-width: 50rem;
 }
 .kv-faq details {
@@ -195,6 +219,11 @@ h1#_top,
   margin-top: 5rem;
   padding-top: 2rem;
   border-top: 1px solid var(--sl-color-gray-5);
+}
+@media (max-width: 49.99rem) {
+  .kv-next {
+    margin-top: 3.5rem;
+  }
 }
 .kv-next > ul {
   display: grid;

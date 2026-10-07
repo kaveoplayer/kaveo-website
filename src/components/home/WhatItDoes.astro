@@ -153,7 +153,7 @@ const bands: Band[] = [
 
 <style>
   .kv-features {
-    padding-top: 7rem;
+    padding-top: var(--kv-section-space);
   }
   .kv-band {
     display: flex;
@@ -161,6 +161,21 @@ const bands: Band[] = [
     gap: 2rem 4rem;
     padding-block: 3.5rem;
     border-top: 1px solid var(--sl-color-gray-5);
+  }
+  /* Beside a tall band (the player's screenshot), the summary follows the reader down — only where
+     the band surely keeps its two columns (15rem + 32rem + the gap), or it would pin over the items. */
+  @media (min-width: 64rem) {
+    .kv-band-lead {
+      position: sticky;
+      top: calc(var(--sl-nav-height) + 2rem);
+      align-self: flex-start;
+    }
+  }
+  @media (max-width: 49.99rem) {
+    .kv-band {
+      gap: 1.5rem;
+      padding-block: 2.5rem;
+    }
   }
   .kv-band-lead {
     flex: 1 1 15rem;

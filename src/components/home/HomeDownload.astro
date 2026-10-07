@@ -46,7 +46,7 @@ const systems = [
   .kv-download {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 7rem;
+    margin-top: var(--kv-section-space);
     border: 1px solid var(--sl-color-gray-5);
     border-radius: 12px;
     overflow: hidden;
@@ -94,6 +94,12 @@ const systems = [
     box-shadow:
       -1px 0 0 var(--sl-color-gray-5),
       0 -1px 0 var(--sl-color-gray-5);
+  }
+  @media (max-width: 49.99rem) {
+    .kv-download-lead,
+    .kv-download-os {
+      padding: 1.75rem;
+    }
   }
   .kv-download-os h3 {
     margin: 0;

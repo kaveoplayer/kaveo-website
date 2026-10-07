@@ -36,9 +36,10 @@ export default defineConfig({
         { icon: 'github', label: 'Releases and issues on GitHub', href: RELEASES_REPO },
       ],
       customCss: ['./src/styles/fonts.css', './src/styles/custom.css'],
-      // SocialIcons and Search add the site's links to the header; the landing's hero is its own, and
-      // other pages keep Starlight's (see each component).
+      // SocialIcons and Search add the site's links to the header; the landing has its own hero and
+      // no footer, and other pages keep Starlight's (see each component).
       components: {
+        Footer: './src/components/Footer.astro',
         Hero: './src/components/Hero.astro',
         Search: './src/components/Search.astro',
         SocialIcons: './src/components/SocialIcons.astro',

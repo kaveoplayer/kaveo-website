@@ -1,0 +1,9 @@
+---
+// Starlight's Footer, left out on the landing: there it has no previous and next links and no page
+// metadata, so it would be only its margins.
+import Default from '@astrojs/starlight/components/Footer.astro';
+
+const isHome = Astro.locals.starlightRoute.id === '';
+---
+
+{!isHome && <Default />}
