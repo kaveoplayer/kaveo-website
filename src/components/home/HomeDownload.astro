@@ -21,7 +21,7 @@ const systems = [
 <section class="kv-download not-content" aria-labelledby="kv-download-title">
   <div class="kv-download-lead">
     <h2 id="kv-download-title">Download Kaveo</h2>
-    <p>Every file on the release page has a SHA-256 checksum beside it.</p>
+    <p>Every file on the release page has a <span class="kv-nowrap">SHA-256</span> checksum beside it.</p>
     <a class="kv-btn kv-btn--ink" href={LATEST_RELEASE_URL}>Latest release</a>
     {/* Remove once the first beta is published. */}
     <p class="kv-download-note">The first beta is not out yet — the release page is empty until then.</p>
@@ -75,6 +75,9 @@ const systems = [
     align-self: flex-start;
     margin-top: auto;
   }
+  .kv-nowrap {
+    white-space: nowrap;
+  }
   .kv-download-note {
     font-size: var(--sl-text-xs);
   }
@@ -85,8 +88,12 @@ const systems = [
     gap: 0.875rem;
     padding: 2.5rem;
   }
-  .kv-download-os + .kv-download-os {
-    border-inline-start: 1px solid var(--sl-color-gray-5);
+  /* A hairline on the left and on top, cut off by the block's overflow where it meets the edge: a
+     divider wherever the columns wrap, whether side by side or stacked. */
+  .kv-download-os {
+    box-shadow:
+      -1px 0 0 var(--sl-color-gray-5),
+      0 -1px 0 var(--sl-color-gray-5);
   }
   .kv-download-os h3 {
     margin: 0;
