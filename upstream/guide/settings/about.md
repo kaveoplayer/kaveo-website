@@ -27,6 +27,8 @@ report a problem or ask a question.
 - If a film is playing, the update waits until it ends. Installed with a package, Kaveo asks for
   your password once, as your system's own updates do.
 - A copy that was not installed from a release says so, and does not update itself.
+- A newer build of a component Kaveo installed is named here too; update it in
+  [Components](components.md).
 - The report form never receives a file or folder name, and nothing is sent until you submit it
   there. Attach a bundle from [Diagnostics](diagnostics.md) — see
   [Troubleshooting](../troubleshooting.md).
