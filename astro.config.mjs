@@ -52,7 +52,7 @@ export default defineConfig({
         {
           label: 'About',
           items: [
-            { label: 'Privacy', slug: 'privacy' },
+            { label: 'Privacy and cookies', slug: 'privacy' },
             { label: 'Third-party licences', slug: 'licences' },
           ],
         },
