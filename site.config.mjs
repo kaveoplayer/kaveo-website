@@ -3,7 +3,7 @@
 // move to the final domain, or a renamed repository, is a change to this file and nothing else.
 
 /** Where the site is served from. A project page on GitHub Pages lives under `/<repo>/`. */
-export const SITE_URL = 'https://mattia-cenci.github.io';
+export const SITE_URL = 'https://kaveoplayer.github.io';
 
 /**
  * The path prefix the site is served under. `/kaveo-website` for the GitHub project page; set it to
@@ -12,7 +12,7 @@ export const SITE_URL = 'https://mattia-cenci.github.io';
 export const BASE = '/kaveo-website';
 
 /** The public repository that holds the releases, the issue tracker and the discussions. */
-export const RELEASES_REPO = 'https://github.com/mattia-cenci/kaveo-releases';
+export const RELEASES_REPO = 'https://github.com/kaveoplayer/kaveo-releases';
 
 /** The page every download button points at: the newest release and all of its files. */
 export const LATEST_RELEASE_URL = `${RELEASES_REPO}/releases/latest`;

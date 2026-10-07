@@ -1,6 +1,6 @@
 # Kaveo website
 
-The public site for [Kaveo](https://github.com/mattia-cenci/kaveo-releases): the landing page,
+The public site for [Kaveo](https://github.com/kaveoplayer/kaveo-releases): the landing page,
 downloads, support, privacy, third-party licences, and the user guide. Built with
 [Starlight](https://starlight.astro.build/) on Astro.
 
@@ -59,5 +59,5 @@ own pages) and pushes; the push deploys the site.
 GitHub Pages, from `.github/workflows/deploy.yml`, on GitHub-hosted runners — never a self-hosted one: on a
 public repository a pull request could run code on that machine. The repository's
 Pages source must be set to **GitHub Actions**. Until the site has its own domain it is a project
-page at `https://mattia-cenci.github.io/kaveo-website/`; moving it means changing `SITE_URL` and
+page at `https://kaveoplayer.github.io/kaveo-website/`; moving it means changing `SITE_URL` and
 `BASE` in `site.config.mjs` (and adding `public/CNAME`).
