@@ -8,7 +8,7 @@ downloads, support, privacy, third-party licences, and the user guide. Built wit
 
 ```bash
 npm ci               # install (npm install the first time a dependency changes)
-npm run dev          # import the guide, then serve on http://localhost:4321/kaveo-website/
+npm run dev          # import the guide, then serve on http://localhost:4321/
 npm run build        # import the guide, generate llms.txt, build into dist/, validate every link
 npm run preview      # serve dist/
 ```
@@ -58,6 +58,6 @@ own pages) and pushes; the push deploys the site.
 
 GitHub Pages, from `.github/workflows/deploy.yml`, on GitHub-hosted runners — never a self-hosted one: on a
 public repository a pull request could run code on that machine. The repository's
-Pages source must be set to **GitHub Actions**. Until the site has its own domain it is a project
-page at `https://kaveoplayer.github.io/kaveo-website/`; moving it means changing `SITE_URL` and
-`BASE` in `site.config.mjs` (and adding `public/CNAME`).
+Pages source must be set to **GitHub Actions**. The site is served at `https://kaveoplayer.com/`: the
+domain is in `public/CNAME` and in `SITE_URL` in `site.config.mjs`, and the DNS zone (at OVH) points
+the apex at GitHub Pages' addresses and `www` at `kaveoplayer.github.io`.
