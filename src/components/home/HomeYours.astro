@@ -1,0 +1,84 @@
+---
+// The landing's privacy summary: three facts from the Privacy page, and a link to it.
+import { sitePath } from '../../lib/links';
+
+const facts = [
+  {
+    title: 'Stays with you',
+    body: 'Your library, watch history, settings and subtitles stay on your computer; keys go in your system’s password store.',
+    icon: 'M4 6h16v10H4zM8 20h8M12 16v4',
+  },
+  {
+    title: 'No telemetry',
+    body: 'No analytics, no usage statistics, no crash reports. A diagnostic bundle goes nowhere unless you send it.',
+    icon: 'M3 12h3l3-7 4 14 3-7h5',
+  },
+  {
+    title: 'Nothing passes through us',
+    body: 'TMDB, OpenSubtitles and Jellyfin are used only once you set them up, and Kaveo talks to each one directly.',
+    icon: 'M5 12h14M13 6l6 6-6 6',
+  },
+];
+---
+
+<section class="kv-yours not-content" aria-labelledby="kv-yours-title">
+  <header class="kv-section-head">
+    <p class="kv-label kv-label--muted">Yours</p>
+    <h2 id="kv-yours-title">A program on your computer — nothing more.</h2>
+  </header>
+  <ul>
+    {
+      facts.map((f) => (
+        <li>
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d={f.icon} />
+          </svg>
+          <h3>{f.title}</h3>
+          <p>{f.body}</p>
+        </li>
+      ))
+    }
+  </ul>
+  <a href={sitePath('privacy/')}>What Kaveo sends, and to whom →</a>
+</section>
+
+<style>
+  .kv-yours {
+    padding-top: 7rem;
+  }
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    gap: 1rem;
+    margin: 0 0 2rem;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+    padding: 1.75rem;
+    border-radius: 12px;
+    background: var(--sl-color-accent-low);
+  }
+  svg {
+    color: var(--sl-color-accent-high);
+  }
+  h3 {
+    margin: 0;
+    font-size: var(--sl-text-lg);
+    font-weight: 700;
+    color: var(--sl-color-white);
+  }
+  p {
+    margin: 0;
+    font-size: var(--sl-text-sm);
+    line-height: 1.7;
+    color: var(--sl-color-gray-2);
+  }
+  .kv-yours > a {
+    font-weight: 600;
+    color: var(--sl-color-text-accent);
+  }
+</style>

@@ -1,0 +1,94 @@
+---
+// The landing's keyboard strip: a few of the player's default shortcuts, from the guide's
+// Keyboard shortcuts page. Keep them in step with it.
+import { sitePath } from '../../lib/links';
+
+const keys = [
+  { key: 'Space', what: 'Play / Pause' },
+  { key: '← →', what: 'Seek 10 seconds' },
+  { key: ', .', what: 'Step one frame' },
+  { key: '[ ]', what: 'Speed' },
+  { key: 'S', what: 'Next subtitle track' },
+  { key: 'Z X', what: 'Subtitle delay' },
+  { key: 'E', what: 'Subtitle editor' },
+  { key: 'Shift+S', what: 'Save a frame' },
+  { key: 'Ctrl+H', what: 'Live picture panel' },
+];
+---
+
+<section class="kv-keys not-content" aria-labelledby="kv-keys-title">
+  <div class="kv-keys-lead">
+    <h2 id="kv-keys-title">Hands on the keys</h2>
+    <p>Every shortcut can be changed. <a href={sitePath('guide/keyboard-shortcuts/')}>All of them</a></p>
+  </div>
+  <ul>
+    {
+      keys.map((k) => (
+        <li>
+          <kbd>{k.key}</kbd>
+          {k.what}
+        </li>
+      ))
+    }
+  </ul>
+</section>
+
+<style>
+  .kv-keys {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem 3rem;
+    margin-top: 3.5rem;
+    padding: 2rem;
+    border: 1px solid var(--sl-color-gray-5);
+    border-radius: 12px;
+  }
+  .kv-keys-lead {
+    flex: 1 1 14rem;
+  }
+  h2 {
+    margin: 0;
+    font-family: var(--kv-font-display);
+    font-size: var(--sl-text-2xl);
+    font-weight: 600;
+    color: var(--sl-color-white);
+  }
+  .kv-keys-lead p {
+    margin: 0.25rem 0 0;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-2);
+  }
+  .kv-keys-lead a {
+    color: var(--sl-color-text-accent);
+  }
+  ul {
+    flex: 3 1 30rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+    gap: 0.75rem 1.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-gray-2);
+  }
+  kbd {
+    min-width: 1.75rem;
+    text-align: center;
+    font-family: var(--kv-font-display);
+    font-size: var(--sl-text-sm);
+    font-weight: 600;
+    color: var(--sl-color-white);
+    background: var(--sl-color-gray-6);
+    border: 1px solid var(--sl-color-gray-5);
+    border-bottom-width: 3px;
+    border-radius: 6px;
+    padding: 0.125rem 0.5rem;
+  }
+</style>

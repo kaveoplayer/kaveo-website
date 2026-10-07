@@ -1,0 +1,227 @@
+---
+// The landing's feature sheet: one band per group — a label, one sentence and a link into the guide on
+// the left; three items on the right, and the group's most distinctive item across the full width.
+// Every claim here is in the guide or in the app's settings; keep it that way when editing.
+import { Image } from 'astro:assets';
+import { sitePath } from '../../lib/links';
+import player from '../../assets/screenshots/interface-tour-player.webp';
+
+interface Item {
+  title: string;
+  body: string;
+}
+interface Band {
+  label: string;
+  summary: string;
+  link: { text: string; path: string };
+  items: Item[];
+  /** The item across the full width, on the accent wash. */
+  wide?: Item;
+  /** The player screenshot, above the items. */
+  picture?: boolean;
+}
+
+const bands: Band[] = [
+  {
+    label: 'Library',
+    summary: 'Your folders and your server, in one place that feels like a streaming service.',
+    link: { text: 'Your library', path: 'guide/library/' },
+    items: [
+      {
+        title: 'Built from your folders',
+        body: 'Films, series and music in rows, with posters and plots from TMDB — categories of your own, sagas grouped, the episodes you are missing.',
+      },
+      {
+        title: 'Jellyfin, if you have it',
+        body: 'Its films and series join your library, play beside your own files and keep your place in sync.',
+      },
+      {
+        title: 'Your own videos',
+        body: 'Phone and camera clips in a category of their own, in the order they were filmed. Save a frame as a photo, or export a copy — date and place kept.',
+      },
+    ],
+    wide: {
+      title: 'Private titles',
+      body: 'Keep some titles in an encrypted vault, with a password and an optional recovery key. While it is locked, they are not in your library at all.',
+    },
+  },
+  {
+    label: 'Organizing',
+    summary: 'Files named and filed the way you want — and shown to you before anything moves.',
+    link: { text: 'Organizing files', path: 'guide/organizing/' },
+    items: [
+      {
+        title: 'Named for you',
+        body: 'Naming templates — Standard, Plex, Kodi or your own — and a folder brought in line with them, with the list shown first.',
+      },
+      {
+        title: 'Downloads, filed',
+        body: 'Finished downloads move into your libraries under the right name; anything still downloading stays behind.',
+      },
+      {
+        title: 'Several copies, one title',
+        body: 'Two releases, or a local file and the same title on Jellyfin, kept as one — and the kind you prefer remembered.',
+      },
+    ],
+  },
+  {
+    label: 'Picture',
+    summary: 'Every frame goes through a pipeline you can see, tune and extend.',
+    link: { text: 'The upscaler', path: 'guide/settings/upscaler/' },
+    picture: true,
+    items: [
+      {
+        title: 'HDR and tone mapping',
+        body: 'HDR reaches an HDR display the way it was mastered; elsewhere, dynamic tone mapping with peak detection, gamut mapping and SDR-to-HDR — per display, with a calibration LUT.',
+      },
+      {
+        title: 'A neural upscaler',
+        body: 'Models for anime and for live action, picked from your library, enlarge lower-resolution sources — with a strength control and an edge-halo limiter.',
+      },
+      {
+        title: 'Scaling and motion',
+        body: 'Chroma with KrigBilateral or RAVU, downscaling in linear light, BWDIF deinterlacing, and a frame mixer that fits the film to your display.',
+      },
+    ],
+    wide: {
+      title: 'Your own models and shaders',
+      body: 'Load your own ONNX models, or a folder of GLSL shaders — and pick a shader for each stage of the pipeline.',
+    },
+  },
+  {
+    label: 'Watching',
+    summary: 'Subtitles you can find, fix and translate — and a player that learns your habits.',
+    link: { text: 'Subtitles', path: 'guide/subtitles/' },
+    items: [
+      {
+        title: 'Found and synced',
+        body: 'A file beside the video, a track inside it, or OpenSubtitles — moved onto the right timing, and edited line by line.',
+      },
+      {
+        title: 'Translated, even offline',
+        body: 'A film or a whole season, with an AI model online, or on your own computer with Ollama or LM Studio.',
+      },
+      {
+        title: 'Skips what you skip',
+        body: 'When a file marks its opening or ending, Kaveo offers to skip it, and learns your habit for that series.',
+      },
+    ],
+  },
+];
+---
+
+<section class="kv-features not-content" aria-labelledby="kv-features-title">
+  <header class="kv-section-head">
+    <p class="kv-label kv-label--muted">What it does</p>
+    <h2 id="kv-features-title">Made for people who look closely.</h2>
+  </header>
+  {
+    bands.map((band) => (
+      <div class="kv-band">
+        <div class="kv-band-lead">
+          <h3 class="kv-label">{band.label}</h3>
+          <p class="kv-band-summary">{band.summary}</p>
+          <a href={sitePath(band.link.path)}>{band.link.text} →</a>
+        </div>
+        <div class="kv-band-items">
+          {band.picture && (
+            <Image
+              class="kv-band-shot"
+              src={player}
+              alt="The Kaveo player: the picture with the playback bar under it — the timeline with chapter marks, the playback controls, the time, the volume and fullscreen"
+              widths={[800, 1400]}
+              sizes="(min-width: 72rem) 46rem, 100vw"
+            />
+          )}
+          {band.items.map((item) => (
+            <div class="kv-item">
+              <h4>{item.title}</h4>
+              <p>{item.body}</p>
+            </div>
+          ))}
+          {band.wide && (
+            <div class="kv-item kv-item--wide">
+              <h4>{band.wide.title}</h4>
+              <p>{band.wide.body}</p>
+            </div>
+          )}
+        </div>
+      </div>
+    ))
+  }
+</section>
+
+<style>
+  .kv-features {
+    padding-top: 7rem;
+  }
+  .kv-band {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 4rem;
+    padding-block: 3.5rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+  }
+  .kv-band-lead {
+    flex: 1 1 15rem;
+    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .kv-band-summary {
+    margin: 0;
+    font-family: var(--kv-font-display);
+    font-size: var(--sl-text-xl);
+    line-height: 1.35;
+    font-weight: 500;
+    color: var(--sl-color-white);
+  }
+  .kv-band-lead a {
+    font-weight: 600;
+    font-size: var(--sl-text-sm);
+    color: var(--sl-color-text-accent);
+  }
+  .kv-band-items {
+    flex: 3 1 32rem;
+    min-width: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1.75rem 2rem;
+    align-content: start;
+  }
+  .kv-band-shot {
+    grid-column: 1 / -1;
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    border: 1px solid var(--sl-color-gray-5);
+  }
+  .kv-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+    padding-top: 1.125rem;
+    border-top: 1px solid var(--sl-color-gray-5);
+  }
+  .kv-item--wide {
+    grid-column: 1 / -1;
+    border: none;
+    border-radius: 12px;
+    padding: 1.375rem 1.625rem;
+    background: var(--sl-color-accent-low);
+  }
+  .kv-item h4 {
+    margin: 0;
+    font-size: var(--sl-text-base);
+    font-weight: 700;
+    color: var(--sl-color-white);
+  }
+  .kv-item p {
+    margin: 0;
+    font-size: var(--sl-text-sm);
+    line-height: 1.7;
+    color: var(--sl-color-gray-2);
+  }
+</style>

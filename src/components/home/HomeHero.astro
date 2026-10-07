@@ -5,7 +5,6 @@ import { Image } from 'astro:assets';
 import { LICENCE_EMAIL } from '../../../site.config.mjs';
 import { sitePath } from '../../lib/links';
 import libraryHome from '../../assets/screenshots/interface-tour-home.webp';
-import PlayIcon from './PlayIcon.astro';
 
 const { data } = Astro.locals.starlightRoute.entry;
 const { title = data.title, tagline } = data.hero || {};
@@ -18,12 +17,14 @@ const { title = data.title, tagline } = data.hero || {};
   </div>
   <div class="kv-hero-side">
     {tagline && <p class="kv-tagline" set:html={tagline} />}
+    {/* While the beta is closed the first action is the key, since a download does not run without
+        one; once Kaveo is on sale, Download takes its place. */}
     <div class="kv-actions">
-      <a class="kv-btn kv-btn--primary" href={sitePath('download/')}><PlayIcon />Download</a>
-      <a class="kv-btn kv-btn--secondary" href={sitePath('guide/')}>Read the guide</a>
+      <a class="kv-btn kv-btn--primary" href={`mailto:${LICENCE_EMAIL}?subject=Kaveo%20beta%20key`}>Get a beta key</a>
+      <a class="kv-btn kv-btn--secondary" href={sitePath('download/')}>Download</a>
     </div>
     <p class="kv-fine">
-      A licence key is needed during the beta — <a href={`mailto:${LICENCE_EMAIL}`}>ask for one</a>.
+      A beta key lasts 30 days and arrives by email. <a href={sitePath('guide/getting-started/licence/')}>How the licence works</a>
     </p>
   </div>
 </section>

@@ -7,64 +7,83 @@ hero:
   tagline: Point it at your folders and browse films, series and music like a streaming service — or just open a file, and it plays.
 ---
 
-import Moment from '../../components/home/Moment.astro';
-import LibraryFacts from '../../components/home/LibraryFacts.astro';
-import PlayerFrame from '../../components/home/PlayerFrame.astro';
-import SubtitleFrame from '../../components/home/SubtitleFrame.astro';
+import WhatItDoes from '../../components/home/WhatItDoes.astro';
+import HomeKeys from '../../components/home/HomeKeys.astro';
+import HomeYours from '../../components/home/HomeYours.astro';
 import HomeDownload from '../../components/home/HomeDownload.astro';
+import { LICENCE_EMAIL } from '../../../site.config.mjs';
 
 {/* The hero (title, tagline, actions, the library screenshot) is drawn by
-    src/components/home/HomeHero.astro from the frontmatter above. Below it, three moments; their
-    text stays here in Markdown so the links validator checks every link. Only two screenshots are
-    used while the app's look still changes: the library (hero) and the player. */}
+    src/components/home/HomeHero.astro from the frontmatter above. Only two screenshots are used
+    while the app's look still changes: the library (hero) and the player (What it does). The
+    questions and the links at the foot stay in Markdown, so the links validator checks them. */}
 
-<Moment num="01" kicker="Your library" title="Your folders, laid out like a streaming service.">
+<WhatItDoes />
 
-Kaveo finds the films, series and music in your folders and puts them in rows, with posters and
-plots from TMDB. Group a saga, see which episodes are missing — and connect a Jellyfin server if you
-have one: its titles play beside your own, keeping your place in sync.
+<HomeKeys />
 
-Some titles are nobody else's business: keep them in an encrypted vault, and while it is locked they
-are not in your library at all.
+<HomeYours />
 
-[Your library →](guide/library/index.md)
+<div class="kv-faq not-content">
 
-<LibraryFacts slot="visual" />
-</Moment>
+<p class="kv-label kv-label--muted">Questions</p>
 
-<Moment num="02" kicker="The picture" title="The way it was mastered." flip>
+<h2>Before you start</h2>
 
-An HDR film goes to an HDR-capable display the way it was mastered; an ordinary video never switches
-the display. Each frame goes through a picture pipeline — repaired, enlarged, shrunk, finished —
-with a neural model among its choices for lower-resolution sources.
+<details>
+<summary>How do I get a licence key?</summary>
 
-[HDR output →](guide/watching/hdr.md) · [Upscaler →](guide/settings/upscaler.md)
+During the beta, write to <a href={`mailto:${LICENCE_EMAIL}`}>{LICENCE_EMAIL}</a>, or click **Get a
+key** on Kaveo's licence screen. A key lasts 30 days and arrives by email. See
+[Licence](guide/getting-started/licence.md).
 
-<PlayerFrame slot="visual" />
-</Moment>
+</details>
 
-<Moment num="03" kicker="Subtitles" title="Found, in time, in your language.">
+<details>
+<summary>What happens when the key runs out?</summary>
 
-Load a subtitle beside the video or inside it, or find one on OpenSubtitles. Move it onto the right
-timing, fix a line, or translate it — a film or a whole season — with an AI model online, or on your
-own computer with Ollama or LM Studio.
+A badge and a message say so in its last week. When it ends, Kaveo shows only the licence screen
+until a new key is entered — a film you are watching plays to its end first, and nothing is deleted.
 
-[Subtitles →](guide/subtitles/index.md)
+</details>
 
-<SubtitleFrame slot="visual" />
-</Moment>
+<details>
+<summary>Does it need an internet connection?</summary>
 
-<div class="kv-privacy not-content">
+Your own files play without one. Kaveo checks for updates (which you can turn off) and confirms the
+licence's date at least once a week; everything else goes only to the services you set up. See
+[Privacy](privacy.md).
 
-## A program on your computer.
+</details>
 
-Your library, your watch history and your settings stay there. No analytics, no usage statistics, no
-crash reports. TMDB, OpenSubtitles and Jellyfin are used only once you set them up, and Kaveo talks
-to each one directly. [What Kaveo sends, and to whom](privacy.md)
+<details>
+<summary>Which systems does it run on?</summary>
+
+Linux (x86_64, with a Vulkan 1.2 GPU) and 64-bit Windows 10 or 11. macOS is not supported. See
+[Download](download.mdx).
+
+</details>
 
 </div>
 
 <HomeDownload />
+
+<nav class="kv-next not-content" aria-label="More about Kaveo">
+
+- **Start**
+  - [Getting started](guide/getting-started/index.md)
+  - [Download](download.mdx)
+- **Learn**
+  - [The guide](guide/index.md)
+  - [Keyboard shortcuts](guide/keyboard-shortcuts.md)
+- **Help**
+  - [Support](support.mdx)
+  - [Troubleshooting](guide/troubleshooting.md)
+- **About**
+  - [Privacy](privacy.md)
+  - [Third-party licences](licences.mdx)
+
+</nav>
 
 <small class="kv-credit">
   The titles in these screenshots are openly licensed films and episodes — chiefly from the Blender
