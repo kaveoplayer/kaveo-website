@@ -1,0 +1,9 @@
+---
+// Starlight's Search, after the site's links: on a narrow screen the header hides its right group,
+// so the links sit beside the search instead.
+import Default from '@astrojs/starlight/components/Search.astro';
+import SiteNav from './header/SiteNav.astro';
+---
+
+<SiteNav narrow />
+<Default />

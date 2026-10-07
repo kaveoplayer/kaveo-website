@@ -1,0 +1,74 @@
+---
+// The site's own links in the header: Guide, Download, Support. Drawn twice by Starlight's header —
+// beside the GitHub icon on a wide screen (SocialIcons.astro), beside the search on a narrow one
+// (Search.astro) — with `narrow` telling the two apart.
+import { sitePath } from '../../lib/links';
+
+interface Props {
+  narrow?: boolean;
+}
+const { narrow = false } = Astro.props;
+
+// Pages are served with a trailing slash (astro.config.mjs), so a section's pages all start with it.
+const here = Astro.url.pathname.replace(/\/?$/, '/');
+const links = [
+  { label: 'Guide', path: 'guide/' },
+  { label: 'Download', path: 'download/' },
+  { label: 'Support', path: 'support/' },
+].map((l) => {
+  const href = sitePath(l.path);
+  return { ...l, href, current: here.startsWith(href) };
+});
+---
+
+<nav class:list={['sl-flex', 'kv-nav', narrow && 'kv-nav--narrow md:sl-hidden']} aria-label="Site">
+  {
+    links.map((l) => (
+      <a href={l.href} aria-current={l.current ? 'page' : undefined}>
+        {l.label}
+      </a>
+    ))
+  }
+</nav>
+
+<style>
+  .kv-nav {
+    gap: 1.5rem;
+    align-items: center;
+    margin-inline-end: 0.5rem;
+  }
+  .kv-nav--narrow {
+    gap: 1rem;
+    margin-inline-end: 1rem;
+  }
+  /* On a phone the header also holds the logo, the search and the menu button: Guide alone fits. */
+  @media (max-width: 34rem) {
+    .kv-nav--narrow a:not(:first-child) {
+      display: none;
+    }
+  }
+  /* Just past the breakpoint, a page with a sidebar leaves the header too little room for all three
+     beside the search, GitHub and the theme: Support, which the sidebar also lists, steps out. */
+  @media (min-width: 50rem) and (max-width: 55.99rem) {
+    .kv-nav:not(.kv-nav--narrow) a:last-child {
+      display: none;
+    }
+  }
+  a {
+    font-size: var(--sl-text-sm);
+    font-weight: 500;
+    color: var(--sl-color-gray-2);
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  a:hover,
+  a[aria-current='page'] {
+    color: var(--sl-color-white);
+  }
+  a[aria-current='page'] {
+    text-decoration: underline;
+    text-decoration-color: var(--sl-color-accent);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.375em;
+  }
+</style>
