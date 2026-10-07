@@ -36,6 +36,8 @@ export default defineConfig({
         { icon: 'github', label: 'Releases and issues on GitHub', href: RELEASES_REPO },
       ],
       customCss: ['./src/styles/fonts.css', './src/styles/custom.css'],
+      // The landing's hero is its own; other pages keep Starlight's (see the component).
+      components: { Hero: './src/components/Hero.astro' },
       plugins: [starlightLinksValidator()],
       sidebar: [
         { label: 'Download', slug: 'download' },
