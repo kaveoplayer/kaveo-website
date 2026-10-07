@@ -1,5 +1,5 @@
 ---
-// The landing's hero: the title and tagline from index.mdx's frontmatter, the two actions, the beta
+// The landing's hero: the title and tagline from index.mdx's frontmatter, the three actions, the beta
 // note, and the library as it looks in the app.
 import { Image } from 'astro:assets';
 import { LICENCE_EMAIL } from '../../../site.config.mjs';
@@ -22,6 +22,8 @@ const { title = data.title, tagline } = data.hero || {};
     <div class="kv-actions">
       <a class="kv-btn kv-btn--primary" href={`mailto:${LICENCE_EMAIL}?subject=Kaveo%20beta%20key`}>Get a beta key</a>
       <a class="kv-btn kv-btn--secondary" href={sitePath('download/')}>Download</a>
+      {/* The landing has no sidebar, so this is the one door from it into the guide. */}
+      <a class="kv-btn kv-btn--quiet" href={sitePath('guide/')}>Read the guide <span aria-hidden="true">→</span></a>
     </div>
     <p class="kv-fine">
       A beta key lasts 30 days and arrives by email. <a href={sitePath('guide/getting-started/licence/')}>How the licence works</a>

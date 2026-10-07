@@ -106,6 +106,14 @@ h1#_top,
   border-color: var(--sl-color-white);
   color: var(--sl-color-white);
 }
+/* A third, lesser action: no outline, so it never competes with the two that matter. */
+.kv-btn--quiet {
+  color: var(--sl-color-white);
+  padding-inline: 0;
+}
+.kv-btn--quiet:hover {
+  color: var(--sl-color-text-accent);
+}
 /* On an accent ground: the accent's own ink as the button, the accent as its label. */
 .kv-btn--ink {
   background: var(--sl-color-text-invert);
