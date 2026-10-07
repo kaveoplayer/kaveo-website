@@ -23,11 +23,8 @@ export const ISSUES_URL = `${RELEASES_REPO}/issues`;
 /** Questions and ideas. */
 export const DISCUSSIONS_URL = `${RELEASES_REPO}/discussions`;
 
-/**
- * Licence keys and anything about a licence.
- * Temporary (2026-10-02): the maintainer's address until a dedicated one exists.
- */
-export const LICENCE_EMAIL = 'mattia.cenci@bosimano.com';
+/** Licence keys and anything about a licence. */
+export const LICENCE_EMAIL = 'support@kaveoplayer.com';
 
 /** The site's full public address, with the base path. */
 export const SITE_ROOT = `${SITE_URL}${BASE === '/' ? '' : BASE}/`;
