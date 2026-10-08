@@ -17,3 +17,5 @@ for them.
 - [Saving a frame](save-a-frame.md) — the video's own picture, dated and placed, without the controls.
 - [Copying to the clipboard](copy-to-clipboard.md) — paste the picture on screen, or one of your own
   videos, somewhere else.
+- [Media keys and the desktop](media-keys.md) — play, pause and skip from the keyboard's media keys
+  and the desktop's media controls.

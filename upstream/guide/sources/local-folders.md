@@ -27,6 +27,8 @@ instead, see [Categories](../library/categories.md).
   *Recently played* cards stay. Right-click one and choose **Remove from Recently played**, or clear
   them all with **Clear history** under **Settings › Library › History**
   ([Library](../settings/library.md)).
-- Kaveo takes video files, and audio files as music; samples and bonus material are left out.
+- Kaveo takes video files, and audio files as music; samples and bonus material are left out, and
+  so is any folder holding a file named *.ignore* or *.nomedia* — the marker Jellyfin, Emby and Kodi
+  read too.
 - Nothing needs rescanning by hand — a new file appears on its own, about ten seconds later. On a
   network folder Kaveo cannot watch, it appears the next time Kaveo starts.

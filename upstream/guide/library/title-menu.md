@@ -24,6 +24,11 @@ without opening its page first.
 
 ## Good to know
 
-- An episode's own actions are on its row on the series page, not on the series card's menu.
+- An episode's own actions are on its row on the series page, not on the series card's menu. The
+  row opens it from anywhere on it, its picture and text included.
+- On a series card, **Mark as watched** marks every episode.
+- Once they are all watched, the entry reads **Mark as not watched** and clears them all.
+- For a title on your Jellyfin server, **Mark as watched** also marks it on the server, so your other
+  devices see it.
 - **Delete file from disk…** permanently removes the file; Kaveo asks you to confirm first.
 - A file watched almost to the end is marked as watched automatically.

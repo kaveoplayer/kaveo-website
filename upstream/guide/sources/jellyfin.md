@@ -7,7 +7,7 @@ order: 20
 ## What it is for
 
 Kaveo plays a [Jellyfin](https://jellyfin.org/) server's films and series beside your local files,
-and keeps your place in sync.
+and syncs your place.
 
 ![A connected server on the Sources page: Demo Server with the JELLYFIN badge, a green dot beside its address, chips counting its titles and libraries, and Reconnect beside Remove](../images/sources/jellyfin-connected-card.webp)
 
@@ -43,6 +43,7 @@ and keeps your place in sync.
 ## Good to know
 
 - Your place and favorites travel both ways while Kaveo runs; watched travels only from the server.
+- Server changes missing? Click **Reload** on **Sources**.
 - **Remove** asks nothing: it forgets the server and its sign-in, and drops a category left empty.
 - If your computer has no password store, the **Sources** page says so: sign-ins are kept only until
   you restart, and every server then asks you to **Reconnect**.
