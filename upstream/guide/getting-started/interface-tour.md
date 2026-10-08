@@ -38,7 +38,7 @@ everything in it — see [The library home](../library/home.md).
 Poster, description, genres, cast, and similar titles. **Wrong title?**
 fixes a bad match — see [Correcting a wrong match](../library/correct-a-match.md). More than one
 copy? The row under **Play** lists them — see [Several copies](../organizing/versions.md). A series'
-page starts with **Play** or **Resume**.
+page starts with **Play** or **Resume**, then **Trailer**.
 
 ## The player
 
