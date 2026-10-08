@@ -9,7 +9,7 @@ order: 150
 **Settings › About** shows the version you are running, whether a newer Kaveo is out, and where to
 report a problem or ask a question.
 
-![Settings shown on the About section: the rail listing all fifteen sections with About selected last under App, and beside it the Version row, the Updates row with Check automatically ticked and a Check now button, the line Not checked yet, and the Help row with Report a problem and Ask a question buttons.](../images/settings/about.webp)
+![Settings shown on the About section: the rail listing all sixteen sections with About selected last under App, and beside it the Version row, the Updates row with Check automatically ticked and a Check now button, the line Not checked yet, and the Help row with Report a problem and Ask a question buttons.](../images/settings/about.webp)
 
 ## How to use it
 

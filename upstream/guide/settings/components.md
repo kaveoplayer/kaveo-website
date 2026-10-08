@@ -9,7 +9,7 @@ order: 145
 **Settings › Components** shows what this computer has, what Kaveo uses of it — video libraries,
 the upscaler's runtime, the speech transcriber, a local AI, FFmpeg tools — and what is missing.
 
-![Settings shown on the Components section: This computer naming the graphics card, then What Kaveo uses with one row per component and its state, and Integration with File manager integration and Command in the terminal.](../images/settings/components.webp)
+![Settings shown on the Components section: This computer naming the graphics card, then What Kaveo uses with one row per component and its state, and the Integration heading, whose rows follow further down.](../images/settings/components.webp)
 
 ## How to use it
 

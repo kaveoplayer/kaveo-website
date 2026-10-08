@@ -22,4 +22,5 @@ group has one page for each of them.
 - [Shortcuts](shortcuts.md) — keys and mouse buttons.
 - [Diagnostics](diagnostics.md) — logs, recordings and bundles.
 - [Components](components.md) — what Kaveo uses on this computer.
+- [Backup](backup.md) — save and restore your settings, history and subtitles.
 - [About](about.md) — the version you run.

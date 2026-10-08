@@ -37,6 +37,12 @@ manager's **Kaveo** menu do underneath.
    kaveo --translate "Season 1" "Film (2016).mkv"
    ```
 
+5. With Kaveo closed, `--restore` and a [backup](settings/backup.md) file restore it before Kaveo opens.
+
+   ```
+   kaveo --restore "kaveo-backup-2026-10-08-1200.zip"
+   ```
+
 ## Good to know
 
 - Only the first Kaveo owns your library, history and settings. Started again with nothing to play, a
