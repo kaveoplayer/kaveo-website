@@ -27,6 +27,8 @@ Control playback, and leave the player with or without stopping the film.
 ### The playback bar
 
 1. Move the mouse to bring up the bar; it stays up while paused.
+2. Rest the pointer on the timeline, or drag it, to see that moment: a picture, the time and its
+   chapter's name.
 
 ### Leaving the player
 

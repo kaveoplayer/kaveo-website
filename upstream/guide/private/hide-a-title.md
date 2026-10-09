@@ -28,8 +28,8 @@ is locked.
 
 - On the same drive the film is moved, not copied. Encrypting needs its own size again in free
   space, or about 16 MB to encrypt it where it lies.
-- Its subtitles, its NFO file and every picture whose name starts with the video's — artwork, saved
-  frames, your own photos — travel with it, in and out. The dialog counts them; one that cannot go
+- Its subtitles, its NFO file, its *-trailer* file and every picture whose name starts with the
+  video's — artwork, saved frames, your photos — travel with it, in and out. The dialog counts them; one that cannot go
   in stays put, and the message after the hide says how many.
 - A film's [saved frame](../watching/save-a-frame.md) stays in Pictures, under the film's name, once
   the film is hidden.

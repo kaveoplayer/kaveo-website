@@ -28,7 +28,6 @@ instead, see [Categories](../library/categories.md).
   them all with **Clear history** under **Settings › Library › History**
   ([Library](../settings/library.md)).
 - Kaveo takes video files, and audio files as music; samples and bonus material are left out, and
-  so is any folder holding a file named *.ignore* or *.nomedia* — the marker Jellyfin, Emby and Kodi
-  read too.
+  so is anything you leave out yourself — see [Leaving files out](leave-out.md).
 - Nothing needs rescanning by hand — a new file appears on its own, about ten seconds later. On a
   network folder Kaveo cannot watch, it appears the next time Kaveo starts.

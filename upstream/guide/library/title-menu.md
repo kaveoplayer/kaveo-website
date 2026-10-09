@@ -9,7 +9,7 @@ order: 20
 Right-click a card for the everyday actions on that title — play it, tag it, or manage its file —
 without opening its page first.
 
-![A card's right-click menu: Play, Details, list and tag actions, Correct match, Write metadata beside the file, file actions and Delete file from disk](../images/library/title-menu-menu.webp)
+![A card's right-click menu: Play, Details, list and tag actions, Correct match, Write metadata beside the file, Translate subtitles, file actions including Exclude from library, and Delete file from disk](../images/library/title-menu-menu.webp)
 
 ## How to use it
 
@@ -19,8 +19,8 @@ without opening its page first.
 3. Choose **Details** to open the title's own page.
 4. Choose **Add to My list**, **Add to favorites**, **Mark as watched**, **Mark as Anime**,
    **Mark as Adult** or **Add to saga…** to file or tag it.
-5. For a local file, choose **Rename / normalize…**, **Open containing folder** or
-   **Delete file from disk…**.
+5. For a local file, choose **Rename / normalize…**, **Open containing folder**,
+   **Exclude from library…** or **Delete file from disk…**.
 
 ## Good to know
 

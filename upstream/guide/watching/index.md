@@ -10,6 +10,8 @@ for them.
 - [Player controls](player-controls.md) — the playback bar, and leaving the player without stopping
   the film.
 - [Audio and subtitle tracks](audio-and-subtitle-tracks.md) — choose the soundtrack and the subtitles.
+- [Volume and dynamics](volume-and-dynamics.md) — the same loudness for every title, night mode and
+  clearer dialogue.
 - [Next episode and queue](next-episode.md) — move between episodes, album tracks and queued files.
 - [Skipping openings](skip-intro.md) — skip a series' opening or ending.
 - [Screenshots](screenshots.md) — save a picture of what is on screen.
