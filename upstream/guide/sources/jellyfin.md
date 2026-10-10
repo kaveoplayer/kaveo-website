@@ -35,8 +35,8 @@ and syncs your place.
 1. The **Sources** page gives every server a card saying what is wrong: *No answer* if the server
    is silent, *Credentials refused* if the sign-in no longer works. Either way it contributes no
    titles.
-2. Click **Reconnect**, and sign in again if Kaveo asks; once the server answers it lists each
-   library and the category it feeds.
+2. Click **Reconnect**, sign in if asked, and it lists each library and its category. New
+   address? See [When a server moves](server-moved.md).
 
 ![The reconnect dialog once the server has answered: its address, The saved credentials still work., and under Libraries a row for Films and one for Shows, each saying which category it is in, with Done](../images/sources/jellyfin-reconnect-libraries.webp)
 
