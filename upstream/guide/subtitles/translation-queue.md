@@ -32,8 +32,9 @@ with **Search online…** in the player. Then try again.
 ## Good to know
 
 - To follow, pause or retry what is queued, see [Following the translation queue](translation-queue-panel.md).
-- On a new series, keep **Stop after the first episode** ticked. Check that episode's names, terms
-  and speakers, then press **Continue** in the queue: the next episodes use your corrections.
+- Online: [OpenSubtitles for a series](translation-queue-online.md).
+- On a new series, keep **Stop after the first episode** ticked, check that episode, then press
+  **Continue** in the queue: the next episodes use your corrections.
 - While a video plays, the queue gives the graphics card back to it and continues when there is room.
-- Only video files on this computer can be queued. Set up a provider first: see
+- Only video files on this computer can be queued. Set up a provider: see
   [Translating subtitles](translate.md).
