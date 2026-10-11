@@ -25,4 +25,6 @@ Kaveo translate an episode that has no English here.
   subtitle that belongs to another episode is not used, and the episode says so.
 - Without a speech transcriber the check cannot run. The subtitle is then marked *not checked
   against the audio*.
+- A downloaded subtitle is also re-timed to your copy of the episode first. If Kaveo cannot be sure
+  of the timing, it leaves it alone and marks it *sync uncertain*.
 - Downloads count against your OpenSubtitles daily allowance. Searching does not.
