@@ -1,15 +1,16 @@
 ---
 title: Behaviour
-description: What the player does on its own, and how it saves a frame.
+description: What the player does on its own, how it saves a frame, and how sharp a web video plays.
 order: 70
 ---
 
 ## What it is for
 
-**Settings › Behaviour** holds two rows: the one thing the player does by itself, offering to skip
-a series' opening or ending, and the format of a frame you save from the player.
+**Settings › Behaviour** holds three rows: the one thing the player does by itself, offering to skip
+a series' opening or ending, the format of a frame you save from the player, and how sharp a video
+opened from a web address plays.
 
-![Settings with Behaviour chosen under Playback in the rail, and the section's two rows under the caption What the player does on its own while a film runs, and how it saves a frame — Offer to skip intros and endings, ticked, then Saved frames with JPEG chosen](../images/watching/skip-intro-setting.webp)
+![Settings with Behaviour chosen under Playback in the rail, and the section's three rows — Offer to skip intros and endings, ticked, Saved frames with JPEG chosen, and Web video quality on Automatic](../images/watching/skip-intro-setting.webp)
 
 ## How to use it
 
@@ -17,7 +18,10 @@ a series' opening or ending, and the format of a frame you save from the player.
    [Skipping openings](../watching/skip-intro.md) for what the button does.
 2. **Saved frames** is **JPEG** to begin with; choose **PNG** for pictures that lose nothing. See
    [Saving a frame](../watching/save-a-frame.md).
-3. Click **Save** to keep a change — see [Saving changes](saving.md).
+3. **Web video quality** is **Automatic** to begin with: the sharpest the stream offers, up to your
+   screen's height. Choose a height to cap it there; the player's right-click **Quality** menu
+   changes it for the video playing.
+4. Click **Save** to keep a change — see [Saving changes](saving.md).
 
 ## Good to know
 

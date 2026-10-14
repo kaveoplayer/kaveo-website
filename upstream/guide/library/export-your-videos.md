@@ -1,21 +1,23 @@
 ---
-title: Exporting your videos
-description: Copy your own videos, one or a whole folder, to a folder you choose, with their dates.
+title: Exporting your photos and videos
+description: Copy your own photos and videos, one or a whole folder, to a folder you choose, with their dates.
 order: 120
 ---
 
 ## What it is for
 
-Copy your own videos somewhere else — a USB stick, a shared folder — keeping the date each was
-filmed, so they sort the same way there. The photos and subtitles named after a video go with it.
+Copy your own photos and videos somewhere else — a USB stick, a shared folder — keeping the date
+each was taken, so they sort the same way there. The photos and subtitles named after a video go
+with it, and a Live Photo's motion goes with its photo.
 
 ![A video's right-click menu on its folder's page, with Copy file and Export a copy… under Open containing folder](../images/library/export-your-videos-menu.webp)
 
 ## How to use it
 
-### One video
+### One photo or video
 
-1. Right-click the video's row on its folder's page, or the picture while it plays.
+1. Right-click its card on its folder's page, the photo in the viewer, or the picture while a video
+   plays.
 2. Choose **Export a copy…** and pick a folder.
 
 ### A whole folder

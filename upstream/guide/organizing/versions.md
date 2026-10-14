@@ -16,8 +16,9 @@ prefer.
 
 1. Open the list: the chips under *Sources* on a film's title page, or the versions button beside an
    episode's **Play**, for example **2 versions**.
-2. Each copy says where it is (*Local* or Jellyfin), its resolution, and what tells it apart — where
-   the release came from and its release group, or the file name.
+2. Each copy says where it is (*Local*, or Jellyfin and the server's name), its resolution, and what
+   tells it apart — where the release came from and its release group, or the file name. Rest the
+   pointer on a copy to see its file, or its server's address.
 3. Click the copy you want: that selects it, it does not start it.
 4. Click **Play** to open it.
 

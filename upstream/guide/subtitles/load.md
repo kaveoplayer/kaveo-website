@@ -31,3 +31,5 @@ pick, or a track you extract, becomes your own copy to sync, edit or translate.
 - On a Jellyfin title, the server's files are under *Subtitle files on the server*; click one to add
   it.
 - A private title plays only the tracks inside its video.
+- If a file shows broken accents (*Ã¨* instead of *è*), **Subtitles** offers **Fix accented
+  letters**. It corrects the file itself; **Undo the accent fix** puts it back as it was.

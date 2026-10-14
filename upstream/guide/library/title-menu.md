@@ -9,7 +9,7 @@ order: 20
 Right-click a card for the everyday actions on that title — play it, tag it, or manage its file —
 without opening its page first.
 
-![A card's right-click menu: Play, Details, list and tag actions, Correct match, Write metadata beside the file, Translate subtitles, file actions including Exclude from library, and Delete file from disk](../images/library/title-menu-menu.webp)
+![A card's right-click menu: Play, Details, list and tag actions, Correct match, Write metadata beside the file, Subtitles, file actions including Exclude from library, and Delete file from disk](../images/library/title-menu-menu.webp)
 
 ## How to use it
 

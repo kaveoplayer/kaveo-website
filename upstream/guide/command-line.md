@@ -6,17 +6,17 @@ order: 90
 
 ## What it is for
 
-Kaveo can be started from a terminal on a file, a folder or a web address.
+Start Kaveo from a terminal.
 
 ## How to use it
 
-1. Give Kaveo a path, and it plays that file.
+1. Give Kaveo a path: it plays a video, or shows a photo in the [viewer](library/view-photos.md).
 
    ```
    kaveo "Big Buck Bunny.mkv"
    ```
 
-2. Give it a web address, and it plays that stream.
+2. Give it a web address — a stream, or a video page like YouTube's — and it plays.
 
    ```
    kaveo https://example.com/film.m3u8
@@ -29,7 +29,7 @@ Kaveo can be started from a terminal on a file, a folder or a web address.
    ```
 
 4. Add `--enqueue`, and the file joins the queue of the Kaveo already running; with none running, it
-   simply plays.
+   plays.
 
    ```
    kaveo --enqueue "Season 1/Episode 2.mkv"
@@ -50,11 +50,10 @@ Kaveo can be started from a terminal on a file, a folder or a web address.
 
 ## Good to know
 
-- Only the first Kaveo owns your library, history and settings. Started again with nothing to play, a
-  second one brings that window to the front; given a file, it plays it and reports back where
-  you stopped.
-- Translating this way asks nothing: the **Already translated** setting decides.
-- `kaveo --version` prints the version and exits. Kaveo has no help option, and quietly ignores an
-  option it does not recognise.
+- Only the first Kaveo owns your library, history and settings. A second one brings that window
+  forward; given a file, it plays it and reports where you stopped; given a web address, that
+  window plays it.
+- Translating this way asks nothing; **Already translated** decides.
+- `kaveo --version` prints the version. There is no help option, and an unknown option is ignored.
 - Everything but translating is also in your file manager's **Kaveo** menu — see
   [From your file manager](file-manager.md).

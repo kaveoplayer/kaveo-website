@@ -27,5 +27,7 @@ Fix a subtitle's timing or words against the film, or write a new one.
 - The panel saves as you go and on **Done**; the **All lines…** page saves on **Back**.
 - While the panel is open, the playback bar is its top row. Drag the panel's top edge for more lines
   or more picture.
+- On the **All lines…** page, a line added from the audio has its times in colour, and **Only lines
+  from the audio** shows just those.
 - To remove a subtitle Kaveo keeps, click its bin under *Subtitle files*; Kaveo asks first. A file
   you put beside the video yourself is never changed.

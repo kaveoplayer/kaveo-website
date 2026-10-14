@@ -17,7 +17,12 @@ for them.
 - [Screenshots](screenshots.md) — save a picture of what is on screen.
 - [HDR output](hdr.md) — send HDR video to an HDR display.
 - [Saving a frame](save-a-frame.md) — the video's own picture, dated and placed, without the controls.
+- [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence a video, saved as a new file.
 - [Copying to the clipboard](copy-to-clipboard.md) — paste the picture on screen, or one of your own
   videos, somewhere else.
 - [Media keys and the desktop](media-keys.md) — play, pause and skip from the keyboard's media keys
   and the desktop's media controls.
+- [Opening a web address](open-a-url.md) — play a video file, a stream or a page like YouTube's from
+  its address.
+- [When the graphics card stops responding](graphics-card.md) — how Kaveo recovers, and what to try
+  if it keeps happening.

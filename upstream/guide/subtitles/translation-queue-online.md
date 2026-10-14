@@ -13,7 +13,7 @@ Kaveo translate an episode that has no English here.
 ## How to use it
 
 1. In **Settings › Subtitles**, enter your OpenSubtitles key, user name and password.
-2. Open **Translate subtitles…** as usual. The dialog says *Searching OpenSubtitles…* for a moment.
+2. Open **Subtitles…** as usual. The dialog says *Searching OpenSubtitles…* for a moment.
 3. If your language exists online, choose **Download them (no translation, no cost)** or
    **Translate anyway**.
 4. Open **Each episode** to change what a single episode gets.
@@ -23,8 +23,11 @@ Kaveo translate an episode that has no English here.
 
 - English from OpenSubtitles is checked against the episode's audio before it is translated. A
   subtitle that belongs to another episode is not used, and the episode says so.
-- Without a speech transcriber the check cannot run. The subtitle is then marked *not checked
-  against the audio*.
-- A downloaded subtitle is also re-timed to your copy of the episode first. If Kaveo cannot be sure
-  of the timing, it leaves it alone and marks it *sync uncertain*.
-- Downloads count against your OpenSubtitles daily allowance. Searching does not.
+- Without a speech transcriber it is marked *not checked against the audio*.
+- Any download, even in your language, is re-timed to your copy first; with no subtitles in the
+  video, through the same release's English. If Kaveo cannot be sure, it marks it *sync uncertain*.
+- Lines the audio has and the downloaded English lacks are added from the speech transcriber's
+  words before translating, and marked. Check them on the **All lines…** page.
+- Downloads count against your OpenSubtitles daily allowance. Searching does not. When it runs out,
+  the episodes that need a download wait and continue by themselves when it comes back; the panel
+  shows the time. Everything else goes on.

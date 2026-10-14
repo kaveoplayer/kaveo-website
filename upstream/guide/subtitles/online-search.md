@@ -35,3 +35,5 @@ only until you restart.
 
 - The key alone is enough to search; **Use this** also needs the account.
 - The key and password go to your system's credential store, and only when you press **Save**.
+- Some files online have broken accents (*Ã¨* instead of *è*). Kaveo repairs them when it downloads
+  them; for one downloaded earlier, use **Fix accented letters** in the **Subtitles** menu.

@@ -22,8 +22,8 @@ When a video carries more than one soundtrack or subtitle, choose which one play
 ## Good to know
 
 - Kaveo remembers the language you pick, or **Off**, for that film or series, later episodes
-  included; a subtitle file you pick comes back whenever that video plays. A Jellyfin or private
-  title keeps no language.
+  included — from your own folders and from Jellyfin alike. A subtitle file you pick comes back
+  whenever that video plays. A private title keeps no language.
 - **Audio delay** moves the sound 50 ms at a time. The subtitles have their own, under
   **Subtitles**, in steps of 50 and 500 ms — see [Subtitle timing](../subtitles/delay.md).
 - To get, time, write or translate a subtitle, see [Loading subtitles](../subtitles/load.md),

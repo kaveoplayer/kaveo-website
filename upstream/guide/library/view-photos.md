@@ -17,7 +17,7 @@ and its place in the folder across the top.
 2. Double-click to see the photo at its actual size, and again to fit it back.
 3. Press **→** or **←** to go through the folder, newest first. A video stops you: its picture shows, and nothing plays.
 4. Press **Enter** or click the video to play it. **Esc** in the player, or the end of the video, brings you back to it; in full screen, the first **Esc** only leaves full screen.
-5. Press **Esc**, or click the close button at the top right, to return to the folder.
+5. Press **Esc**, or click the close button, to return to the folder.
 
 ![A video in the viewer, showing its picture with a play mark and waiting to be played](../images/library/view-photos-video.webp)
 
@@ -25,4 +25,6 @@ and its place in the folder across the top.
 
 - Opening a photo stops a video that was still playing in the background.
 - A photo that cannot be shown says why, and keeps its place in the folder.
-- A Live Photo carries a **LIVE** badge. Its motion does not play yet.
+- A photo opened [from outside Kaveo](../file-manager.md) steps through its folder by name;
+  **Esc** goes to the library.
+- A Live Photo carries a **LIVE** badge. Hold **Space**, or press and hold the badge, to play its motion from the start, without sound; let go and the photo comes back. If the motion ends first, the photo comes back on its own.

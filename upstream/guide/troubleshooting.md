@@ -6,8 +6,7 @@ order: 120
 
 ## What it is for
 
-Kaveo says what went wrong in the top-right corner, on any screen. Read the message, then gather
-the rest of a bug report.
+Kaveo says what went wrong in the top-right corner of any screen, and helps report it.
 
 ## How to use it
 
@@ -26,6 +25,7 @@ the rest of a bug report.
 
 - A message that stays has no close button: it is the only statement of what is broken, and it goes
   when the problem clears or you leave the video.
+- *…the graphics card ran out of memory*: follow the message's own remedy.
 - Text drawn as empty rectangles is a missing font. Install a Japanese one — *fonts-noto-cjk* on
   Debian or Ubuntu, *noto-fonts-cjk* on Arch — which covers Chinese and Korean too, then start
   Kaveo again.

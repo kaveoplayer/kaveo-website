@@ -27,3 +27,8 @@ queue.
 - The top bar is not shown in the player: go back to the library to see it.
 - A running queue continues when Kaveo starts again.
 - An episode marked in red needs you: hover over it to see why and what to do.
+- A red line under a finished episode names a style whose font is missing, or cannot draw some
+  letters of your language. Press **Use another font for this style…** to pick an installed font
+  that draws them all. Nothing changes until you do.
+- A grey line under a finished episode counts the lines added from the audio. Press **Review them…**
+  to see only those, and delete any that is not dialogue.

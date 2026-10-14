@@ -41,10 +41,12 @@ These work while a video is playing, and every one of them can be changed — se
 | Subtitle editor | **E** |
 | Save frame | **Shift+S** |
 | Copy frame | **Ctrl+C** |
+| Edit a copy | **T** |
 
-Three more keys cannot be changed:
+Four more keys cannot be changed:
 
 - **Esc** leaves fullscreen, on any screen.
+- **Ctrl+L** opens **Open URL…**, on any screen.
 - **F12** saves a picture of what is on screen — see [Screenshots](watching/screenshots.md).
 - **Ctrl+H** opens the live picture panel while a film plays.
 
@@ -53,4 +55,6 @@ Three more keys cannot be changed:
 - The four actions with a dash have no shortcut until you give them one.
 - A shortcut can be a mouse button or a wheel notch as readily as a key, so some rows carry both.
 - **Toggle exclusive fullscreen (Mode 1)** has no Settings row outside Windows, where **F** is ordinary fullscreen.
+- Photos have keys of their own — see [Viewing photos](library/view-photos.md).
 - While the subtitle editor is open it takes **[**, **]**, **↑** and **↓**: retime the line and move between lines.
+- While the video editor (*Edit a copy*) is open it takes **I** and **O**: mark where the copy starts and ends.

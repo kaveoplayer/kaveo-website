@@ -9,6 +9,7 @@ library at all.
 
 - [Setting up private titles](set-up.md) — choose where they live and set a password.
 - [Hiding a title](hide-a-title.md) — make a title private.
+- [Hiding a photo](hide-a-photo.md) — make one of your own photos private, its Live motion with it.
 - [Taking a title back out](take-a-title-out.md) — turn a private title back into an ordinary file.
 - [Locking and unlocking](lock.md) — unlock private titles, lock them again, and change the
   password.
