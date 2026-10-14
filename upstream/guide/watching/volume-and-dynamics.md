@@ -24,3 +24,5 @@ voices can stand out from the music.
 - None of them acts on Dolby or DTS sound sent undecoded to a receiver with **Bitstream passthrough**; use the receiver's own controls there.
 - **Dialogue boost** needs 5.1 or 7.1 sound: stereo has no separate voice channel.
 - The volume slider now goes to 200 %; its middle is the original level.
+- Music that another program has already levelled (ReplayGain) plays at that level at once, until
+  Kaveo has measured it itself.

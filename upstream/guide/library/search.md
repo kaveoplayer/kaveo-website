@@ -26,6 +26,15 @@ sort and narrow further.
 1. Click a chip above the grid — *All*, or a genre or tag — to narrow the list further.
 2. Use the sort control to reorder the list by **Title**, **Year** or **Recent**.
 
+### Find music
+
+![Search results for "josh": the artist Josh Woodward above the grid, and his album under it](../images/library/search-music.webp)
+
+1. Type an artist's name to see the artist and their albums; a compilation with a song by them is
+   found too.
+2. Type a song's title to see it under **Tracks**, above the grid; **Play** plays it and goes on
+   with the rest of its album.
+
 ## Good to know
 
 - A category or a source is a *place* and keeps the home's rows; a search or a single genre is a

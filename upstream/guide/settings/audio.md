@@ -31,5 +31,6 @@ what happens to a film with more channels than your speakers.
   stands down; **Use a different setting for this output** gives it a **Rule for this output**
   instead, and **Remove the rule** drops it.
 - Everything waits for **Save** ([Saving changes](saving.md)); tracks and **Audio delay** belong to
-  the player ([Audio and subtitle tracks](../watching/audio-and-subtitle-tracks.md)), and the last
-  group of rows to [Volume and dynamics](../watching/volume-and-dynamics.md).
+  the player ([Audio and subtitle tracks](../watching/audio-and-subtitle-tracks.md)); see also
+  [Volume and dynamics](../watching/volume-and-dynamics.md) and
+  [Listening to music](../watching/listen-to-music.md).

@@ -6,8 +6,8 @@ order: 20
 
 ## What it is for
 
-Kaveo plays a [Jellyfin](https://jellyfin.org/) server's films and series beside your local files,
-and syncs your place.
+Kaveo plays a [Jellyfin](https://jellyfin.org/) server's films, series and
+[music](../watching/listen-to-music.md), and syncs your place.
 
 ![A connected server on the Sources page: Demo Server with the JELLYFIN badge, a green dot beside its address, chips counting its titles and libraries, and Reconnect beside Remove](../images/sources/jellyfin-connected-card.webp)
 

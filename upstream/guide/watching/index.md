@@ -9,9 +9,13 @@ for them.
 
 - [Player controls](player-controls.md) — the playback bar, and leaving the player without stopping
   the film.
-- [Audio and subtitle tracks](audio-and-subtitle-tracks.md) — choose the soundtrack and the subtitles.
+- [Audio and subtitle tracks](audio-and-subtitle-tracks.md) — choose the soundtrack and subtitles.
 - [Volume and dynamics](volume-and-dynamics.md) — the same loudness for every title, night mode and
   clearer dialogue.
+- [Listening to music](listen-to-music.md) — tracks and albums.
+- [The music queue](music-queue.md) — choose what plays next.
+- [Music while you browse](music-bar.md) — the bar, shuffle, repeat.
+- [Lyrics](lyrics.md) — a song's words as it plays.
 - [Next episode and queue](next-episode.md) — move between episodes, album tracks and queued files.
 - [Skipping openings](skip-intro.md) — skip a series' opening or ending.
 - [Screenshots](screenshots.md) — save a picture of what is on screen.
@@ -20,9 +24,7 @@ for them.
 - [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence a video, saved as a new file.
 - [Copying to the clipboard](copy-to-clipboard.md) — paste the picture on screen, or one of your own
   videos, somewhere else.
-- [Media keys and the desktop](media-keys.md) — play, pause and skip from the keyboard's media keys
-  and the desktop's media controls.
-- [Opening a web address](open-a-url.md) — play a video file, a stream or a page like YouTube's from
-  its address.
-- [When the graphics card stops responding](graphics-card.md) — how Kaveo recovers, and what to try
-  if it keeps happening.
+- [Media keys and the desktop](media-keys.md) — play, pause and skip from the media keys and the
+  desktop.
+- [Opening a web address](open-a-url.md) — play a file, a stream or a web page from its address.
+- [When the graphics card stops responding](graphics-card.md) — how Kaveo recovers, and what to try next.

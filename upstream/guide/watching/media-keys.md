@@ -24,5 +24,5 @@ show its name and picture.
 
 - Next and previous follow the same list as the player's own buttons; see
   [Next episode and queue](next-episode.md).
-- Stop ends the title, as the player's back button does.
+- Stop ends the title. For music, the widget's shuffle and repeat buttons are Kaveo's own.
 - A private title is shown like any other while it plays. Available on Linux for now.
