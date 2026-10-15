@@ -10,7 +10,7 @@ order: 60
 credentials that translate or fetch them. Its three sub-pages — **Appearance**, **Translation** and
 **Online search** — appear in the rail and as tabs.
 
-![Settings with Subtitles chosen in the rail and its three sub-pages listed under it, repeated as tabs above the Appearance page: Render subtitles ticked, Preferred languages empty and showing its faint example en, it, ja, Forced captions only unticked, Style override on Off (keep the script's typeset), and Position on As the file says](../images/settings/subtitles.webp)
+![Settings with Subtitles chosen in the rail and its three sub-pages listed under it, repeated as tabs above the Appearance page: Render subtitles on, Preferred languages empty and showing its faint example en, it, ja, Forced captions only off, Style override on Off (keep the script's typeset), and Position on As the file says](../images/settings/subtitles.webp)
 
 ## How to use it
 

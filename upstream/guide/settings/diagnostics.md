@@ -9,7 +9,7 @@ order: 140
 **Settings › Diagnostics** is where Kaveo says what it is doing, and where to find the pieces a bug
 report needs.
 
-![A band across the top of the Diagnostics section: the settings rail on the left, cut below Audio, and beside it the Logging group — Detail level on Normal — problems only, Record performance and Time each GPU pass both unticked, and an empty Extra filter rules field showing only its faint example. The rest of the section carries on below the picture.](../images/settings/diagnostics.webp)
+![A band across the top of the Diagnostics section: the settings rail on the left, cut below Audio, and beside it the Logging group — Detail level on Normal — problems only, Record performance and Time each GPU pass both off, and an empty Extra filter rules field showing only its faint example. The rest of the section carries on below the picture.](../images/settings/diagnostics.webp)
 
 ## How to use it
 
@@ -17,7 +17,7 @@ report needs.
    **Detailed — what the app did**, **Debug — for reporting a bug**,
    **Everything — including the video libraries** — while you chase something, then set it back; it
    applies at once, with no restart.
-2. Tick **Record performance** when playback stutters — a few lines a second while a video plays;
+2. Turn on **Record performance** when playback stutters — a few lines a second while a video plays;
    **Time each GPU pass** goes further, needs that one on too, and is not free.
    **Extra filter rules** raises one part of Kaveo on its own.
 3. **Log files** names where they go: one file a day, the last ten kept, each line tagged with its

@@ -54,6 +54,7 @@ Four more keys cannot be changed:
 
 - The four actions with a dash have no shortcut until you give them one.
 - A shortcut can be a mouse button or a wheel notch as readily as a key, so some rows carry both.
+- The two delays are also in the player's right-click menu, under **Audio** › **Audio delay** and **Subtitles** › **Timing**.
 - **Toggle exclusive fullscreen (Mode 1)** has no Settings row outside Windows, where **F** is ordinary fullscreen.
 - Photos have keys of their own — see [Viewing photos](library/view-photos.md).
 - While the subtitle editor is open it takes **[**, **]**, **↑** and **↓**: retime the line and move between lines.

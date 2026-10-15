@@ -29,11 +29,11 @@ only until you restart.
 2. To narrow the list, type release words or a language code into the
    *Filter by release, group, quality…* box.
 3. Click **Use this**. Kaveo downloads the subtitle, puts it on screen and adds it under
-   *Subtitle files*.
+   **Beside the video**.
 
 ## Good to know
 
 - The key alone is enough to search; **Use this** also needs the account.
 - The key and password go to your system's credential store, and only when you press **Save**.
 - Some files online have broken accents (*Ã¨* instead of *è*). Kaveo repairs them when it downloads
-  them; for one downloaded earlier, use **Fix accented letters** in the **Subtitles** menu.
+  them; for one downloaded earlier, use **Fix accented letters** under **Subtitles** › **Tools**.

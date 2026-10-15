@@ -24,7 +24,7 @@ Gather songs from any album into a list of your own, and play it whenever you li
 
 - **Import playlist…** reads an M3U file. Songs that moved are looked for in your library; web
   addresses are left out, and Kaveo tells you which.
-- An M3U file dropped on the window, opened with **Open file**, or opened with Kaveo from your
+- An M3U file dropped on the window, opened with **Open** › **Open file…**, or opened with Kaveo from your
   [file manager](../file-manager.md) plays at once; **Save as playlist…** in the queue keeps it.
 - A song that is not on disk stays, marked **Not found**, and is skipped when the playlist plays.
 - **Export as M3U…** writes a file other players read. Songs only on a server are left out.

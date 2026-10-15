@@ -8,7 +8,7 @@ order: 100
 
 **Settings › Display & HDR** decides what your screen is sent, and how an HDR film is fitted to it.
 
-![Settings, Display & HDR selected in the rail with its HDR output, Tone mapping and Format & refresh sub-items. Beside it Use HDR on SDR content unticked, the three tabs with HDR output chosen, then HDR output on Auto, HDR display peak on Auto with a note that both apply live, and Output signal & calibration with Force mastering peak, Force mastering black and Calibration LUT. The Per-display settings group and its selector are above the picture.](../images/settings/display.webp)
+![Settings, Display & HDR selected in the rail with its HDR output, Tone mapping and Format & refresh sub-items. Beside it Use HDR on SDR content off, the three tabs with HDR output chosen, then HDR output on Auto, HDR display peak on Auto with a note that both apply live, and Output signal & calibration with Force mastering peak, Force mastering black and Calibration LUT. The Per-display settings group and its selector are above the picture.](../images/settings/display.webp)
 
 ## How to use it
 

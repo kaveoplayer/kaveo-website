@@ -9,13 +9,13 @@ order: 110
 **Settings › Rendering** is the machinery under a film rather than its look: which decoder opens it,
 and how finished frames reach the screen.
 
-![Settings shown on the Rendering section: the rail listing all sixteen sections with Rendering selected last under Video & display, and beside it Decode — Decoder on Hardware (NVDEC/…), Strict (no skip on corruption) unticked, and Zero-copy decode (keep frame on GPU) unticked beside auto-falls back if unavailable — then Presentation — Frame mixer on Oversample (smooth) and Vsync hint on Auto — the Queues fold closed, and the line Changes apply live — some briefly reload the video.](../images/settings/rendering.webp)
+![Settings shown on the Rendering section: the rail listing all sixteen sections with Rendering selected last under Video & display, and beside it Decode — Decoder on Hardware (NVDEC/…), Strict (no skip on corruption) off, and Zero-copy decode (keep frame on GPU) unticked beside auto-falls back if unavailable — then Presentation — Frame mixer on Oversample (smooth) and Vsync hint on Auto — the Queues fold closed, and the line Changes apply live — some briefly reload the video.](../images/settings/rendering.webp)
 
 ## How to use it
 
 1. Under **Decode**, leave **Decoder** on **Hardware (NVDEC/…)**; **Software** is slower but opens
    anything, and there is a Vulkan decoder too.
-2. Tick **Strict (no skip on corruption)** to refuse a file the decoder cannot handle, rather than
+2. Turn on **Strict (no skip on corruption)** to refuse a file the decoder cannot handle, rather than
    quietly fall back.
 3. **Zero-copy decode (keep frame on GPU)** saves a little bandwidth and starts off.
 4. Under **Presentation**, **Frame mixer** starts on **Oversample (smooth)**; **Nearest (no blend)**

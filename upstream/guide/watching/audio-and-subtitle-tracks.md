@@ -13,9 +13,9 @@ When a video carries more than one soundtrack or subtitle, choose which one play
 ## How to use it
 
 1. While a video plays, right-click the picture.
-2. Point at **Audio track** and click a track; the highlighted one is playing.
-3. Point at **Subtitles** and click **Off**, one of the video's own tracks, or a file under
-   *Subtitle files*.
+2. Point at **Audio** and click a track; the ticked one is playing.
+3. Point at **Subtitles** and click **Off**, a track under **In this file**, or a file under
+   **Beside the video**.
 4. Or press **A** to step through the audio tracks, and **S** through the video's own subtitle tracks
    and off.
 
@@ -24,8 +24,8 @@ When a video carries more than one soundtrack or subtitle, choose which one play
 - Kaveo remembers the language you pick, or **Off**, for that film or series, later episodes
   included — from your own folders and from Jellyfin alike. A subtitle file you pick comes back
   whenever that video plays. A private title keeps no language.
-- **Audio delay** moves the sound 50 ms at a time. The subtitles have their own, under
-  **Subtitles**, in steps of 50 and 500 ms — see [Subtitle timing](../subtitles/delay.md).
+- **Audio** › **Audio delay** moves the sound 50 or 500 ms at a time. The subtitles have their own,
+  under **Subtitles** › **Timing** — see [Subtitle timing](../subtitles/delay.md).
 - To get, time, write or translate a subtitle, see [Loading subtitles](../subtitles/load.md),
   [Finding subtitles online](../subtitles/online-search.md), [Syncing subtitles](../subtitles/sync.md),
   [Writing and editing subtitles](../subtitles/edit.md) and

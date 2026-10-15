@@ -29,7 +29,7 @@ Translate a subtitle with an AI model, online or on your own computer. Each line
 
 ![The progress panel over the player, reading Translating to Italian — 30 of 60 lines, with a half-filled bar, a Cancel button, and under them Block 2 of 2, how long the reply in flight has been waited for, and how long the last one took](../images/subtitles/translate-progress.webp)
 
-1. With a subtitle file on screen, right-click the picture and open **Subtitles**.
+1. With a subtitle file on screen, right-click the picture and open **Subtitles** › **Tools**.
 2. Choose **Translate to Italian…**, named after your **Translate into** language, or
    **Translate while I watch** to start where the film is.
 
@@ -38,9 +38,9 @@ Translate a subtitle with an AI model, online or on your own computer. Each line
 - A track inside the video has to be extracted first — see [Loading subtitles](load.md). Which model
   to pick: [Choosing a translation model](choosing-a-model.md).
 - A panel at the top of the player shows the progress, with **Cancel**; the result is added under
-  *Subtitle files*.
+  **Beside the video**.
 - Lines that still fail after Kaveo retries are left in their original language.
 - While the [translation queue](translation-queue.md) works, the player offers to pause it.
-- Tick **Re-read the translation** for a second pass that corrects lines saying the wrong thing. It
+- Turn on **Re-read the translation** for a second pass that corrects mistranslated lines. It
   helps with a large model; with a small one on your own computer it can add as many mistakes as it
   fixes.

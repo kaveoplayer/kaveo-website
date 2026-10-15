@@ -9,14 +9,14 @@ order: 60
 Hide titles tagged adult from every library screen — the rows, the grid, search and
 *Recently played* — without touching the files themselves.
 
-![The Adult content group in Settings, with Show adult content ticked and Add adult folder…](../images/library/adult-content-settings.webp)
+![The Adult content group in Settings, with Show adult content on and Add adult folder…](../images/library/adult-content-settings.webp)
 
 ## How to use it
 
 1. Open **Settings › Library › Folders** and find **Adult content**.
 2. Click **Add adult folder…** and pick a folder; everything under it is tagged adult automatically.
-3. Untick **Show adult content** and click **Save**.
-4. Tick **Show adult content** again to bring them back exactly as you left them.
+3. Turn off **Show adult content** and click **Save**.
+4. Turn on **Show adult content** again to bring them back exactly as you left them.
 
 ## Good to know
 

@@ -10,7 +10,7 @@ order: 70
 a series' opening or ending, the format of a frame you save from the player, and how sharp a video
 opened from a web address plays.
 
-![Settings with Behaviour chosen under Playback in the rail, and the section's three rows — Offer to skip intros and endings, ticked, Saved frames with JPEG chosen, and Web video quality on Automatic](../images/watching/skip-intro-setting.webp)
+![Settings with Behaviour chosen under Playback in the rail, and the section's three rows — Offer to skip intros and endings, on, Saved frames with JPEG chosen, and Web video quality on Automatic](../images/watching/skip-intro-setting.webp)
 
 ## How to use it
 

@@ -13,7 +13,7 @@ Pick a translation model for the quality you want and the price you accept.
 1. In **Settings › Subtitles › Translation**, choose **OpenRouter** as **Provider** and paste its
    **API key**.
 2. In **Model**, type part of the model's name and pick it from the list.
-3. Tick **Re-read the translation** only with Claude Sonnet 5.5, then press **Save**.
+3. Turn on **Re-read the translation** only with Claude Sonnet 5.5, then press **Save**.
 
 ## Which model
 

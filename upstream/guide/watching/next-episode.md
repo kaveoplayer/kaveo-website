@@ -29,7 +29,10 @@ ends.
 
 ## Good to know
 
-- **Add to Kaveo's queue** plays the file at once when nothing is playing; otherwise it goes to the
-  end of the queue. For music, see [The music queue](music-queue.md).
+- **Add to Kaveo's queue** plays the file at once when nothing is playing. For music, see
+  [The music queue](music-queue.md).
 - The next episode keeps the copy you are watching; a queue holds only files on your computer.
 - A film opened on its own returns to the library when it ends; a queued one plays on.
+- A queue, a playlist or a folder of your own videos has **Shuffle** and **Repeat**. Any other
+  video has **Repeat** alone: off, or this video again.
+- Videos keep their own shuffle and repeat, apart from music's, after a restart too.

@@ -17,12 +17,13 @@ show its name and picture.
    the background.
 3. Or use the desktop's media widget: it shows the title, its poster and where you are, and you can
    drag its bar to move through the title.
-4. To keep the title off the desktop, untick **System media controls** in
+4. To keep the title off the desktop, turn off **System media controls** in
    [Settings › Interface](../settings/interface.md).
 
 ## Good to know
 
 - Next and previous follow the same list as the player's own buttons; see
   [Next episode and queue](next-episode.md).
-- Stop ends the title. For music, the widget's shuffle and repeat buttons are Kaveo's own.
+- Stop ends the title. The widget's shuffle and repeat buttons are Kaveo's own, wherever the
+  playback bar shows them.
 - A private title is shown like any other while it plays. Available on Linux for now.

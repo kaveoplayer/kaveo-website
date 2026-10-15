@@ -30,7 +30,7 @@ shows, or just play one file with no library at all.
 
 ## Good to know
 
-- Drag a video onto the Kaveo window, or click **Open file** in the top bar, to play it right away —
+- Drag a video onto the Kaveo window, or click **Open** › **Open file…** in the top bar, to play it right away —
   no library folder needed. Kaveo never becomes your default video player; its place in your file
   manager's right-click menu is the box you ticked or not — see
   [From your file manager](../file-manager.md).

@@ -24,4 +24,5 @@ albums, and play all of it at once.
   **Play all** plays only their songs from those.
 - An album whose songs are by different artists is one album by *Various Artists*, even when its
   files do not say so, as long as its songs share an album name and a folder.
-- Artist pictures are not shown: every artist has the same placeholder.
+- An artist with no picture of their own shows a placeholder: see
+  [Artist pictures](artist-pictures.md).

@@ -18,18 +18,18 @@ pick, or a track you extract, becomes your own copy to sync, edit or translate.
 
 ## How to use it
 
-1. While the video plays, right-click the picture, open **Subtitles** and pick a video track or a
-   file under *Subtitle files*.
+1. While the video plays, right-click the picture, open **Subtitles** and pick a track under
+   **In this file** or a file under **Beside the video**.
 2. To add a file, save an SRT, ASS or WebVTT file beside the video with a name starting with the
    video's own, such as *Film (2016).ita.srt*.
-3. To pull a track out, click it under *Extract from this file*. Kaveo reads the whole video, then
-   lists the result under *Subtitle files*.
+3. To pull a track out, open **Tools** › **Extract from this file** and click it. Kaveo reads the
+   whole video, then lists the result under **Beside the video**.
 
 ## Good to know
 
 - A picture-based track, as on most Blu-rays, cannot be extracted: its row is greyed.
-- On a Jellyfin title, the server's files are under *Subtitle files on the server*; click one to add
+- On a Jellyfin title, the server's files are under **Subtitle files on the server**; click one to add
   it.
 - A private title plays only the tracks inside its video.
-- If a file shows broken accents (*Ã¨* instead of *è*), **Subtitles** offers **Fix accented
-  letters**. It corrects the file itself; **Undo the accent fix** puts it back as it was.
+- If a file shows broken accents (*Ã¨* instead of *è*), **Subtitles** › **Tools** offers
+  **Fix accented letters**. It corrects the file itself; **Undo the accent fix** puts it back as it was.

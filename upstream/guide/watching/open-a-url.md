@@ -13,7 +13,7 @@ on it, such as YouTube's.
 
 ## How to use it
 
-1. Click **Open URL…** in the top bar, or press **Ctrl+L**. An address you copied is already in the field.
+1. Click **Open** › **Open URL…** in the top bar, or press **Ctrl+L**. An address you copied is already in the field.
 2. Click **Play**. A page takes a few seconds to read; **Cancel** stops it.
 3. To change how sharp it plays, right-click the picture and choose **Quality**; it goes on from where it was.
 4. The address joins **Recently played**, and opens from there where you left it.

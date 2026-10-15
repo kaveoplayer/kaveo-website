@@ -15,8 +15,8 @@ video track, or pin two lines by hand.
 
 ### Line it up against a track
 
-1. With a subtitle file on screen, right-click the picture, open **Subtitles** and point at
-   **Re-sync against…**.
+1. With a subtitle file on screen, right-click the picture, open **Subtitles** › **Tools** and point
+   at **Re-sync against…**.
 2. Pick any track, even a picture-based one.
 
 ### Read what it would change

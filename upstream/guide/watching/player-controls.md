@@ -38,7 +38,7 @@ Control playback, and leave the player with or without stopping the film.
    and its position is saved.
 2. Or right-click and choose **Settings**: the film keeps playing, and the logo there leads to the
    library.
-3. Click the pill beside **Open file** to return to the player, or its cross to stop the film.
+3. Click the pill beside **Open** to return to the player, or its cross to stop the film.
 
 ## Good to know
 

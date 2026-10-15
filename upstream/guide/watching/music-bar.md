@@ -23,6 +23,7 @@ of the window.
 
 - Repeat has three states: off, the whole list, and this track. The track's own end repeats it;
   Next still moves on.
-- Shuffle and repeat are for music only; films and episodes keep their usual behaviour.
+- Music keeps its own shuffle and repeat, apart from videos', and Kaveo remembers them after a
+  restart. With shuffle on, an album or playlist you play starts shuffled.
 - After a restart, the bar shows *Queue from your last session*: the play button starts it again.
 - The queue's **Save as playlist…** keeps it under a name: see [Playlists](../library/playlists.md).

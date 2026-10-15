@@ -12,14 +12,14 @@ Fix a subtitle's timing or words against the film, or write a new one.
 
 ## How to use it
 
-1. With a subtitle file on screen, right-click the picture, open **Subtitles** and choose
-   **Edit subtitles…**, or press **E**.
+1. With a subtitle file on screen, right-click the picture, open **Subtitles** › **Tools** and
+   choose **Edit subtitles…**, or press **E**.
 2. Click **Start = now [** or **End = now ]**, or press **[** or **]**, to set the line's start or end
    to the frame on screen. **↑** and **↓** move between lines.
 3. Click in the line's box to change its words — **Shift+Enter** starts a new line — then press
    **Enter** or click outside it.
 4. Click **All lines…** to correct lines in a list.
-5. Or choose **Write one from nothing…** in **Subtitles** to start with one empty line.
+5. Or choose **Write one from nothing…** in **Subtitles** › **Tools** to start with one empty line.
 
 ## Good to know
 
@@ -29,5 +29,5 @@ Fix a subtitle's timing or words against the film, or write a new one.
   or more picture.
 - On the **All lines…** page, a line added from the audio has its times in colour, and **Only lines
   from the audio** shows just those.
-- To remove a subtitle Kaveo keeps, click its bin under *Subtitle files*; Kaveo asks first. A file
+- To remove a subtitle Kaveo keeps, click its bin under **Beside the video**; Kaveo asks first. A file
   you put beside the video yourself is never changed.

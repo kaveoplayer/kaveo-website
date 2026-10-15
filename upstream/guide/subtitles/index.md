@@ -4,7 +4,7 @@ description: Load, sync, edit and translate subtitles.
 order: 40
 ---
 
-Most of this starts from the **Subtitles** submenu: right-click the picture while a video plays.
+Most of this starts from the **Subtitles** submenu, and its **Tools**: right-click the picture while a video plays.
 Online search, translation and the **Position** setting are set up first in
 **Settings › Subtitles**.
 

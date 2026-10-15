@@ -9,7 +9,7 @@ order: 120
 **Settings › Interface** covers how Kaveo looks and behaves, and whether it appears in your
 desktop's menus and media controls.
 
-![Settings shown on the Interface section: the rail listing all sixteen sections with Interface selected under App, and beside it its eleven rows — Language on English, App theme and Player theme on Dark, Hover preview on Clip from the video, Featured background on Gradient rather than the default Title artwork, System media controls and Seek bar previews ticked, Slideshow: each photo stays at 5 s, and File manager integration unticked.](../images/settings/interface.webp)
+![Settings shown on the Interface section: the rail listing all sixteen sections with Interface selected under App, and beside it its eleven rows — Language on English, App theme and Player theme on Dark, Hover preview on Clip from the video, Featured background on Gradient rather than the default Title artwork, System media controls and Seek bar previews on, Slideshow: each photo stays at 5 s, and File manager integration off.](../images/settings/interface.webp)
 
 ## How to use it
 
@@ -21,17 +21,17 @@ desktop's menus and media controls.
 3. Set **Hover preview** to **Clip from the video**, the default, or **YouTube trailer**; a
    server's title always plays its trailer.
 4. Set **Trailer quality** and **Trailer language**; see [Trailers](../library/trailers.md).
-5. Set **Featured background** to **Title artwork** — the default — or **Gradient**; see
+5. Choose a **Featured background** — **Title artwork** is the default; see
    [The library home](../library/home.md).
-6. Leave **System media controls** ticked for the media keys; see
-   [Media keys and the desktop](../watching/media-keys.md). Tick **File manager integration** to put
+6. Leave **System media controls** on for the media keys; see
+   [Media keys and the desktop](../watching/media-keys.md). Turn on **File manager integration** to put
    Kaveo in your desktop's right-click menus; see [From your file manager](../file-manager.md).
-7. Untick **Seek bar previews** to show only the time and chapter over the playback bar.
+7. Turn off **Seek bar previews** to show only the time and chapter over the playback bar.
 8. Set **Slideshow: each photo stays**; see [Slideshow](../library/slideshow.md).
 
 ## Good to know
 
 - Every row but **File manager integration** waits for **Save**; the language, the themes,
   **System media controls** and **Seek bar previews** change at once; **Revert** undoes them.
-- That one acts the moment you tick it, and **Revert** does not undo it; a desktop that cannot
+- That one acts at once, and **Revert** does not undo it; a desktop that cannot
   offer the menus says *Not available on this desktop.*

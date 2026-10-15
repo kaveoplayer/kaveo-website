@@ -25,9 +25,9 @@ to skip it, and learns your habit for the rest of that series.
 
 ### Turn it off
 
-![Settings with Behaviour selected, showing Offer to skip intros and endings, ticked, above the Saved frames row](../images/watching/skip-intro-setting.webp)
+![Settings with Behaviour selected, showing Offer to skip intros and endings, on, above the Saved frames row](../images/watching/skip-intro-setting.webp)
 
-1. Open **Settings › Behaviour** ([Behaviour](../settings/behaviour.md)), untick
+1. Open **Settings › Behaviour** ([Behaviour](../settings/behaviour.md)), turn off
    **Offer to skip intros and endings** and click **Save**.
    Kaveo then neither offers a skip nor skips by itself.
 

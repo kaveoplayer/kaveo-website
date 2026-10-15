@@ -21,7 +21,7 @@ the upscaler's runtime, the speech transcriber, a local AI, FFmpeg tools — and
 4. Click the list button at the end of a row for its choices: a copy already on the computer,
    Kaveo's copy in another build, **Leave it out**, or **Back to the default**.
 5. After installing a driver or a program, click **Detect again**.
-6. Under **Integration**, tick **Command in the terminal** to start Kaveo by typing kaveo — see
+6. Under **Integration**, turn on **Command in the terminal** to start Kaveo by typing kaveo — see
    [Command line](../command-line.md).
 
 ## Good to know

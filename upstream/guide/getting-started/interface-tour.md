@@ -12,17 +12,16 @@ A map of the screens this guide keeps pointing at.
 
 ![The left half of the Kaveo top bar: the logo and the category strip, numbered 1 and 2](../images/getting-started/interface-tour-topbar-left.webp)
 
-![The right half of the Kaveo top bar: Open file through the avatar, numbered 3 to 9](../images/getting-started/interface-tour-topbar-right.webp)
+![The right half of the Kaveo top bar: Open through the avatar, numbered 3 to 8](../images/getting-started/interface-tour-topbar-right.webp)
 
 1. The logo — back home, with every filter cleared.
 2. Categories — your library's places; see [Categories](../library/categories.md).
-3. **Open file** — play something outside your library.
-4. **Open URL…** (**Ctrl+L**) — play a video from the web.
-5. Search — see [Search](../library/search.md).
-6. The vault padlock — see [Private titles](../private/index.md).
-7. Sources — see [Sources](../sources/index.md).
-8. Settings — see [Settings](../settings/index.md).
-9. Your avatar.
+3. **Open** — a file outside your library, or a URL (**Ctrl+L**).
+4. Search — see [Search](../library/search.md).
+5. The vault padlock — see [Private titles](../private/index.md).
+6. Sources — see [Sources](../sources/index.md).
+7. Settings — see [Settings](../settings/index.md).
+8. Your avatar.
 
 ## The library home
 
@@ -35,10 +34,12 @@ everything in it — see [The library home](../library/home.md).
 
 ![A film's own page, with its poster, description and genres](../images/getting-started/interface-tour-title.webp)
 
-Poster, description, genres, cast, and similar titles. **Wrong title?**
+Poster, description, genres, cast, similar titles. **⋯** › **Correct match…**
 fixes a bad match — see [Correcting a wrong match](../library/correct-a-match.md). More than one
 copy? The row under **Play** lists them — see [Several copies](../organizing/versions.md). A series'
 page starts with **Play** or **Resume**, then **Trailer**.
+
+Above it, the path back: click a step, or the arrow.
 
 ## The player
 

@@ -26,6 +26,6 @@ an HDR-capable display so it looks the way it was mastered.
 ## Good to know
 
 - HDR engages only while an HDR video plays; Kaveo restores your display when it closes.
-- An SDR film never switches the display, unless you tick **Use HDR on SDR content** (off by default).
+- An SDR film never switches the display, unless you turn on **Use HDR on SDR content** (off by default).
 - On Linux, HDR switches on by itself on KDE Plasma; on other desktops, turn on your desktop's own HDR
   support first.

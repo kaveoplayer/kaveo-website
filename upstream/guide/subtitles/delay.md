@@ -10,7 +10,7 @@ When every line of a subtitle is early or late, shift them all at once while the
 
 ## How to use it
 
-1. Right-click the picture, open **Subtitles**, and point at **Subtitle delay**.
+1. Right-click the picture, open **Subtitles**, and point at **Timing**.
 2. Click the 50 ms or 500 ms buttons until the lines match the speech: a plus value shows them later,
    a minus value earlier. **Reset** returns to zero.
 3. Or press **Z** and **X** for 50 ms steps, **Shift+Z** and **Shift+X** for 500 ms. The value shows
@@ -28,6 +28,6 @@ When every line of a subtitle is early or late, shift them all at once while the
 
 - Each subtitle keeps its own timing: another track or the next episode starts at zero unless you
   applied it to the series, and an episode you already adjusted keeps its own.
-- Writing needs a subtitle file, not a track inside the video: use **Extract from this file** first;
+- Writing needs a subtitle file, not a track inside the video: use **Tools** › **Extract from this file** first;
   the extracted file keeps the delay. Afterwards the delay reads zero, since the file carries it.
 - A private title does not remember its delay.

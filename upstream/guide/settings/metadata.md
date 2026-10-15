@@ -1,27 +1,28 @@
 ---
 title: Metadata
-description: The key that fetches posters and plots, the cookies that sign you in to sites, and starting over.
+description: The key that fetches posters and plots, music information online, the cookies that sign you in to sites, and starting over.
 order: 30
 ---
 
 ## What it is for
 
-**Settings › Metadata** holds the key Kaveo uses to fetch posters, plots and genres, and the one
-button that throws all of that away and fetches it again.
+**Settings › Metadata** holds the key that fetches posters, plots and genres, and the button that
+fetches them all again.
 
-![Settings with Metadata chosen in the rail: an empty TMDB API key field with Test key beside it, the note that genre rows need a key, Site cookies reading None, and Recatalogue library with its hint](../images/settings/metadata.webp)
+![Settings with Metadata chosen in the rail: an empty TMDB API key field, the note that genre rows need a key, Artist pictures online on, Downloaded artist pictures with Clear, Album information online on, Downloaded album information with Clear, and Lyrics online on](../images/settings/metadata.webp)
 
 ## How to use it
 
 1. Paste your key into **TMDB API key**, then click **Test key** — it answers *Key works*, or names
    what went wrong.
-2. Click **Save** to keep it: **Test key** only asks, and nothing reaches your key store before you
-   save.
+2. Click **Save** to keep it: **Test key** only asks; nothing is stored before you save.
 3. When a trailer or a web video asks you to sign in, sign in to that site in your browser and
    choose the browser under **Site cookies** — and, if it has several, the profile under **Browser
    profile**. **Test** checks that Kaveo can read it. If not, choose **cookies.txt file…**.
    Previews are chosen under [Interface](interface.md).
-4. Click **Recatalogue library** to forget every cached poster, plot and genre and fetch them again.
+4. Music, online by default: [Artist pictures](../library/artist-pictures.md),
+   [Album information](../library/album-information.md), [Lyrics](../watching/lyrics.md).
+5. Click **Recatalogue library** to fetch every poster, plot and genre anew.
 
 ## Good to know
 

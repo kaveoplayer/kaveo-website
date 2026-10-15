@@ -27,7 +27,7 @@ screen or already kept.
   at once and **Clear history** empties the list — **Revert** undoes neither. Nor does an action on
   your files or the outside world wait: importing, **Recatalogue library**, connecting a server,
   **Start recording** and **Export a diagnostic bundle** all happen the moment you click. The one
-  tick that does not wait is **File manager integration**, on [Interface](interface.md); and no
+  switch that does not wait is **File manager integration**, on [Interface](interface.md); and no
   row at all on [Diagnostics](diagnostics.md) waits.
 - The quick panel over the player (**Ctrl+H**) shows some of the same settings, with the same
   Save/Revert bar.
