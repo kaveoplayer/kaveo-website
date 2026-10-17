@@ -11,12 +11,12 @@ air.
 
 ## How to use it
 
-1. Open a series' page and look under each season's heading for *Missing episodes:* and its numbers.
-2. Check the top of the page for the next episode airing, and each season's heading for its own
-   schedule.
+1. Open a series' page, pick a season above its episodes, and look under it for *Missing episodes:*
+   and its numbers.
+2. Check the page for the next episode airing, and each season for its own schedule.
 3. If your numbering does not match the provider's, click the offer under the message if it is right,
    for example *This season starts at my episode 14*.
-4. Click **Follow** so the show appears on your home screen in *Coming soon* or *Catch up*.
+4. Click **⋯** › **Follow** so the show appears on your home screen in *Coming soon* or *Catch up*.
 
 ## Good to know
 

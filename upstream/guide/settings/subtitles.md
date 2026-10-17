@@ -15,11 +15,12 @@ credentials that translate or fetch them. Its three sub-pages — **Appearance**
 ## How to use it
 
 1. **Appearance** holds **Render subtitles**, which switches the rest of the tab on and off;
-   **Preferred languages**, the codes a track is chosen by until you pick one yourself;
+   **Preferred languages**, which choose a track until you pick one yourself (drag to reorder);
    **Forced captions only**, for signs and foreign dialogue; **Style override**; and **Position** —
    see [Position and style](../subtitles/position-and-style.md).
-2. **Translation** holds **Provider**, **Endpoint**, **Model**, **Translate into**,
-   **Read the original audio**, **Re-read the translation** and an **API key** — see
+2. **Translation** holds **Provider**, **Endpoint**, the **API key** with **Test**, **Model**, then
+   **Translate into** (**Other…** takes a typed name), **Read the original audio**, **Re-read the
+   translation** and **Already translated** — see
    [Translating subtitles](../subtitles/translate.md) and
    [Translating on your own computer](../subtitles/local-models.md). Names and speakers are set on
    the subtitle — see [Better translations](../subtitles/translation-quality.md).

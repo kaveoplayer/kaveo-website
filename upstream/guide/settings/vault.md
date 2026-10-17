@@ -13,11 +13,11 @@ top bar does — and an existing vault cannot be moved from here.
 
 ## How to use it
 
-1. **Vault folder** shows where the encrypted files are, read-only; it reads *No vault yet* until
-   you [set one up](../private/set-up.md).
-2. Set **Lock by itself** to how many **minutes** the vault waits before locking itself: 15 to begin
+1. **Vault folder** shows where the encrypted files are, read-only; it reads *No vault yet*, with
+   **Create vault…** beside it, until you [set one up](../private/set-up.md).
+2. Set **Lock by itself** to how many minutes the vault waits before locking itself: 15 to begin
    with, and 0 means never.
-3. Tick **Also stop a hidden title that is playing** to have that lock stop the film too; it starts
+3. Turn on **Also stop a hidden title that is playing** to have that lock stop the film too; it starts
    off, since a film already on screen is not a further leak.
 4. Click **Save** — both of those wait for it, like every other value; see
    [Saving changes](saving.md).

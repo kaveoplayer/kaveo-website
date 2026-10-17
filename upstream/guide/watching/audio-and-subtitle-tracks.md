@@ -8,7 +8,9 @@ order: 20
 
 When a video carries more than one soundtrack or subtitle, choose which one plays.
 
-![The player's right-click menu with Subtitles open beside it: Off, the video's own subtitle tracks with the first one highlighted as playing, a French file under Subtitle files, then Subtitle delay, Re-sync against…, Search online…, Write one from nothing… and the tracks again under Extract from this file](../images/watching/audio-and-subtitle-tracks-subtitles.webp)
+![The player's right-click menu with Audio open beside it: the film's English track, its title on the first line and Dolby Digital, 5.1, 48 kHz and 640 kbps on the second, ticked as the one playing, then Same loudness for every title, Night mode, Dialogue boost, Equalizer and Audio delay](../images/watching/audio-and-subtitle-tracks-audio.webp)
+
+![The player's right-click menu with Subtitles open beside it: Off, five of the video's own tracks under In this file with German ticked as playing, then More (5), a French file under Beside the video, then Timing, Search online… and Tools](../images/watching/audio-and-subtitle-tracks-subtitles.webp)
 
 ## How to use it
 
@@ -23,9 +25,11 @@ When a video carries more than one soundtrack or subtitle, choose which one play
 
 - Kaveo remembers the language you pick, or **Off**, for that film or series, later episodes
   included — from your own folders and from Jellyfin alike. A subtitle file you pick comes back
-  whenever that video plays. A private title keeps no language.
-- **Audio** › **Audio delay** moves the sound 50 or 500 ms at a time. The subtitles have their own,
-  under **Subtitles** › **Timing** — see [Subtitle timing](../subtitles/delay.md).
+  whenever that video plays. A commentary never opens first; see
+  [Audio settings](../settings/audio.md) for your languages. A private title keeps no language.
+- **Audio** › **Audio delay** moves the sound 50 or 500 ms at a time, or press **K** and **L**; it is
+  remembered for that film or series. The subtitles have their own, under **Subtitles** ›
+  **Timing** — see [Subtitle timing](../subtitles/delay.md).
 - To get, time, write or translate a subtitle, see [Loading subtitles](../subtitles/load.md),
   [Finding subtitles online](../subtitles/online-search.md), [Syncing subtitles](../subtitles/sync.md),
   [Writing and editing subtitles](../subtitles/edit.md) and

@@ -22,8 +22,8 @@ ends.
 
 ### Build a queue
 
-1. On a title page, click **Play folder** (shown when its folder holds several videos) to play them
-   from this one on.
+1. On a title page, click **⋯** › **Play folder** (shown when its folder holds several videos) to play
+   them from this one on.
 2. From [your file manager](../file-manager.md), choose **Play this folder with Kaveo**, or
    **Add to Kaveo's queue** to add one file to the end.
 
@@ -32,7 +32,8 @@ ends.
 - **Add to Kaveo's queue** plays the file at once when nothing is playing. For music, see
   [The music queue](music-queue.md).
 - The next episode keeps the copy you are watching; a queue holds only files on your computer.
-- A film opened on its own returns to the library when it ends; a queued one plays on.
+- A file opened on its own returns to the library when it ends; Previous and Next step to the
+  files beside it.
 - A queue, a playlist or a folder of your own videos has **Shuffle** and **Repeat**. Any other
   video has **Repeat** alone: off, or this video again.
 - Videos keep their own shuffle and repeat, apart from music's, after a restart too.

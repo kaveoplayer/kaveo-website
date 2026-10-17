@@ -16,7 +16,7 @@ is drawn.
 1. Under **Colour adjustment**, move **Brightness**, **Contrast**, **Saturation**, **Hue** and
    **Gamma**; **Reset colour** returns all five to neutral.
 2. **Colour LUT (.cube)** applies a grading look from a file you pick with **Choose…** — a look, not
-   screen calibration. **Clear** and a **LUT interpretation** list appear once one is set.
+   screen calibration. The cross beside the file and a **LUT interpretation** list appear once one is set.
 3. Under **Picture placement**, set **Aspect ratio** — **From the file** to begin with — when a film
    is drawn at the wrong shape.
 4. Raise **Pan and scan** to trade black bars for cropped edges and **Zoom** to enlarge;

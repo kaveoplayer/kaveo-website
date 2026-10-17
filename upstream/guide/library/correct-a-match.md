@@ -15,7 +15,7 @@ or series — correct it by hand.
 
 1. Right-click the card and choose **Correct match…**, or click **⋯** on the title's page and choose it there.
 2. If the right one is not shown, change the search text and click **Search**.
-3. Click **Use this** beside the right one.
+3. Click the right one, then **Use this match**.
 
 ## Good to know
 

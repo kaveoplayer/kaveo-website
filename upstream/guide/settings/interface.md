@@ -27,7 +27,7 @@ desktop's menus and media controls.
    [Media keys and the desktop](../watching/media-keys.md). Turn on **File manager integration** to put
    Kaveo in your desktop's right-click menus; see [From your file manager](../file-manager.md).
 7. Turn off **Seek bar previews** to show only the time and chapter over the playback bar.
-8. Set **Slideshow: each photo stays**; see [Slideshow](../library/slideshow.md).
+8. Set **Slideshow interval** per photo; see [Slideshow](../library/slideshow.md).
 
 ## Good to know
 

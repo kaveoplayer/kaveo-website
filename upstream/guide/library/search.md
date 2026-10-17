@@ -15,7 +15,7 @@ sort and narrow further.
 
 ### Search or open a genre
 
-1. Type in the search field, or click a genre row's title on the home screen.
+1. Type in the search field (press **/** to jump there), or click a genre row's title on the home screen.
 2. Look over the grid of cards that comes back.
 3. To start over, click the cross at the end of the search field (**Clear search**).
 
@@ -32,8 +32,9 @@ sort and narrow further.
 
 1. Type an artist's name to see the artist and their albums; a compilation with a song by them is
    found too.
-2. Type a song's title to see it under **Tracks**, above the grid; **Play** plays it and goes on
-   with the rest of its album.
+2. Type a song's title to see it under **Tracks**, above the grid; click its number, or double-click
+   the row, to play it and go on with the rest of its album. Titles and albums found are shown in
+   grids of their own.
 
 ## Good to know
 

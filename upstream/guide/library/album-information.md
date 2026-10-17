@@ -16,8 +16,8 @@ missing cover — without changing your files.
 1. An *album.nfo* in the album's folder — written by Kodi, Jellyfin or Lidarr — is read by itself.
 2. Kaveo looks albums up on MusicBrainz and fetches missing covers from the Cover Art Archive. To
    stop it, turn off **Album information online** in **Settings › Metadata** and click **Save**.
-3. If an album is matched wrongly or not at all, click **⋯** › **Identify album…** on its page and choose
-   **Use this** beside the right one, or **None of these**.
+3. If an album is matched wrongly or not at all, click **⋯** › **Identify album…** on its page, click
+   the right one and **Use this match**, or choose **None of these**.
 4. Click **⋯** › **Write album.nfo** to save what Kaveo knows beside the album.
 
 ## Good to know

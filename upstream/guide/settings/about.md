@@ -22,7 +22,7 @@ report a problem or ask a question.
 
 ## Good to know
 
-- The check sends the Kaveo version and nothing else. Untick **Check automatically** and click
+- The check sends the Kaveo version and nothing else. Turn off **Check automatically** and click
   **Save** to stop it; **Check now** still works.
 - If a film is playing, the update waits until it ends. Installed with a package, Kaveo asks for
   your password once, as your system's own updates do.

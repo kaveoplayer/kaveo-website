@@ -14,13 +14,13 @@ prefer.
 
 ## How to use it
 
-1. Open the list: the chips under *Sources* on a film's title page, or the versions button beside an
-   episode's **Play**, for example **2 versions**.
+1. Open the list: the chips under *Sources* on a film's title page, or the versions button on an
+   episode's row, for example **2 versions**.
 2. Each copy says where it is (*Local*, or Jellyfin and the server's name), its resolution, and what
    tells it apart — where the release came from and its release group, or the file name. Rest the
    pointer on a copy to see its file, or its server's address.
 3. Click the copy you want: that selects it, it does not start it.
-4. Click **Play** to open it.
+4. Click **Play**, or the episode's picture, to open it.
 
 ![An episode's versions menu, open beside its Play button: Automatic selected above the episode's two copies, Local · 1080p · Morevna - S01E03.mp4 and Local · 1080p · DemoSubs](../images/organizing/versions-menu.webp)
 

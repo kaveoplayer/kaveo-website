@@ -9,8 +9,7 @@ for them.
 
 - [Player controls](player-controls.md) — the playback bar, and leaving without stopping.
 - [Audio and subtitle tracks](audio-and-subtitle-tracks.md) — choose the soundtrack and subtitles.
-- [Volume and dynamics](volume-and-dynamics.md) — the same loudness for every title, night mode and
-  clearer dialogue.
+- [Volume and dynamics](volume-and-dynamics.md) — the same loudness for every title, night mode.
 - [Equalizer](equalizer.md) — tone controls.
 - [Listening to music](listen-to-music.md) — tracks and albums.
 - [The music queue](music-queue.md) — choose what plays next.
@@ -19,6 +18,7 @@ for them.
 - [Visualizer](visualizer.md) — what the music looks like.
 - [Next episode and queue](next-episode.md) — move between episodes, album tracks and queued files.
 - [Playing on a loop](loop.md) — for hours, unattended.
+- [Sleep timer](sleep-timer.md) — pause after a while.
 - [Skipping openings](skip-intro.md) — skip a series' opening or ending.
 - [Screenshots](screenshots.md) — save a picture of what is on screen.
 - [HDR output](hdr.md) — send HDR video to an HDR display.
@@ -26,5 +26,5 @@ for them.
 - [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence a video, as a new file.
 - [Copying to the clipboard](copy-to-clipboard.md) — paste the picture or a video elsewhere.
 - [Media keys and the desktop](media-keys.md) — play, pause and skip from outside the window.
-- [Opening a web address](open-a-url.md) — play a file, a stream or a web page from its address.
+- [Opening a web address](open-a-url.md) — play a stream or a web page.
 - [When the graphics card stops responding](graphics-card.md) — how Kaveo recovers.

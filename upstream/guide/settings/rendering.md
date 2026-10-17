@@ -15,19 +15,18 @@ and how finished frames reach the screen.
 
 1. Under **Decode**, leave **Decoder** on **Hardware (NVDEC/…)**; **Software** is slower but opens
    anything, and there is a Vulkan decoder too.
-2. Turn on **Strict (no skip on corruption)** to refuse a file the decoder cannot handle, rather than
+2. Turn on **Strict decoding** to refuse a file the decoder cannot handle, rather than
    quietly fall back.
-3. **Zero-copy decode (keep frame on GPU)** saves a little bandwidth and starts off.
+3. **Zero-copy decode** saves a little bandwidth and starts off.
 4. Under **Presentation**, **Frame mixer** starts on **Oversample (smooth)**; **Nearest (no blend)**
    invents no frames, and every other entry blends them — frame interpolation.
-5. Leave **Vsync hint** on **Auto** unless you see tearing or stutter, then **Save** — see
+5. Leave **Vertical sync** on **Auto** unless you see tearing or stutter, then **Save** — see
    [Saving changes](saving.md).
 
 ## Good to know
 
-- **Zero-copy decode (keep frame on GPU)** is switched off for you while the neural upscaler runs,
+- **Zero-copy decode** is switched off for you while the neural upscaler runs,
   and the tick still shows whatever you set.
-- **Queues** folds away four expert settings for how far ahead Kaveo decodes and presents; on
-  Windows there is one row more,
-  **Fullscreen playback uses exclusive mode (separate process) — experimental**.
+- **Queues** folds away four expert settings, in frames, for how far ahead Kaveo decodes and
+  presents; on Windows **Presentation** has one row more, **Exclusive fullscreen** (experimental).
 - Every row waits for **Save**; a change made while a film plays reopens it where you were.

@@ -21,8 +21,8 @@ shows, or just play one file with no library at all.
 ![The Welcome to Kaveo dialog, listing what is worth a look, with Open Components, the two ticked boxes and Continue](../images/getting-started/first-launch-welcome.webp)
 
 2. With nothing added, the library screen says **Your library is empty** — click **Add a folder**.
-3. That opens **Settings › Library › Folders**; click **Add folder** and choose your films' folder.
-4. Click **Save** — the scan starts as soon as you do, and titles appear once it finishes.
+3. That opens **Settings › Library › Folders**; click **Add folder…** and choose your films' folder.
+4. Click **Save** — titles appear within seconds, and a large folder is refined for a minute after.
 5. Repeat for another folder, or split your library into kinds first — see
    [Categories](../library/categories.md).
 

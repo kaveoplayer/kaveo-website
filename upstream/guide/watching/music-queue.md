@@ -23,3 +23,5 @@ Line up tracks from several albums, and see, reorder or trim what is still to co
 - Queuing a track while an album plays keeps the rest of the album: the queue starts from it.
 - A track already in the queue is not added twice; **Play next** moves it instead.
 - If you close Kaveo while music plays, the queue is still there next time.
+- In the last seconds of a track the next one is already on its way. Taking it out or
+  moving it then is too late: it plays, and the rest of the queue follows it.

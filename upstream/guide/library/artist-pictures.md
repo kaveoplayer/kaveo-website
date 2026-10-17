@@ -23,7 +23,7 @@ first.
 ## Good to know
 
 - Online pictures come from MusicBrainz and Wikimedia Commons, which receive the artist names and
-  album titles.
+  album titles — only for the artists you scroll past, as they appear.
 - A picture is used only when one of the artist's albums confirms who they are, so an artist with
   only loose songs keeps the placeholder.
 - An online picture's author and licence are shown under the artist's name; the licence opens the

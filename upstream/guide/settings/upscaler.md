@@ -14,7 +14,7 @@ switch above it.
 
 ## How to use it
 
-1. **Status**, above the tabs, says what the net is doing; unconfigured it reads
+1. **Status**, under the tabs, says what the net is doing; unconfigured it reads
    *Passthrough — the neural upscaler is not running*.
 2. On **Upscaling**, under **Picture enlargement**, set **Luma upscale** to **Neural model** to turn
    the net on; **Content type** picks its family; **Stop using the net at** skips sources that
@@ -24,7 +24,7 @@ switch above it.
 4. Every tab holds more rows than this page names: **Source** cleans the file (**Reduce banding**,
    **Sharpness**, **CAS**, **Line darkening**), **Downscaling** fits an oversized source, **Output**
    finishes it (**Anti-ringing**, **Deinterlacing**, **Output dithering**), and **Advanced** holds
-   the model files and **Execution provider**.
+   the model files and, under **Engine**, **Execution provider**.
 5. Click **Save** to keep it — see [Saving changes](saving.md).
 
 ## Good to know

@@ -14,7 +14,7 @@ Kaveo works through them one episode at a time.
 ## How to use it
 
 1. Right-click a film, an episode or a series and choose **Subtitles…**. On a film or series page
-   you can also press **Subtitles…**, or a season's **Subtitles for this season…**.
+   it is in **⋯**; a season has its own **Subtitles for this season…**.
 2. Check the episodes, where their text comes from, and the estimate of time and cost.
 3. If some already have a translation, choose **Skip them** or **Translate them again**.
 4. Press **Translate**.

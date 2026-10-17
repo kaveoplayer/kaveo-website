@@ -13,9 +13,9 @@ fetches them all again.
 
 ## How to use it
 
-1. Paste your key into **TMDB API key**, then click **Test key** — it answers *Key works*, or names
+1. Paste your key into **TMDB API key**, then click **Test** — it answers *Key works*, or names
    what went wrong.
-2. Click **Save** to keep it: **Test key** only asks; nothing is stored before you save.
+2. Click **Save** to keep it: **Test** only asks; nothing is stored before you save.
 3. When a trailer or a web video asks you to sign in, sign in to that site in your browser and
    choose the browser under **Site cookies** — and, if it has several, the profile under **Browser
    profile**. **Test** checks that Kaveo can read it. If not, choose **cookies.txt file…**.

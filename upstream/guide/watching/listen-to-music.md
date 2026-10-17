@@ -13,17 +13,17 @@ Play the music in your library, or any audio file on your computer, in the same 
 ## How to use it
 
 1. Open an album from the **Music** category and click **Play album**, **Shuffle**, or **Play**
-   beside a track.
-2. The cover, the title, the artist and the album fill the window; the playback bar stays visible.
+   beside a track, or its cover's play button.
+2. The cover, title, artist and album fill the window; the playback bar stays.
 3. When a track ends, the next starts at once, with no gap: a live album plays as one piece.
-4. Click the back button at the top left to keep listening while you browse: see
+4. Click the arrow at the top left to go on listening while browsing: see
    [Music while you browse](music-bar.md).
-5. To play a file from elsewhere, use **Open**, drop it on the window, or open it from
-   [your file manager](../file-manager.md).
+5. Any other file plays from **Open**, a drop, or [your file manager](../file-manager.md).
 
 ## Good to know
 
-- A track always starts from the beginning: Kaveo resumes films and episodes, not music.
+- A song starts from the beginning; an audiobook resumes where it stopped.
+- **Play album** turns shuffle off, **Shuffle** on.
 - MP3, FLAC, AAC, ALAC, Ogg, Opus, WavPack, WAV, AIFF, Matroska audio, M4B and DSD files play.
 - Tracks of different kinds, such as a FLAC then an MP3, follow each other after a short pause.
 - **Crossfade**, in **Settings › Audio**, fades one song into the next, except within an album

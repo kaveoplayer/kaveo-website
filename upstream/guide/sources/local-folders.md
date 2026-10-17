@@ -16,7 +16,7 @@ instead, see [Categories](../library/categories.md).
 
 1. Open **Settings › Library › Folders** — each folder is listed under **Library folders**, with its
    full path.
-2. Click **Add folder** and choose another folder to scan.
+2. Click **Add folder…** and choose another folder to scan.
 3. Click **Remove** on a card to stop scanning that folder, or **Normalize…** to rename what is in
    it — see [Tidying a folder](../organizing/tidy-a-folder.md).
 4. Click **Save** — the scan runs then, not before; **Revert** puts the list back.
@@ -25,7 +25,7 @@ instead, see [Categories](../library/categories.md).
 
 - Removing a folder touches no file on disk and asks nothing: its titles leave the library, and its
   *Recently played* cards stay. Right-click one and choose **Remove from Recently played**, or clear
-  them all with **Clear history** under **Settings › Library › History**
+  them all with **Clear history…** under **Settings › Library › Folders**
   ([Library](../settings/library.md)).
 - Kaveo takes video files, and audio files as music; samples and bonus material are left out, and
   so is anything you leave out yourself — see [Leaving files out](leave-out.md).

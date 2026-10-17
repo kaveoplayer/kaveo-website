@@ -44,6 +44,6 @@ Kaveo plays a [Jellyfin](https://jellyfin.org/) server's films, series and
 
 - Your place and favorites travel both ways while Kaveo runs; watched travels only from the server.
 - Server changes missing? Click **Reload** on **Sources**.
-- **Remove** asks nothing: it forgets the server and its sign-in, and drops a category left empty.
+- **Remove** asks first, then forgets the server and its sign-in and drops a category left empty.
 - If your computer has no password store, the **Sources** page says so: sign-ins are kept only until
   you restart, and every server then asks you to **Reconnect**.

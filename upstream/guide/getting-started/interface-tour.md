@@ -37,7 +37,7 @@ everything in it — see [The library home](../library/home.md).
 Poster, description, genres, cast, similar titles. **⋯** › **Correct match…**
 fixes a bad match — see [Correcting a wrong match](../library/correct-a-match.md). More than one
 copy? The row under **Play** lists them — see [Several copies](../organizing/versions.md). A series'
-page starts with **Play** or **Resume**, then **Trailer**.
+page starts with **Play** or **Resume**; an episode plays from its picture.
 
 Above it, the path back: click a step, or the arrow.
 
@@ -45,9 +45,9 @@ Above it, the path back: click a step, or the arrow.
 
 ![The player with the playback bar showing the timeline and the playback controls](../images/getting-started/interface-tour-player.webp)
 
-Move the mouse to bring up the bar: seek, previous or next, play or pause, volume, fullscreen — see
-[Player controls](../watching/player-controls.md). Subtitles and audio are in the right-click menu
-instead.
+Move the mouse to bring up the bar: seek, play or pause, chapters, tracks, speed, volume,
+fullscreen — see [Player controls](../watching/player-controls.md). A right-click opens its More
+menu.
 
 ## Good to know
 
