@@ -9,7 +9,7 @@ order: 20
 When no subtitle exists beside the video or inside it, Kaveo can search OpenSubtitles for one in your
 language.
 
-![Settings › Subtitles › Online search with its four rows empty: API key, Languages, Account and Password, under the note that the key is enough to search and downloading also needs an account](../images/subtitles/online-search-settings.webp)
+![Settings › Subtitles › Online search with its four rows empty: API key, Languages, Account and Password with Test account beside it, and Downloads today not known yet, under the note that the key is enough to search and downloading also needs an account](../images/subtitles/online-search-settings.webp)
 
 ## How to use it
 
@@ -18,7 +18,10 @@ language.
 1. Open **Settings › Subtitles › Online search**.
 2. Paste the key from your OpenSubtitles profile, under API Consumers, into **API key**.
 3. In **Languages**, list language codes separated by commas, most wanted first.
-4. Fill in **Account** and **Password** with your OpenSubtitles sign-in, then press **Save**.
+4. Fill in **Account** and **Password** with your OpenSubtitles sign-in.
+5. Press **Test account** to check the name, password and key, then **Save**.
+
+**Downloads today** shows what is left of the day's downloads and when the count restarts.
 
 If your computer has no password store, a line under the key and the password says they are kept
 only until you restart.
@@ -28,8 +31,8 @@ only until you restart.
 1. Right-click the picture, open **Subtitles** and choose **Search online…**.
 2. To narrow the list, type release words or a language code into the
    *Filter by release, group, quality…* box.
-3. Click **Use this**. Kaveo downloads the subtitle, puts it on screen and adds it under
-   **Beside the video**.
+3. Click a result, then **Use this** — or double-click it. Kaveo downloads the subtitle, puts it on
+   screen and adds it under **Beside the video**.
 
 ## Good to know
 

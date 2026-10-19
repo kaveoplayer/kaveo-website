@@ -9,7 +9,7 @@ order: 62
 Translate the subtitles of a film, a season or a whole series in one go, without opening the video.
 Kaveo works through them one episode at a time.
 
-![The Translate subtitles dialog for the film Sintel: where its text comes from, the estimate of time and cost, and the Cancel and Translate buttons](../images/subtitles/translation-queue.webp)
+![The dialog Translate the subtitles of “Sintel”: the film, where its text comes from, the estimate of time and cost, and the Cancel and Translate buttons](../images/subtitles/translation-queue.webp)
 
 ## How to use it
 
@@ -22,9 +22,9 @@ Kaveo works through them one episode at a time.
 ## When an episode cannot be translated
 
 Kaveo translates from English text. If an episode's English subtitles are only pictures (PGS), or
-missing, the dialog says so in red and does not queue it.
+missing, the dialog says so with a warning and does not queue it.
 
-![The dialog for the series Morevna: cannot be translated, no English subtitles, what to do, and the Translate button turned off](../images/subtitles/translation-queue-blocked.webp)
+![The dialog for the series Morevna: cannot be translated, no English subtitles, what to do, a note that an OpenSubtitles key would let Kaveo look online, and the Translate button turned off](../images/subtitles/translation-queue-blocked.webp)
 
 Put an English text subtitle beside the video, with the same name ending in *.en.srt*, or find one
 with **Search online…** in the player. On Jellyfin, add it on the server. Then try again.

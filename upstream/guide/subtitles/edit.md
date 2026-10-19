@@ -12,6 +12,8 @@ Fix a subtitle's timing or words against the film, or write a new one.
 
 ## How to use it
 
+![The subtitle editor under the picture: the playback bar on top, then Editing en with Follow the film, Undo, Redo, All lines…, Done and Save; Start = now and End = now, the four nudges, This line and all after → now, Add a line here, Remove this line and Pin this line here; the lines around the one on screen, which is highlighted; and on the right the Look column with This line, Style and Every subtitle, greyed because SubRip cannot carry a position or a font, above Convert to ASS](../images/subtitles/edit-panel.webp)
+
 1. With a subtitle file on screen, right-click the picture, open **Subtitles** › **Tools** and
    choose **Edit subtitles…**, or press **E**.
 2. Click **Start = now [** or **End = now ]**, or press **[** or **]**, to set the line's start or end

@@ -9,7 +9,7 @@ order: 10
 Every settings page shares one Save and Revert bar, so you always know whether a change is only on
 screen or already kept.
 
-![The bar across the bottom of the settings screen after one option was changed: it reads Unsaved changes, you are seeing them, they are not kept yet, with Revert and Save live at the right-hand end.](../images/settings/saving-bar.webp)
+![The bar across the bottom of the settings screen after one option was changed: it reads Unsaved changes — preview only, with Revert and Save live at the right-hand end.](../images/settings/saving-bar.webp)
 
 ## How to use it
 

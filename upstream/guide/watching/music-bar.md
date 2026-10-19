@@ -13,8 +13,8 @@ of the window.
 
 ## How to use it
 
-1. While a track plays, click the back button at the top left of the player: the page you came from
-   returns, and the music goes on.
+1. While a track plays, click the back button at the top left of the player: the track's album opens,
+   and the music goes on.
 2. Use the bar's buttons to pause, skip, shuffle the queue or repeat it.
 3. Click the cover or the title to return to the player.
 4. Click the cross to stop.

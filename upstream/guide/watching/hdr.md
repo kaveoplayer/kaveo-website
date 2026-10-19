@@ -9,7 +9,7 @@ order: 60
 An HDR film carries brighter highlights and richer colour than an ordinary video. Kaveo can send it to
 an HDR-capable display so it looks the way it was mastered.
 
-![Settings › Display & HDR on its HDR output tab while an SDR film is open: the notice that this title is SDR, so the settings do not apply to it, HDR output on Auto (HDR if display supports), and HDR display peak with Auto (detect from display) ticked](../images/watching/hdr-settings.webp)
+![Settings › Display & HDR on its HDR output tab while an SDR film is open: Per-display settings on the global profile, then HDR output on Auto — HDR when the display supports it, Use HDR on SDR content off with the notice that this title is SDR, so the settings do not apply to it, and Display peak on Auto — from the display](../images/watching/hdr-settings.webp)
 
 ## How to use it
 

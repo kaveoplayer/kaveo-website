@@ -9,7 +9,7 @@ order: 40
 **Settings › Vault** holds the vault's own preferences. It does not create one — the padlock in the
 top bar does — and an existing vault cannot be moved from here.
 
-![Settings with Vault chosen in the rail: Vault folder reading No vault yet, Lock by itself at 15 minutes, the unticked Also stop a hidden title that is playing, and Change password… and New recovery key… greyed out above Unlock the vault to change either one.](../images/settings/vault.webp)
+![Settings with Vault chosen in the rail: Vault folder reading No vault yet with a Create vault… button, Lock by itself at 15 minutes, Also stop a hidden title that is playing off, and Change password… and New recovery key… greyed out above Unlock the vault to change either one.](../images/settings/vault.webp)
 
 ## How to use it
 

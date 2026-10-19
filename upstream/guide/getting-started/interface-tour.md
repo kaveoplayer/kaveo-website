@@ -12,12 +12,12 @@ A map of the screens this guide keeps pointing at.
 
 ![The left half of the Kaveo top bar: the logo and the category strip, numbered 1 and 2](../images/getting-started/interface-tour-topbar-left.webp)
 
-![The right half of the Kaveo top bar: Open through the avatar, numbered 3 to 8](../images/getting-started/interface-tour-topbar-right.webp)
+![The right half of the Kaveo top bar: the search field through the avatar, numbered 3 to 8](../images/getting-started/interface-tour-topbar-right.webp)
 
 1. The logo — back home, with every filter cleared.
 2. Categories — your library's places; see [Categories](../library/categories.md).
-3. **Open** — a file outside your library, or a URL (**Ctrl+L**).
-4. Search — see [Search](../library/search.md).
+3. Search — see [Search](../library/search.md).
+4. **Open** — a file outside your library, or a URL (**Ctrl+L**).
 5. The vault padlock — see [Private titles](../private/index.md).
 6. Sources — see [Sources](../sources/index.md).
 7. Settings — see [Settings](../settings/index.md).

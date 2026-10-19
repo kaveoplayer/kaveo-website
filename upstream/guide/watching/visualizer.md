@@ -8,7 +8,7 @@ order: 39
 
 Watch the sound of a track while it plays: its spectrum, or its waveform.
 
-![The player on a track: in the cover's place, green bars rising from the low notes on the left to the high ones on the right, the track's title and artist under them, and the playback bar at the bottom with the visualizer button lit](../images/watching/visualizer.webp)
+![The player on a track: in the cover's place, bars in the accent colour rising from the low notes on the left to the high ones on the right, the track's title and artist under them, and the playback bar at the bottom with the visualizer button lit](../images/watching/visualizer.webp)
 
 ## How to use it
 

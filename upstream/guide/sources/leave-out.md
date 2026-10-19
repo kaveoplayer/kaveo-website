@@ -9,7 +9,7 @@ order: 30
 Some folders hold things that are not for the library — a download still in progress, a folder of
 trailers, a film you keep but do not want listed. Kaveo can leave them out of every scan.
 
-![Settings › Library › Folders, scrolled to Left out of the scan: one excluded film folder with Remove, the Leave out a folder… and Leave out a file… buttons, three rules, and what the last scan left out](../images/sources/leave-out-settings.webp)
+![Settings › Library › Folders, scrolled to Left out of the scan: one excluded film folder with the cross that removes it, the Leave out a folder… and Leave out a file… buttons, three rules, and what the last scan left out](../images/sources/leave-out-settings.webp)
 
 ## How to use it
 

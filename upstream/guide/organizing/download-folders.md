@@ -23,7 +23,7 @@ library folder, and anything still downloading stays behind.
 
 ### Import what is in it
 
-![The import preview: 2 to move · 0 already in your library · 1 conflicts, Select all and Select none above two rename rows showing the name each file would be given, and Apply (moves files on disk) at the foot](../images/organizing/download-folders-preview.webp)
+![The import preview: 2 to move · 0 already in your library · 1 conflict, Select all and Select none above two rename rows showing the name each file would be given, and Apply (moves files on disk) at the foot](../images/organizing/download-folders-preview.webp)
 
 1. Click **Import…**, then **Preview** if Kaveo asks where each kind goes.
 2. Tick the files you want, or click **Select all**, then **Apply (moves files on disk)** — or

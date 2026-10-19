@@ -9,7 +9,7 @@ order: 30
 Kaveo plays through a series, an album or a queue you build, and moves on by itself when one item
 ends.
 
-![The Up next card: "Up next: Pepper & Carrot · S01E04", with Play now counting down and Cancel beside it](../images/watching/next-episode-up-next.webp)
+![The Up next card: the next episode's picture with a countdown, its name, Play now and Cancel](../images/watching/next-episode-up-next.webp)
 
 ## How to use it
 
@@ -34,6 +34,6 @@ ends.
 - The next episode keeps the copy you are watching; a queue holds only files on your computer.
 - A file opened on its own returns to the library when it ends; Previous and Next step to the
   files beside it.
-- A queue, a playlist or a folder of your own videos has **Shuffle** and **Repeat**. Any other
-  video has **Repeat** alone: off, or this video again.
+- A queue, a playlist or a folder of your own videos has **Repeat** and, in **⋯**, **Shuffle**.
+  Any other video has **Repeat** alone: off, or this video again.
 - Videos keep their own shuffle and repeat, apart from music's, after a restart too.

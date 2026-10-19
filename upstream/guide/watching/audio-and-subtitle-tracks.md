@@ -8,7 +8,7 @@ order: 20
 
 When a video carries more than one soundtrack or subtitle, choose which one plays.
 
-![The player's right-click menu with Audio open beside it: the film's English track, its title on the first line and Dolby Digital, 5.1, 48 kHz and 640 kbps on the second, ticked as the one playing, then Same loudness for every title, Night mode, Dialogue boost, Equalizer and Audio delay](../images/watching/audio-and-subtitle-tracks-audio.webp)
+![The player's right-click menu with Audio open beside it: the film's English track, its title on the first line and Dolby Digital, 5.1, 48 kHz and 640 kbps on the second, ticked as the one playing, then Sound, which holds the loudness, night, dialogue and equaliser settings, and Audio delay](../images/watching/audio-and-subtitle-tracks-audio.webp)
 
 ![The player's right-click menu with Subtitles open beside it: Off, five of the video's own tracks under In this file with German ticked as playing, then More (5), a French file under Beside the video, then Timing, Search online… and Tools](../images/watching/audio-and-subtitle-tracks-subtitles.webp)
 

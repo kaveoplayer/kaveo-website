@@ -9,7 +9,7 @@ order: 80
 Kaveo can add itself to your desktop, so a file you have just downloaded is one right-click from
 playing or being filed into your library.
 
-![The File manager integration row at the foot of Settings › Interface, its switch off](images/file-manager/file-manager-settings.webp)
+![The File manager integration row at the foot of Settings › Interface: its switch off, and the note that it applies at once](images/file-manager/file-manager-settings.webp)
 
 ## How to use it
 

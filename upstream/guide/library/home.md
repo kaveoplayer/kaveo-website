@@ -37,3 +37,5 @@ file name, with a band at the top featuring a few of them.
 - A design with wide images shows only once every title in the band has one; until then the band
   uses its poster version.
 - The featured band is on the home screen only — a category or source page starts with its rows.
+- After a moment the band plays a clip — *TRAILER* or *PREVIEW* says which. Its **×** stops it, and
+  no clip plays there again until Kaveo restarts.

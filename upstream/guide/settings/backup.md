@@ -10,7 +10,7 @@ A backup keeps what you built in Kaveo — settings, categories, corrected title
 points, your volume, your playlists, the translation queue and your subtitles — in one file you can keep safe or carry to another
 computer.
 
-![Settings shown on the Backup section: the rail with Backup selected under App, and beside it the Back up row with a Create backup button, the Restore row with a Restore button, and the Back up automatically tick-box.](../images/settings/backup.webp)
+![Settings shown on the Backup section: the rail with Backup selected under App, and beside it the App data row with a Create backup button, the Backup file row with a Restore button, and the Back up automatically switch, off.](../images/settings/backup.webp)
 
 ## How to use it
 

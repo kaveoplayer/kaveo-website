@@ -28,7 +28,7 @@ library folder.
 
 ### Name anime differently
 
-![The Anime group: Season folder, Episode file, Film folder and Film file all empty under the line that says an empty field names anime like everything else, with the anime episode preview below them](../images/organizing/naming-templates-anime.webp)
+![The Anime group: Season folder, Episode file, Movie folder and Movie file all empty under the line that says an empty field names anime like everything else, with the anime episode preview below them](../images/organizing/naming-templates-anime.webp)
 
 1. Under **Anime**, fill in **Episode file (anime)** — for example
    **{Series Title} - {episode:00}**.

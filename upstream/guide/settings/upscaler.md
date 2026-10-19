@@ -10,7 +10,7 @@ order: 90
 a frame: repaired, enlarged, shrunk, finished. The neural upscaler is one of its choices, not a
 switch above it.
 
-![Settings, Upscaler selected in the rail with its Source, Upscaling, Downscaling, Output and Advanced sub-items. Beside it the Neural upscaler caption, a Status row reading Passthrough — the neural upscaler is not running, the line These are different STAGES, not competing options, the five tabs with Upscaling chosen, then Picture enlargement with Stop using the net at and Luma upscale, a colour group with Chroma upscale, the two closed folds Filter shape — luma (advanced) and Filter shape — chroma (advanced), and Sigmoidal upscaling, Strength at 1.000 with a note saying it has no effect while the net is not the active upscaler, and Limit edge halos. The tab carries on below the picture, Render scale with it.](../images/settings/upscaler.webp)
+![Settings, Upscaler selected in the rail with its Source, Upscaling, Downscaling, Output and Advanced sub-items. Beside it the caption How the picture is rebuilt at a higher resolution, the five tabs with Upscaling chosen, a Status row reading Passthrough — the neural upscaler is not running, then Picture enlargement with Stop using the net at and Luma upscale, Colour (chroma) with Chroma upscale, the two closed folds Filter shape — luma (advanced) and Filter shape — chroma (advanced), Sigmoidal upscaling on, and Neural strength with Strength at 1.00 and a note saying it has no effect while the net is not the active upscaler. The Edge halo limiter heading closes the picture; the tab carries on below it, Render scale with it.](../images/settings/upscaler.webp)
 
 ## How to use it
 

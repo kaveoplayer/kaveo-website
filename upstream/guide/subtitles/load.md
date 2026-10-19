@@ -9,17 +9,17 @@ order: 10
 Play a subtitle file beside the video, a track inside it, or a file on your Jellyfin server. A file you
 pick, or a track you extract, becomes your own copy to sync, edit or translate.
 
-![The Subtitles menu: Off, the video's own tracks with the first one playing, a French file under Subtitle files, then Subtitle delay, and the same tracks again under Extract from this file, numbered 1 to 4](../images/subtitles/load-menu.webp)
+![The Subtitles menu: Off, the video's own tracks with German playing and More (5), a French file under Beside the video, then Timing, Search online… and Tools, numbered 1 to 4](../images/subtitles/load-menu.webp)
 
 1. **Off**.
 2. A track inside the video.
 3. A subtitle file beside it.
-4. *Extract from this file*.
+4. **Tools**, where *Extract from this file* is.
 
 ## How to use it
 
 1. While the video plays, right-click the picture, open **Subtitles** and pick a track under
-   **In this file** or a file under **Beside the video**.
+   **In this file** (past five, under **More**) or a file under **Beside the video**.
 2. To add a file, save an SRT, ASS or WebVTT file beside the video with a name starting with the
    video's own, such as *Film (2016).ita.srt*.
 3. To pull a track out, open **Tools** › **Extract from this file** and click it. Kaveo reads the

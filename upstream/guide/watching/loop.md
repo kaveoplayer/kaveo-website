@@ -13,8 +13,8 @@ and over by itself.
 
 ## How to use it
 
-1. To repeat what is playing, click **Repeat** on the playback bar. On a single video it has two
-   states, off and this video; on a list, the whole list comes first, then this item.
+1. To repeat what is playing, click **Repeat** on the playback bar: off, then this video, then the
+   whole list (music: the list first).
 2. To start a loop from outside Kaveo, right-click a folder and choose **Loop this folder with
    Kaveo** ([From your file manager](../file-manager.md)), or start Kaveo with the loop option on a
    video, a folder or a playlist ([Command line](../command-line.md)).

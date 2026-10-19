@@ -9,7 +9,7 @@ order: 10
 Before you can hide anything, Kaveo needs a vault: a folder to keep hidden titles in, and a password
 to lock it with.
 
-![The Set up your vault dialog: Vault folder with a folder already filled in and Choose folder… beside it, the empty Password and Confirm password fields, the Generate a recovery key checkbox, and Cancel beside a greyed-out Create vault](../images/private/set-up-dialog.webp)
+![The Set up your vault dialog: Vault folder with a folder already filled in and Choose folder… under it, the empty Password and Confirm password fields, the Generate a recovery key checkbox, and Cancel beside a greyed-out Create vault](../images/private/set-up-dialog.webp)
 
 ## How to use it
 

@@ -8,7 +8,7 @@ order: 60
 
 Translate a subtitle with an AI model, online or on your own computer. Each line keeps its timing.
 
-![Settings › Subtitles › Translation set up for Ollama (local): Provider, Endpoint, Model with translategemma:12b and 3 models found, Translate into with Italian, Read the original audio, Re-read the translation, Already translated set to Ask, and an empty API key that this server does not need, numbered 1 to 4](../images/subtitles/translate-settings.webp)
+![Settings › Subtitles › Translation set up for Ollama (local): Provider, Endpoint, Model with translategemma:12b and 3 models found, Translate into on Italiano, Read the original audio, Re-read the translation, Already translated set to Ask, and an empty API key that this server does not need, numbered 1 to 4](../images/subtitles/translate-settings.webp)
 
 1. **Provider**.
 2. **API key**.
@@ -22,7 +22,7 @@ Translate a subtitle with an AI model, online or on your own computer. Each line
 1. In **Settings › Subtitles › Translation**, choose a **Provider**, or **Other…** and type its
    **Endpoint**.
 2. Paste the **API key** if it needs one, and pick or type a **Model**.
-3. Type a language in **Translate into**, such as Italian, and press **Save**. If your computer has
+3. Choose a language in **Translate into**, such as Italian, and press **Save**. If your computer has
    no password store, a line under the key says it is kept only until you restart.
 
 ### Translate

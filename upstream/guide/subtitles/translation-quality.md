@@ -8,7 +8,7 @@ order: 70
 
 Tell Kaveo, before it translates, how to spell names, who is speaking and how the result should sound.
 
-![Names and terms, holding Franck and Victor, each spelled the same way, with Add a term; Who is speaking, holding Victor and Franck, both marked he, each with a note on how they speak, and Add a person; and How this title should sound with Natural, Literal and Keep honorifics](../images/subtitles/translation-quality-lists.webp)
+![Names and terms, holding Franck and Victor, each spelled the same way, with Add a term; Who is speaking, holding Victor and Franck, both marked he, each with a note on how they speak, and Add a person; and How this title should sound with Natural, Literal and Keep honorifics, its box holding the Natural note](../images/subtitles/translation-quality-lists.webp)
 
 ## How to use it
 

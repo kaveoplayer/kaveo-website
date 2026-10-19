@@ -9,7 +9,7 @@ order: 50
 Every title carries genres, plus two tags of Kaveo's own, **anime** and **adult**. Kaveo fills them
 in for you and lets you correct any of them.
 
-![A title's genre and tag chips, with the pencil beside them](../images/library/tags-page.webp)
+![A title's genre and tag chips, with the + Tag chip after them](../images/library/tags-page.webp)
 
 ## How to use it
 
@@ -21,7 +21,7 @@ in for you and lets you correct any of them.
 
 ![The tags and genres editor, with the Available and Assigned lists](../images/library/tags-editor.webp)
 
-1. Click the pencil (**Edit tags and genres**) to open the searchable list — an anime title's entry
+1. Click the **Tag** chip after them to open the searchable list — an anime title's entry
    explains why, for example *Detected as anime: animation, in Japanese.*
 2. Click an entry under **Available** to add it, or under **Assigned** to remove it.
 3. Type a name and click **Add “…” as a genre** for one the list does not have.

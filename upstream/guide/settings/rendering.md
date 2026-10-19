@@ -9,7 +9,7 @@ order: 110
 **Settings › Rendering** is the machinery under a film rather than its look: which decoder opens it,
 and how finished frames reach the screen.
 
-![Settings shown on the Rendering section: the rail listing all sixteen sections with Rendering selected last under Video & display, and beside it Decode — Decoder on Hardware (NVDEC/…), Strict (no skip on corruption) off, and Zero-copy decode (keep frame on GPU) unticked beside auto-falls back if unavailable — then Presentation — Frame mixer on Oversample (smooth) and Vsync hint on Auto — the Queues fold closed, and the line Changes apply live — some briefly reload the video.](../images/settings/rendering.webp)
+![Settings shown on the Rendering section: the rail listing all sixteen sections with Rendering selected last under Video & display, and beside it the line Changes apply live — some briefly reload the video, then Decode — Decoder on Hardware (NVDEC/…), Strict decoding off, and Zero-copy decode off with its note that it falls back automatically when unavailable — then Presentation — Frame mixer on Oversample (smooth) and Vertical sync on Auto — and the Queues fold closed.](../images/settings/rendering.webp)
 
 ## How to use it
 
@@ -26,7 +26,7 @@ and how finished frames reach the screen.
 ## Good to know
 
 - **Zero-copy decode** is switched off for you while the neural upscaler runs,
-  and the tick still shows whatever you set.
+  and the switch still shows whatever you set.
 - **Queues** folds away four expert settings, in frames, for how far ahead Kaveo decodes and
   presents; on Windows **Presentation** has one row more, **Exclusive fullscreen** (experimental).
 - Every row waits for **Save**; a change made while a film plays reopens it where you were.

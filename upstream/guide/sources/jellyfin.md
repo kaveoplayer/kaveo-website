@@ -15,7 +15,7 @@ Kaveo plays a [Jellyfin](https://jellyfin.org/) server's films, series and
 
 ### Connect a server
 
-![The connect wizard's connection step: the Name and Server URL fields, the Quick Connect and Username & password choice, and Back beside Start Quick Connect](../images/sources/jellyfin-connect-form.webp)
+![The connect wizard's connection step: the Name and Server URL fields, the Quick Connect and Username & password choice, and Back, Cancel and Start Quick Connect](../images/sources/jellyfin-connect-form.webp)
 
 1. Click **Sources** in the top bar, then **Connect a server** and **Jellyfin**.
 2. Pick a server Kaveo found on your network, or type its address in **Server URL**; until it has

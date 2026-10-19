@@ -30,4 +30,4 @@ Kaveo translate an episode that has no English here.
   words before translating, and marked. Check them on the **All lines…** page.
 - Downloads count against your OpenSubtitles daily allowance. Searching does not. When it runs out,
   the episodes that need a download wait and continue by themselves when it comes back; the panel
-  shows the time. Everything else goes on.
+  shows the time and what is left. Everything else goes on.

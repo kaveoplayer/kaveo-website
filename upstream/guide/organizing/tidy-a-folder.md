@@ -13,7 +13,7 @@ in line, and shows you the list before anything moves.
 
 ## How to use it
 
-1. Click **Normalize…** on a folder's card in **Settings › Library › Folders**, or beside a
+1. Click **Normalize…** beside a library folder in **Settings › Library › Folders**, or beside a
    category's folder in **Settings › Library › Categories**; for one film right-click its card,
    for one episode its row on the series page, and choose **Rename / normalize…**.
 2. Kaveo reads any file it has not seen before (*Preparing the preview*); **Cancel** stops it, and

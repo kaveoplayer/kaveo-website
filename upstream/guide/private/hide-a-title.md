@@ -9,7 +9,7 @@ order: 20
 Make a local title private — encrypted where it sits, and out of your library while the vault
 is locked.
 
-![The file half of a card's menu: Open containing folder, Rename / normalize…, Make private…, and under a separator Delete file from disk…](../images/private/hide-a-title-menu.webp)
+![The file half of a card's menu: Open containing folder, Edit a copy…, Rename / normalize…, Make private…, Exclude from library…, and under a separator Delete file from disk…](../images/private/hide-a-title-menu.webp)
 
 ## How to use it
 
@@ -22,7 +22,7 @@ is locked.
    **Settings › Library › Folders**) and Kaveo hides it once the copy finishes; while the vault is
    locked, the files wait.
 
-![The confirmation asking to move the title into the vault: the film's full path, what will happen to it, and Cancel beside a tinted Make private](../images/private/hide-a-title-confirm.webp)
+![The confirmation asking to move the title into the vault: the film's full path, what will happen to it, and Cancel beside Make private](../images/private/hide-a-title-confirm.webp)
 
 ## Good to know
 

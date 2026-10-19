@@ -20,9 +20,9 @@ prefer.
    tells it apart — where the release came from and its release group, or the file name. Rest the
    pointer on a copy to see its file, or its server's address.
 3. Click the copy you want: that selects it, it does not start it.
-4. Click **Play**, or the episode's picture, to open it.
+4. Click **Play** on a film's page, or an episode's row, to open it.
 
-![An episode's versions menu, open beside its Play button: Automatic selected above the episode's two copies, Local · 1080p · Morevna - S01E03.mp4 and Local · 1080p · DemoSubs](../images/organizing/versions-menu.webp)
+![An episode's versions menu, open under its 2 versions button: Automatic selected above the episode's two copies, Local · 1080p · Morevna - S01E03.mp4 and Local · 1080p · DemoSubs](../images/organizing/versions-menu.webp)
 
 ## Good to know
 

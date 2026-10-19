@@ -24,7 +24,9 @@ a row for it.
 ![The saga picker: an existing saga, and the field to create a new one](../images/library/collections-picker.webp)
 
 1. Right-click a card and choose **Add to saga…** to add a title.
-2. Pick a saga from the list, or type a new name and click **Create “…”**.
+2. Pick a saga from the list, or type a new name and pick **Create “…”**.
+3. Click **Add to saga**. Enter in the field adds the title to the first saga that matches, or
+   creates the one you typed.
 
 ## Good to know
 

@@ -34,3 +34,6 @@ want.
 - Removing a category never touches the files on disk.
 - A server's library is mapped into a category from its connection wizard.
 - An empty category says why: a folder it cannot read is named, with **Edit the category** beside it.
+- When the categories do not all fit at the top, the last ones fold into **More**; a long name is cut
+  after a whole word.
+- On a title's page, the category it belongs to is the one lit at the top.

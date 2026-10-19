@@ -9,7 +9,7 @@ order: 30
 The vault locks itself after a while so you do not have to remember, and its password can be changed
 without touching the films inside.
 
-![Settings › Vault with the vault unlocked: Lock by itself set to 15 minutes, the Also stop a hidden title that is playing checkbox, and Password and recovery key offering Change password… and New recovery key…, both ready to click.](../images/private/lock-settings.webp)
+![Settings › Vault with the vault unlocked: Lock by itself set to 15 minutes, the Also stop a hidden title that is playing switch, off, and Password and recovery key offering Change password… and New recovery key…, both ready to click.](../images/private/lock-settings.webp)
 
 ## How to use it
 

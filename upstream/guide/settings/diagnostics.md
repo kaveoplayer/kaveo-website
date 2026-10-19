@@ -9,7 +9,7 @@ order: 140
 **Settings › Diagnostics** is where Kaveo says what it is doing, and where to find the pieces a bug
 report needs.
 
-![A band across the top of the Diagnostics section: the settings rail on the left, cut below Audio, and beside it the Logging group — Detail level on Normal — problems only, Record performance and Time each GPU pass both off, and an empty Extra filter rules field showing only its faint example. The rest of the section carries on below the picture.](../images/settings/diagnostics.webp)
+![A band across the top of the Diagnostics section: the settings rail on the left, cut below Behaviour, and beside it the Logging group — Detail level on Normal — problems only, Record performance and Time each GPU pass both off, an empty Extra filter rules field showing only its faint example, and In force naming the rules that apply. The rest of the section carries on below the picture.](../images/settings/diagnostics.webp)
 
 ## How to use it
 
