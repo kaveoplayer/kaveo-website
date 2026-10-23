@@ -35,5 +35,5 @@ library folder, and anything still downloading stays behind.
   cannot link is skipped, not copied.
 - Kaveo never overwrites a file already at the destination, and a file it cannot name is listed as a
   conflict instead — see [Fixing an import](fix-an-import.md).
-- Tick **Auto** and click **Save** to import with no preview from then on — but nothing then says
-  what it left behind: untick **Auto** and click **Import…** to see those files.
+- Tick **Auto** and click **Save** to import with no preview. A file Kaveo cannot identify stays
+  behind, and a message offers **Review…**.

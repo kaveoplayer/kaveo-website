@@ -10,6 +10,7 @@ one library.
 - [Local folders](local-folders.md) — the folders Kaveo scans for films, series and music on this
   computer.
 - [Jellyfin](jellyfin.md) — connect a Jellyfin server, play its titles, and keep your progress in sync.
+- [New files on a server](server-scan.md) — make a server list a file you copied there yourself.
 - [When a server moves](server-moved.md) — give Kaveo a server's new address without losing its
   categories.
 - [Leaving files out](leave-out.md) — keep folders and files out of the library, by rule or with a

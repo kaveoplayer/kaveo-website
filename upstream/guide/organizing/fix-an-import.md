@@ -23,6 +23,8 @@ anything moves.
 
 ## Good to know
 
+- A file TMDB does not know is held back too: correct a film's title, or choose **Personal** for
+  your own video, which keeps its name.
 - A token Kaveo cannot fill — an episode title with no TMDB key, say — is asked for the same way; a
   token inside an optional part is never asked about.
 - **{MediaInfo …}** tokens get no box: they are read from the file. Check that FFprobe is installed,

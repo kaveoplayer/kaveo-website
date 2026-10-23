@@ -21,7 +21,7 @@ language.
 4. Fill in **Account** and **Password** with your OpenSubtitles sign-in.
 5. Press **Test account** to check the name, password and key, then **Save**.
 
-**Downloads today** shows what is left of the day's downloads and when the count restarts.
+**Downloads today** shows what is left and when the count restarts.
 
 If your computer has no password store, a line under the key and the password says they are kept
 only until you restart.
@@ -37,6 +37,8 @@ only until you restart.
 ## Good to know
 
 - The key alone is enough to search; **Use this** also needs the account.
-- The key and password go to your system's credential store, and only when you press **Save**.
+- For a language OpenSubtitles lacks, Kaveo also searches the older opensubtitles.org, whose
+  files need no account.
+- The key and password go to the credential store only when you press **Save**.
 - Some files online have broken accents (*Ã¨* instead of *è*). Kaveo repairs them when it downloads
   them; for one downloaded earlier, use **Fix accented letters** under **Subtitles** › **Tools**.

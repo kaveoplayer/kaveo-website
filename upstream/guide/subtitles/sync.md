@@ -36,7 +36,7 @@ video track, or pin two lines by hand.
 
 - The subtitle you are syncing must be a file, so a track inside the video has to be extracted first
   — see [Loading subtitles](load.md). The reference can be any track, including a picture-based one.
-- **Re-sync against** is missing on a video with no subtitle tracks, and on a Jellyfin title picking a
-  track does nothing yet; the pins work in both cases.
+- **Re-sync against** is missing on a video with no subtitle tracks; the pins work there. On a Jellyfin
+  title only a text track can be the reference.
 - **Apply** cannot be undone, and a high match only means the lines overlap the reference, not that
   each one landed right. **Undo** reverses a speed fit while the editor stays open.

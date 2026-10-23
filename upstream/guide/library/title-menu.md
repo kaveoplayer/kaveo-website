@@ -30,5 +30,6 @@ without opening its page first.
 - Once they are all watched, the entry reads **Mark as not watched** and clears them all.
 - For a title on your Jellyfin server, **Mark as watched** also marks it on the server, so your other
   devices see it.
+- **Scan for new files on the server**: see [New files on a server](../sources/server-scan.md).
 - **Delete file from disk…** permanently removes the file; Kaveo asks you to confirm first.
 - A file watched almost to the end is marked as watched automatically.
