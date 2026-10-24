@@ -23,17 +23,18 @@ library folder, and anything still downloading stays behind.
 
 ### Import what is in it
 
-![The import preview: 2 to move · 0 already in your library · 1 conflict, Select all and Select none above two rename rows showing the name each file would be given, and Apply (moves files on disk) at the foot](../images/organizing/download-folders-preview.webp)
+![The import window: one file under Need you and two under Ready to import, each with a still, its size, its date and where it will be filed, the Goes to bar below them, and Later and Import 2 at the foot](../images/organizing/download-folders-preview.webp)
 
 1. Click **Import…**, then **Preview** if Kaveo asks where each kind goes.
-2. Tick the files you want, or click **Select all**, then **Apply (moves files on disk)** — or
-   **Apply (links them, keeps the originals)** for a hardlink folder.
+2. Each file shows where it will be filed. Answer any under *Need you* — see
+   [Fixing an import](fix-an-import.md) — then click the **Import** button at the foot.
 
 ## Good to know
 
 - **Hardlink (keep original)** keeps your torrent client seeding, but only within one drive: a file it
   cannot link is skipped, not copied.
-- Kaveo never overwrites a file already at the destination, and a file it cannot name is listed as a
-  conflict instead — see [Fixing an import](fix-an-import.md).
+- Kaveo never overwrites a file already at the destination; a file it cannot name waits under
+  *Need you* instead.
+- **Later** closes the window and moves nothing.
 - Tick **Auto** and click **Save** to import with no preview. A file Kaveo cannot identify stays
-  behind, and a message offers **Review…**.
+  behind, and a message offers **Review…**, or **Don't ask again** to stop being told about it.

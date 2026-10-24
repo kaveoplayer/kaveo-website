@@ -20,9 +20,8 @@ When every line of a subtitle is early or late, shift them all at once while the
 
 1. **Apply to the whole series** makes it the starting timing for this show's subtitles in the same
    language. It needs an episode of a series in your library; if unavailable, its tooltip says why.
-2. **Apply to the subtitle file…** writes it into Kaveo's copies of the subtitle — beside the video,
-   and on the server for a Jellyfin title — so other players get it too. A subtitle file you placed
-   yourself is unchanged. Kaveo asks first.
+2. **Apply to the subtitle file…** writes it into the subtitle, and into the file you saved it to, so
+   other players get it too — see [Saving a subtitle](save.md). Kaveo asks first.
 
 ## Good to know
 

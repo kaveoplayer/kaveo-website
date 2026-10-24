@@ -9,15 +9,14 @@ order: 25
 A song, an episode and a film can sound equally loud, a film can be watched quietly at night, and
 voices can stand out from the music.
 
-![The Volume and dynamics group in Settings, with Volume control on Software, Same loudness for every title on, Keep an album's own dynamics off, Night mode set to Medium and Dialogue boost set to +3 dB](../images/watching/volume-and-dynamics.webp)
+![The Volume and dynamics group in Settings, with Volume control on Software, Same loudness for every title on and its levelling rows, Night mode set to Medium and Dialogue boost set to +3 dB](../images/watching/volume-and-dynamics.webp)
 
 ## How to use it
 
-1. In **Settings › Audio**, turn on **Same loudness for every title**; your local files are measured in the background while nothing plays.
-2. For music, turn on **Keep an album's own dynamics** to keep quiet and loud songs of one album apart.
-3. Set **Night mode** to **Light**, **Medium** or **Strong** to bring dialogue and explosions closer.
-4. Set **Dialogue boost** to **+3 dB** or **+6 dB** to raise the voices.
-5. While watching, right-click the picture and open **Audio** › **Sound** to change any of them at once.
+1. In **Settings › Audio**, turn on **Same loudness for every title**; your local files are measured in the background while nothing plays. Its other rows are in [Same loudness for every title](same-loudness.md).
+2. Set **Night mode** to **Light**, **Medium** or **Strong** to bring dialogue and explosions closer.
+3. Set **Dialogue boost** to **+3 dB** or **+6 dB** to raise the voices.
+4. While watching, right-click the picture and open **Audio** › **Sound** to change any of them at once.
 
 ## Good to know
 
@@ -29,4 +28,4 @@ voices can stand out from the music.
   the device's own volume, so the sound stays bit-perfect below 100 %. It needs a chosen **Audio
   output device** with **Exclusive output** on. Its volume returns afterwards, even after a crash.
 - Music levelled by another program (ReplayGain) plays at that level until Kaveo has measured
-  it.
+  it, or for good with **Loudness from** on **ReplayGain tags**.

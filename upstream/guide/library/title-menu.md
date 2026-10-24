@@ -19,7 +19,7 @@ without opening its page first.
 3. Choose **Details** to open the title's own page.
 4. Choose **Add to My list**, **Add to favorites**, **Mark as watched**, **Mark as Anime**,
    **Mark as Adult** or **Add to saga…** to file or tag it.
-5. For a local file, choose **Rename / normalize…**, **Open containing folder**,
+5. For a local file, choose **File info…**, **Rename / normalize…**, **Open containing folder**,
    **Exclude from library…** or **Delete file from disk…**.
 
 ## Good to know

@@ -40,3 +40,4 @@ video track, or pin two lines by hand.
   title only a text track can be the reference.
 - **Apply** cannot be undone, and a high match only means the lines overlap the reference, not that
   each one landed right. **Undo** reverses a speed fit while the editor stays open.
+- To fix a whole season or series at once, see [Resyncing a whole series](resync-all.md).

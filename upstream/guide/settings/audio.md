@@ -1,6 +1,6 @@
 ---
 title: Audio
-description: Where the sound goes, exclusive access, passthrough, DSD, the device's own volume, and downmixing to stereo.
+description: Where the sound goes, exclusive access, passthrough, DSD, the device's own volume, downmixing to stereo, and the pitch at another speed.
 order: 50
 ---
 
@@ -15,14 +15,15 @@ soundtrack a film opens on.
 
 1. **Exclusive output** with a chosen **Audio output device** is bit-perfect, bypassing the mixer.
 2. **Bitstream passthrough** sends Dolby and DTS to a receiver untouched.
-3. **DSD output** decides how DSF and DFF files reach a DAC. DSD goes out as it is only to a
-   chosen **Audio output device** with **Exclusive output** on.
-4. **Downmix to stereo**: **Automatic** folds only when the output has fewer channels than the film:
-   an HDMI receiver is asked its width.
+3. **DSD output**: how DSF and DFF files reach a DAC; as DSD only to a chosen
+   **Audio output device** with **Exclusive output** on.
+4. **Downmix to stereo**: **Automatic** folds only for an output narrower than the film (an HDMI
+   receiver is asked).
 5. **Volume control** on **Output device** keeps the sound bit-perfect below 100 %
    ([Volume and dynamics](../watching/volume-and-dynamics.md)).
 6. **Sync offset for this output** corrects a late output, like Bluetooth headphones.
 7. **Preferred audio languages**: **Add language**, best first; drag to reorder.
+8. **Keep pitch when changing speed**: off, faster sounds higher, like a tape.
 
 ## Good to know
 

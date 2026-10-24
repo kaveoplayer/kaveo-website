@@ -9,28 +9,28 @@ order: 30
 **Settings › Metadata** holds the key that fetches posters, plots and genres, and the button that
 fetches them all again.
 
-![Settings with Metadata chosen in the rail: an empty TMDB API key field, the note that genre rows need a key, Artist pictures online on, Downloaded artist pictures with Clear, Album information online on, Downloaded album information with Clear, and Lyrics online on](../images/settings/metadata.webp)
+![Settings with Metadata chosen in the rail: an empty TMDB API key field, the note that genre rows need a key, Anime on AniList on, Artist pictures online on, Downloaded artist pictures with Clear, Album information online on, Downloaded album information with Clear, and Lyrics online on](../images/settings/metadata.webp)
 
 ## How to use it
 
-1. Paste your key into **TMDB API key**, then click **Test** — it answers *Key works*, or names
-   what went wrong.
-2. Click **Save** to keep it: **Test** only asks; nothing is stored before you save.
-3. When a trailer or a web video asks you to sign in, sign in to that site in your browser and
-   choose the browser under **Site cookies** — and, if it has several, the profile under **Browser
-   profile**. **Test** checks that Kaveo can read it. If not, choose **cookies.txt file…**.
-   Previews are chosen under [Interface](interface.md).
+1. Paste your key into **TMDB API key** and click **Test**: it says *Key works* or what is wrong.
+2. Click **Save** to keep it: nothing is stored before you save.
+3. When a trailer or web video asks you to sign in, sign in with your browser, then choose it
+   under **Site cookies** (and **Browser profile**, if it has several). **Test** checks that Kaveo
+   can read it; if not, choose **cookies.txt file…**.
 4. Music, online by default: [Artist pictures](../library/artist-pictures.md),
    [Album information](../library/album-information.md), [Lyrics](../watching/lyrics.md).
-5. Click **Recatalogue library** to fetch every poster, plot and genre anew.
+5. **Anime on AniList** (on by default) asks AniList about an imported anime TMDB lacks, or
+   its adult tag.
+6. Click **Recatalogue library** to fetch every poster, plot and genre anew.
 
 ## Good to know
 
 - **Recatalogue library** acts at once; **Revert** does not undo it.
 - Kaveo reads the cookies only when a video needs them, and keeps no copy. On Windows, Chrome, Edge
   and Brave cannot be read; Firefox can, once closed.
-- On Linux, reading Chrome or Vivaldi takes about 3 seconds, Firefox under one. *python-pycryptodomex*
-  on Arch (*python3-pycryptodomex* on Fedora) brings them under one.
+- On Linux, Chrome or Vivaldi take about 3 seconds to read, Firefox under one;
+  *python-pycryptodomex* (Arch) or *python3-pycryptodomex* (Fedora) makes them as fast.
 - With no key, only the genre rows stay empty: see [Genres and tags](../library/tags.md).
 - A wrong poster or plot is corrected on the title: see
   [Correcting a wrong match](../library/correct-a-match.md).

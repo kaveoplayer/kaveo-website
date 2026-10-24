@@ -28,9 +28,10 @@ is locked.
 
 - On the same drive the film is moved, not copied. Encrypting needs its own size again in free
   space, or about 16 MB to encrypt it where it lies.
-- Its subtitles, its NFO file, its *-trailer* file and every picture whose name starts with the
-  video's — artwork, saved frames, your photos — travel with it, in and out. The dialog counts them; one that cannot go
-  in stays put, and the message after the hide says how many.
+- The title goes in whole and comes back whole: subtitles, NFO, *-trailer* file and pictures
+  named like it, its poster, description and cast, your tags, **My list**, **Favorite** and
+  playlists. What a visible title shares stays. A file that cannot go in stays put; the message
+  counts them.
 - A film's [saved frame](../watching/save-a-frame.md) stays in Pictures, under the film's name, once
   the film is hidden.
 - If Kaveo closes during a hide, your next unlock finishes it or puts the film back, and says so.

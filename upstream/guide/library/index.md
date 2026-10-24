@@ -4,8 +4,7 @@ description: Browse, organise and correct the titles Kaveo finds.
 order: 20
 ---
 
-Everything Kaveo finds in your folders and on your servers is here — browse it, split it into places
-of your own, and correct what it got wrong.
+Everything Kaveo finds in your folders and on your servers — browse it, organise it, correct it.
 
 - [The library home](home.md) — the featured band, the rows, and new files.
 - [The card menu](title-menu.md) — quick actions from a right-click on a title's card.
@@ -21,9 +20,10 @@ of your own, and correct what it got wrong.
 - [Genres and tags](tags.md) — correct a title's genres and its tags.
 - [Hiding adult content](adult-content.md) — keep adult titles out of sight.
 - [Correcting a wrong match](correct-a-match.md) — fix a wrongly matched title.
+- [File info](file-info.md) — what a file says about itself.
 - [Collections](collections.md) — group the films and series of one saga.
 - [Missing episodes](missing-episodes.md) — and what is coming.
-- [Metadata files](metadata-files.md) — read and write the NFO files of other media tools.
+- [Metadata files](metadata-files.md) — the NFO files of other media tools.
 - [Your own photos and videos](personal-videos.md) — phone and camera shots, kept apart.
 - [Viewing photos](view-photos.md) — your own photos one at a time, zoomed in or not.
 - [Slideshow](slideshow.md) — a folder's photos and videos, one after another.
