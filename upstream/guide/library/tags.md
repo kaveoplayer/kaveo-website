@@ -32,5 +32,6 @@ in for you and lets you correct any of them.
 
 - Right-click a card and choose **Mark as Anime** or **Mark as Adult** without opening the title.
 - A correction you make is remembered — a later rescan will not undo it.
+- An album's list offers music genres instead of the film ones, and no anime or adult tag.
 - **Settings › Metadata › Recatalogue library** ([Metadata](../settings/metadata.md)) clears the
   cached metadata and starts over.

@@ -14,8 +14,8 @@ Gather songs from any album into a list of your own, and play it whenever you li
 
 1. In any song's menu, choose **Add to playlist**, then a playlist or **New playlist…**. An album
    page has the same button for the whole album.
-2. Open the **Music** category: the **Playlists** row sits under the albums. Click its title to see
-   them all.
+2. Open the **Music** category: the **Playlists** row sits under the albums. Click its title, or the
+   **Playlists** tab, to see them all.
 3. On a playlist's page, click **Play** or **Shuffle**, or a song to start from it.
 4. Rest the pointer on a song to reorder it with the arrows, or take it out with the cross.
 5. In the queue, **Save as playlist…** keeps what is playing.

@@ -28,8 +28,8 @@ pick, or a track you extract, becomes your own copy to sync, edit or translate.
 ## Good to know
 
 - A picture-based track, as on most Blu-rays, cannot be extracted: its row is greyed.
-- On a Jellyfin title, the server's files are under **Subtitle files on the server**: click one to add
-  it, or its bin to delete it from the server at once. Copied one there yourself? See
+- On a Jellyfin title, the server's files are under **Subtitle files on the server**: click one to play
+  it (later episodes follow its language), or its bin to delete it from the server. Copied one there? See
   [New files on a server](../sources/server-scan.md).
 - A private title plays only the tracks inside its video.
 - If a file shows broken accents (*Ã¨* instead of *è*), **Subtitles** › **Tools** offers

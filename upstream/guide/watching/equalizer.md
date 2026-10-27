@@ -9,7 +9,7 @@ order: 27
 The equalizer raises or lowers the bass, the middle and the treble of everything you play, music and
 video alike.
 
-![The Equalizer group in Settings, with Equalizer on, Preset set to Loudness, the Preamp and ten band sliders from 31 Hz to 16 kHz, and the Response curve under them](../images/watching/equalizer.webp)
+![The Equalizer group in Settings, with Equalizer on, Preset set to Bass and treble lift, the Preamp and ten band sliders from 31 Hz to 16 kHz, and the Response curve under them](../images/watching/equalizer.webp)
 
 ## How to use it
 

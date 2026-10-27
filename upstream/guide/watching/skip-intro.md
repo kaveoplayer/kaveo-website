@@ -16,9 +16,9 @@ to skip it, and learns your habit for the rest of that series.
 ### Skip an opening or ending
 
 1. While the opening, the ending or the scene before the opening plays, click **Skip** on the card
-   in the bottom-right corner. Kaveo jumps to a second before the end of that chapter.
-2. Skip the same part in two episodes, and the next episodes skip it by themselves. Each
-   part is learned on its own.
+   in the bottom-right corner. Kaveo jumps to just before its end.
+   Ignored, the card goes away after a few seconds; the mouse or going back brings it back.
+2. Skip the same part in two episodes, and the next ones skip it by themselves.
 3. Click **Watch it**, shown for a few seconds each time, to see it after all — Kaveo then offers
    the button again instead of skipping.
 
@@ -28,7 +28,7 @@ to skip it, and learns your habit for the rest of that series.
 
 1. Open **Settings › Behaviour** ([Behaviour](../settings/behaviour.md)), turn off
    **Offer to skip intros and endings** and click **Save**.
-   Kaveo then neither offers a skip nor skips by itself.
+   Kaveo then never offers or makes a skip.
 
 ## Good to know
 
@@ -37,4 +37,4 @@ to skip it, and learns your habit for the rest of that series.
   is taken as the opening or the ending. Nothing is guessed from the picture or sound.
 - An *Intro* chapter just before an *Opening* is the prologue, not the opening.
 - Jumping into the opening yourself, with the timeline or arrow keys, is never skipped.
-- The choice lasts until you close Kaveo.
+- The habit lasts until you close Kaveo.

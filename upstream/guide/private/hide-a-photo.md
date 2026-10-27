@@ -1,21 +1,22 @@
 ---
 title: Hiding a photo
-description: Make one of your own photos private, its Live motion with it.
+description: Move one of your own photos into the vault, its Live motion with it.
 order: 22
 ---
 
 ## What it is for
 
-Make one of your own photos private — encrypted, and out of your library while the vault is locked.
+Move one of your own photos into the vault — encrypted, and out of your library while the vault is
+locked.
 A Live Photo's motion goes in with it.
 
-![A Live Photo's menu on its folder's page: Open containing folder, Copy image, Copy file, Export a copy…, and Make private… at the bottom](../images/private/hide-a-photo-menu.webp)
+![A Live Photo's menu on its folder's page: Open containing folder, Copy image, Copy file, Export a copy…, and Move to vault… at the bottom](../images/private/hide-a-photo-menu.webp)
 
 ## How to use it
 
-1. [Unlock the vault](lock.md), then right-click a photo on its folder's page and choose
-   **Make private…**.
-2. Check the path, then click **Make private**.
+1. Right-click a photo on its folder's page and choose **Move to vault…**. Kaveo
+   [creates](set-up.md) or unlocks the vault first if needed.
+2. Check the path, then click **Move to vault**.
 3. Or drop the photo into your private folder: Kaveo hides it, and the video of the same name
    beside it as its motion.
 

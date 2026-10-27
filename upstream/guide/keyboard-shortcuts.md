@@ -42,6 +42,7 @@ These work while a video is playing, and every one of them can be changed — se
 | Save frame | **Shift+S** |
 | Copy frame | **Ctrl+C** |
 | Edit a copy | **T** |
+| Skip effects for now | **D** |
 
 Six more keys cannot be changed:
 
@@ -60,3 +61,4 @@ Six more keys cannot be changed:
 - Photos have keys of their own — see [Viewing photos](library/view-photos.md).
 - While the subtitle editor is open it takes **[**, **]**, **↑** and **↓**: retime the line and move between lines.
 - While the video editor (*Edit a copy*) is open it takes **I** and **O**: mark where the copy starts and ends.
+- **Skip effects for now** compares the sound with and without your Effects, at the same loudness. It lasts until Kaveo closes and is never saved.

@@ -6,9 +6,10 @@ order: 35
 
 ## What it is for
 
-See what is playing and where it comes from, and go on to its artist, its album or the next song.
+See what is playing and where it comes from, go on to its artist or its album, and arrange the screen
+the way you like it.
 
-![The player on a song, over a background in the cover's colour: the cover in the middle; under it the title, the artist and the album as links, the year and the track's number, and the file's format in small boxes; the Up next card at the bottom right, above the playback bar](../images/watching/now-playing.webp)
+![The player on a song, over a background in the cover's colour: the cover in the middle; under it the title, the artist and the album as links, the year and the track's number, and the file's format in small boxes; the playback bar at the bottom](../images/watching/now-playing.webp)
 
 ## How to use it
 
@@ -19,10 +20,15 @@ See what is playing and where it comes from, and go on to its artist, its album 
    says so.
 4. The boxes under it name the file's format: its kind, its bit depth for a lossless file, its sample
    rate, and its bitrate for a compressed one.
-5. Click **Up next**, at the bottom right, to play the next song now.
+5. Open **⋯** › **Layout** on the playback bar to arrange the screen: **Classic** (the cover in the
+   middle), **Side by side** (the cover on the left, the words beside it) or **Lyrics**
+   (a small cover, the lyrics filling the screen). **Format chips** hides the boxes; **Open lyrics by
+   themselves** off starts each song with its lyrics hidden.
 
 ## Good to know
 
 - Turn off **Colour from the cover** in [Settings › Interface](../settings/interface.md) for a plain
   background; the **Light** and **High contrast** player themes always keep one.
-- **Up next** is hidden while the queue is open, when nothing follows, and when one song repeats.
+- Your layout is kept. **Lyrics** needs a song with [lyrics](lyrics.md); without them the screen is
+  **Classic**, and **Side by side** is too in a narrow window.
+- The queue (the list button on the bar) says what plays next.

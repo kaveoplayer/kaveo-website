@@ -14,7 +14,8 @@ albums, and play all of it at once.
 ## How to use it
 
 1. Open the **Music** category; the **Artists** row comes first, before the albums.
-2. Click an artist, or click the row's title to see every artist.
+2. Click an artist, or click the row's title — or the **Artists** tab — to see every artist, as a
+   **Grid** or a **List**.
 3. On an artist's page, click **Play all** or **Shuffle**, or open one of their albums.
 4. On an album page, click the artist's name to go to their page.
 

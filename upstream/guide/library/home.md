@@ -31,6 +31,8 @@ file name, with a band at the top featuring a few of them.
 
 ## Good to know
 
+- Which rows a page shows, and their order, are yours to choose: [Arranging the rows](arrange-rows.md).
+
 - *Recently played* shows one card per title — a series stays on the episode you're partway through,
   then moves to the next one.
 - Albums have their own row, *New music*, with square covers; *Recently added* holds films and series.

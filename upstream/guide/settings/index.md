@@ -12,6 +12,7 @@ group has one page for each of them.
 - [Metadata](metadata.md) — TMDB key and cookies.
 - [Vault](vault.md) — the vault's own preferences.
 - [Audio](audio.md) — output, passthrough, downmixing.
+- [Effects](effects.md) — headphone and room correction, crossfeed, plugins.
 - [Subtitles](subtitles.md) — appearance, translation, online search.
 - [Behaviour](behaviour.md) — offering to skip openings, and the format of a saved frame.
 - [Picture](picture.md) — colour, aspect, zoom, panning.
@@ -19,6 +20,7 @@ group has one page for each of them.
 - [Display & HDR](display.md) — HDR, tone mapping, refresh.
 - [Rendering](rendering.md) — decoding and frame delivery.
 - [Interface](interface.md) — language, themes, hover previews.
+- [Layout](layout.md) — card size, row height, tabs, song screen.
 - [Shortcuts](shortcuts.md) — keys and mouse buttons.
 - [Diagnostics](diagnostics.md) — logs, recordings and bundles.
 - [Components](components.md) — what Kaveo uses on this computer.
