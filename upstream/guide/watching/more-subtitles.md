@@ -9,6 +9,8 @@ order: 22
 Show up to three subtitles at the same time: the dialogue and a separate track for signs and songs,
 or the original language above a translation.
 
+![The Subtitles menu over a paused film: Second subtitle set to English, and the second subtitle's own list with English chosen, Position on Top and Timing at +0 ms](../images/watching/more-subtitles-menu.webp)
+
 ## How to use it
 
 1. While a video plays, right-click the picture and point at **Subtitles**.

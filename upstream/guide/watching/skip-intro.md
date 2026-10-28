@@ -6,8 +6,9 @@ order: 40
 
 ## What it is for
 
-When a file marks its opening, its ending or the scene before the opening as a chapter, Kaveo offers
-to skip it, and learns your habit for the rest of that series.
+Kaveo offers to skip a series' opening, its ending or the scene before the opening, and learns your
+habit for the rest of that series. It uses the file's named chapters, else the server's segments,
+else what the season's episodes share in their sound.
 
 ![The Skip card in the bottom-right corner, reading Chapter 1, Opening and 0:08 left beside its Skip button, above the right end of the playback bar](../images/watching/skip-intro-offer.webp)
 
@@ -15,26 +16,26 @@ to skip it, and learns your habit for the rest of that series.
 
 ### Skip an opening or ending
 
-1. While the opening, the ending or the scene before the opening plays, click **Skip** on the card
-   in the bottom-right corner. Kaveo jumps to just before its end.
-   Ignored, the card goes away after a few seconds; the mouse or going back brings it back.
+1. While it plays, click **Skip** on the card in the bottom-right corner: Kaveo jumps to just before
+   its end. Ignored, the card goes away after a few seconds; the mouse brings it back.
 2. Skip the same part in two episodes, and the next ones skip it by themselves.
-3. Click **Watch it**, shown for a few seconds each time, to see it after all — Kaveo then offers
-   the button again instead of skipping.
+3. Click **Watch it** to see it after all — Kaveo then offers the button again instead of skipping.
 
 ### Turn it off
 
-![Settings with Behaviour selected in the rail, showing Offer to skip intros and endings switched on, above the Saved frames and Web video quality rows](../images/watching/skip-intro-setting.webp)
+![Settings with Behaviour selected in the rail, showing Offer to skip intros and endings and Find intros and endings from the audio switched on, above the Saved frames and Web video quality rows](../images/watching/skip-intro-setting.webp)
 
-1. Open **Settings › Behaviour** ([Behaviour](../settings/behaviour.md)), turn off
-   **Offer to skip intros and endings** and click **Save**.
-   Kaveo then never offers or makes a skip.
+1. Open **Settings › Behaviour** ([Behaviour](../settings/behaviour.md)), turn off **Offer to skip
+   intros and endings** and click **Save**: Kaveo never offers or makes a skip.
+2. Turn off **Find intros and endings from the audio** to keep the offers without the analysis: only
+   named chapters are used.
 
 ## Good to know
 
-- Kaveo goes by the chapter's name (*Opening*, *OP*, *Ending*, *ED*, *Prologue* and similar). When an
-  episode's chapters have no names, a chapter as long as a theme song, near the start or at the end,
-  is taken as the opening or the ending. Nothing is guessed from the picture or sound.
-- An *Intro* chapter just before an *Opening* is the prologue, not the opening.
-- Jumping into the opening yourself, with the timeline or arrow keys, is never skipped.
+- Named chapters come first (*Opening*, *OP*, *Ending*, *ED*, *Prologue*); with none named, a
+  theme-length chapter near the start or the end is used.
+- Failing both, the server's segments or the sound decide, and a boundary within three seconds of a
+  chapter's takes the chapter's. Nothing is uploaded.
+- An *Intro* before an *Opening* is the prologue.
+- Jumping into it yourself is never skipped.
 - The habit lasts until you close Kaveo.

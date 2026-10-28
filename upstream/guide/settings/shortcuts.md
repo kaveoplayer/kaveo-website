@@ -20,7 +20,8 @@ What each action ships with is [Keyboard shortcuts](../keyboard-shortcuts.md).
 2. Click **Add** on a row — it asks you to *press a key or mouse…* — and press what you want.
    **Cancel**, or **Esc**, backs out.
 3. Click the cross beside a shortcut to drop it: an action can hold several, so the rest stay.
-4. **Reset to defaults**, at the bottom, puts every action back to what it shipped with.
+4. The round arrow at the end of a row puts that action's shortcuts back; **Restore defaults**, at
+   the top right, puts back every action — see [Restoring defaults](restoring-defaults.md).
 5. Click **Save** to keep any of it — see [Saving changes](saving.md).
 
 ## Good to know

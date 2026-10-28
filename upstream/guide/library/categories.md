@@ -25,8 +25,7 @@ want.
 ![The categories list in Settings, each with its Accepts kinds and folders, and New category name below them](../images/library/categories-settings.webp)
 
 1. Open **Settings › Library › Categories**, type a name under **New category name**, and click **Add**.
-2. Beside **Accepts:**, tick which kinds of content it holds — none ticked means everything. Tick
-   **Adult content** to tag all of it [adult](adult-content.md).
+2. Beside **Accepts:**, tick which kinds of content it holds — none ticked means everything.
 3. Click **Add folder…** to give it a folder to scan, or **Remove** beside its name to delete it.
 
 ## Good to know

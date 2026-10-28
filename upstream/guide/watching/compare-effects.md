@@ -9,7 +9,7 @@ order: 28
 **D** skips your Effects while you listen, at the same loudness, so the version that is louder does
 not simply sound better.
 
-![The player's right-click menu open on Audio › Sound › Effects: Effects · skipped for now with its key D and the note under it, the Everyday and Films at night presets, the three stages with Crossfeed waiting for a stereo title, and Edit effects…](../images/watching/compare-effects.webp)
+![The player's menu with Audio open while a film plays: its English AC3 track, Sound reading Effects skipped after D was pressed, and Audio delay](../images/watching/compare-effects.webp)
 
 ## How to use it
 
@@ -21,4 +21,5 @@ not simply sound better.
 
 - The skip lasts until Kaveo closes and is never saved; the settings page says *On · skipped for now* and offers **Play it now**.
 - A plugin's own level is not matched.
+- The equalizer travels with the chain, so **D** skips it too.
 - **Low-volume balance** is not skipped ([Low-volume balance](low-volume-balance.md)).
