@@ -9,15 +9,14 @@ order: 120
 **Settings › Interface** covers how Kaveo looks and behaves, and its place in your
 desktop's menus and media controls.
 
-![Settings on Interface › General: the General · Layout bar over Language, App theme, Player theme, Colour from the cover, Player controls opacity, Accent colour, Interface size, Text size and Control size, then Hover preview and the two trailer rows](../images/settings/interface.webp)
+![Settings on Interface › General: the General · Layout · Themes bar over Language, Themes with the app's and the player's theme and Choose…, Colour from the cover, Player controls opacity, Accent colour, Interface size, Text size and Control size, then Hover preview and the two trailer rows](../images/settings/interface.webp)
 
 ## How to use it
 
 1. Pick a **Language**: **English**, **Italiano**, **Français** or **Español**.
-2. Choose an **App theme** for the library and a **Player theme** for the player, from
-   **Dark** (the default), **Light**, **Pure black (OLED)**, **High contrast**, **Warm night** and
-   **Indigo**.
-   **Colour from the cover** tints a song's screen; **Light** and **High contrast** stay plain.
+2. **Themes** names the app's and the player's theme; **Choose…** opens
+   [Themes](themes.md). **Colour from the cover** tints a song's screen; **Light** and
+   **High contrast** stay plain.
 3. Pick an **Accent colour**, an **Interface size**, a **Text size**, a **Control size** and a
    **Player controls opacity**.
 4. Set **Hover preview** to **Clip from the video** or **YouTube trailer**; a server's title

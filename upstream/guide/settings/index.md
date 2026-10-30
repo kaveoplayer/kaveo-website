@@ -24,6 +24,7 @@ group has one page for each of them.
 - [Display & HDR](display.md) — HDR, tone mapping, refresh.
 - [Rendering](rendering.md) — decoding and frame delivery.
 - [Interface](interface.md) — language, themes, hover previews.
+- [Themes](themes.md) — the app's and the player's theme, and your own.
 - [Connections](connections.md) — what Kaveo reports to ListenBrainz.
 - [Layout](layout.md) — card size, row height, tabs, song screen.
 - [Shortcuts](shortcuts.md) — keys and mouse buttons.
