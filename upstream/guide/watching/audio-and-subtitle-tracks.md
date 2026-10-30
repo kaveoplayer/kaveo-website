@@ -30,6 +30,8 @@ When a video carries more than one soundtrack or subtitle, choose which one play
 - **Audio** › **Audio delay** moves the sound 50 or 500 ms at a time, or press **K** and **L**; it is
   remembered for that film or series. The subtitles have their own, under **Subtitles** ›
   **Timing** — see [Subtitle timing](../subtitles/delay.md).
+- **Audio** › **Sound** › **Output** picks where the sound leaves: the same list as
+  [Audio settings](../settings/audio.md), and the title carries on from where it was.
 - To get, time, write or translate a subtitle, see [Loading subtitles](../subtitles/load.md),
   [Finding subtitles online](../subtitles/online-search.md), [Syncing subtitles](../subtitles/sync.md),
   [Writing and editing subtitles](../subtitles/edit.md) and
