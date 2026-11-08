@@ -20,12 +20,13 @@ order: 100
    corrects the screen; grading is [Picture](picture.md). **Override** in a value's menu sets your
    own.
 3. **Tone mapping** holds **SDR tone-map target**, **SDR tone-map black**, **Tone-map curve**,
-   **Gamut mapping**, **HDR metadata**, **Contrast recovery** and **Inverse tone mapping**, then
+   **Gamut mapping**, **HDR metadata**, **Contrast recovery**, **Mastering clip**, **Film response**
+   and **Inverse tone mapping**, then
    **Dynamic tone-mapping (peak detection)**: **Peak detection**, **Peak percentile**, **Smoothing
    period**, **Scene-change threshold (low)** and **Scene-change threshold (high)**.
 4. **Format & refresh** holds **Output (bit depth & gamut)**: **Bit depth**, **Output range**,
-   **Output gamut**, **Display gamma**; **Display refresh**: **Match refresh to content**,
-   **Refresh policy**; **Presentation**: **Lighter presentation**, **Full brightness in fullscreen**.
+   **Output gamut**, **Picture gamma** (what SDR video is seen at); **Display refresh**: **Match
+   refresh to content**, **Refresh policy**; **Presentation**: **Lighter presentation**, **Full brightness in fullscreen**.
 
 ## Good to know
 
