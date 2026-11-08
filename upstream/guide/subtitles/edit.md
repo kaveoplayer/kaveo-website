@@ -8,7 +8,7 @@ order: 40
 
 Fix a subtitle's timing or words against the film, or write a new one.
 
-![The All lines… page: Back and the subtitle's name marked only in Kaveo, with Put in time order, Undo, Redo, Save as… and Save; a Find box with Only translated lines and Only lines that do not fit, and a count of 60 lines; Break the row (7) and Give time (3); a note that this subtitle has no styles table, with Convert to ASS; Names and terms (0), Who is speaking (0), and How this title should sound with its Natural, Literal and Keep honorifics presets and a free-text box; then the first lines of the subtitle, each with its number, its start and end, and its words](../images/subtitles/edit-all-lines.webp)
+![The All lines… page: Back and the subtitle's name marked only in Kaveo, with Put in time order, Undo, Redo, Save as… and Save; a Find box with Only translated lines and Only lines that do not fit, and a count of 60 lines; Break the row (7) and Give time (3); a note that this subtitle has no styles table, with Convert to ASS; How this title should sound with its Natural, Literal and Keep honorifics presets and a free-text box, then the first lines of the subtitle, each with its number, its start and end, and its words; beside them, the Names and people panel, with Names and terms and Who is speaking, nothing proposed yet, and Add a term](../images/subtitles/edit-all-lines.webp)
 
 ## How to use it
 

@@ -33,8 +33,8 @@ with **Search online…** in the player. On Jellyfin, add it on the server. Then
 
 - To follow or retry what is queued, see [Following the translation queue](translation-queue-panel.md).
 - Online: [OpenSubtitles for a series](translation-queue-online.md).
-- On a new series, keep **Stop after the first episode** ticked, check that episode's names
-  ([how](translation-quality.md)), then press **Continue**: the next episodes use your corrections.
+- On a new series, keep **Stop after the first episode** ticked; in the queue, press **Check names
+  and people…**, correct them, then **Continue**: the next episodes use them.
 - A playing video gets the graphics card first.
-- Jellyfin titles can be queued too; a title in both places shares its subtitles. Set up a
-  provider: see [Translating subtitles](translate.md).
+- Jellyfin titles can be queued too; a title in both places shares its subtitles. Provider:
+  [Translating subtitles](translate.md).

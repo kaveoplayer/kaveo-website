@@ -21,5 +21,5 @@ or series — correct it by hand.
 ## Good to know
 
 - The match is pinned, so no later scan can undo it.
-- Only the metadata changes — the file, its name and its place in your library stay put. To see everything a file says about itself, choose **File info…** from the same menu.
+- Only the metadata changes — the file, its name and its place in your library stay put. To see everything a file says about itself, choose **Properties…** from the same menu.
 - To hand the decision back to Kaveo, open the same dialog and click **Restore automatic match** — it undoes **No match** too.

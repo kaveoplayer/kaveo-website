@@ -22,7 +22,7 @@ Everything Kaveo finds in your folders and on your servers — browse it, organi
 - [Genres and tags](tags.md) — correct a title's.
 - [Hiding adult content](adult-content.md) — out of sight.
 - [Correcting a wrong match](correct-a-match.md) — fix a title.
-- [File info](file-info.md) — what a file says about itself.
+- [Properties](file-info.md) — a title and its file.
 - [Collections](collections.md) — group the films and series of one saga.
 - [Missing episodes](missing-episodes.md) — and what is coming.
 - [Metadata files](metadata-files.md) — the NFO files of other media tools.

@@ -23,4 +23,7 @@ folder on your computer or from your Jellyfin server.
 - Kaveo plays the film only: the disc's own menus and extras are not shown yet.
 - When the disc holds the film more than once, for example one version per country, Kaveo picks
   the one with the soundtrack language you prefer in the player settings.
+- The first time a disc plays, Kaveo reads its subtitles in the background to name the forced and
+  SDH ones ("French — Forced"). Next time it opens with your language's full track, or the
+  soundtrack's forced one. The answer is kept, and on Jellyfin follows you.
 - A disc Kaveo cannot read, an encrypted disc, or a DVD image does not open: Kaveo says why.
