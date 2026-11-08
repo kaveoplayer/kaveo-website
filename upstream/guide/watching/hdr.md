@@ -15,12 +15,14 @@ an HDR-capable display so it looks the way it was mastered.
 
 1. While a video plays, press **Ctrl+H** and pick the **Display & HDR** tab, or open
    **Settings › Display & HDR**.
-2. Set **HDR output** to **Auto — HDR when the display supports it** (the default) or
-   **On — strict HDR passthrough**, then click **Save**.
+2. Set **HDR output** to **Auto — HDR when the display supports it** (the default), then click
+   **Save**. If Kaveo misses your screen's HDR, pick
+   **On — HDR even if the display does not report it** (Linux); Windows'
+   **On — strict HDR passthrough** sends the film uncompressed.
 3. For the best result, calibrate first: on Windows, run Windows HDR Calibration (from the Microsoft
    Store) and Kaveo reads the saved value by itself.
 4. Otherwise, or if your screen's peak is under 400 or over 2000 nits (Kaveo then assumes 600), set
-   **Display peak** (available only with **Auto**) to **Override** and type your screen's rated HDR peak
+   **Display peak** (unused by strict passthrough) to **Override** and type your screen's rated HDR peak
    in the number beside it.
 
 ## Good to know
