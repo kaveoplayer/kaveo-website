@@ -24,7 +24,7 @@ order: 100
    and **Inverse tone mapping**, then
    **Dynamic tone-mapping (peak detection)**: **Peak detection**, **Peak percentile**, **Smoothing
    period**, **Scene-change threshold (low)** and **Scene-change threshold (high)**.
-4. **Format & refresh** holds **Output (bit depth & gamut)**: **Bit depth**, **Output range**,
+4. **Format & refresh** holds **Output (bit depth & gamut)**: **Bit depth** (SDR only), **Output range**,
    **Output gamut**, **Picture gamma** (what SDR video is seen at); **Display refresh**: **Match
    refresh to content**, **Refresh policy**; **Presentation**: **Lighter presentation**, **Full brightness in fullscreen**.
 
