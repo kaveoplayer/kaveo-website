@@ -21,7 +21,7 @@ song.
 
 ## Good to know
 
-- Films, episodes and other videos are levelled to −24 LUFS, so they play quieter than songs: turn the volume up once and it holds for every one of them.
+- Films, episodes and other videos go to **Target level for films and series**, −24 LUFS unless you change it, so they play quieter than songs: turn the volume up once and it holds for every one of them.
 - To make everything louder or quieter, use the volume, not the target.
 - With **Off**, lowering Kaveo's volume leaves room for the peaks; a device's own volume does not.
 - **Song not measured yet** sets how quietly a song plays until it is measured.

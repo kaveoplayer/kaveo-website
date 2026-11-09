@@ -11,6 +11,7 @@ A video fills the window; the controls appear when you reach for them.
 - [Several subtitles](more-subtitles.md) — at once.
 - [Volume and dynamics](volume-and-dynamics.md) — night mode.
 - [Same loudness for every title](same-loudness.md) — one level.
+- [Levelling a server series](level-a-server-series.md)
 - [Equalizer](equalizer.md) — tone controls.
 - [Comparing with and without effects](compare-effects.md)
 - [Low-volume balance](low-volume-balance.md)
@@ -28,8 +29,8 @@ A video fills the window; the controls appear when you reach for them.
 - [HDR output](hdr.md) — send HDR video to an HDR display.
 - [Saving a frame](save-a-frame.md) — the video's own picture.
 - [Saving an HDR frame](save-an-hdr-frame.md)
-- [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence, as a new file.
-- [Copying to the clipboard](copy-to-clipboard.md) — paste it elsewhere.
-- [Media keys and the desktop](media-keys.md) — from outside the window.
+- [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence.
+- [Copying to the clipboard](copy-to-clipboard.md) — paste elsewhere.
+- [Media keys and the desktop](media-keys.md) — outside the window.
 - [Opening a web address](open-a-url.md) — a stream or web page.
 - [When the graphics card stops responding](graphics-card.md) — recovering.
