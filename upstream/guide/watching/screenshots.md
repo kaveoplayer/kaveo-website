@@ -22,6 +22,8 @@ file.
 - While a private title is open in the player, even behind another screen, Kaveo refuses the capture
   and says *No screenshot: this title is hidden*.
 - Each file is named with a number that grows, so the newest screenshot has the largest number.
+  Kaveo never replaces a file: a taken name is numbered, as in *(2)*.
 - In HDR the picture is saved as an ordinary picture: white matches your desktop's white, and the
-  brightest highlights are softened to fit instead of turning flat white.
+  brightest highlights are softened to fit instead of turning flat white. To keep an HDR video's
+  picture in HDR, see [Saving an HDR frame](save-an-hdr-frame.md).
 - On Windows, **F12** takes no screenshot while a video is in exclusive fullscreen.

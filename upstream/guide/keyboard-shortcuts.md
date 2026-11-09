@@ -41,6 +41,7 @@ These work while a video is playing, and every one of them can be changed — se
 | Subtitle editor | **E** |
 | Save frame | **Shift+S** |
 | Copy frame | **Ctrl+C** |
+| Save HDR frame | **Shift+F12** |
 | Edit a copy | **T** |
 | Skip effects for now | **D** |
 

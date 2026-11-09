@@ -20,15 +20,16 @@ A video fills the window; the controls appear when you reach for them.
 - [Music while you browse](music-bar.md) — the bar, shuffle, repeat.
 - [Lyrics](lyrics.md) — a song's words as it plays.
 - [Visualizer](visualizer.md) — what the music looks like.
-- [Next episode and queue](next-episode.md) — move between episodes and tracks.
+- [Next episode and queue](next-episode.md) — between episodes and tracks.
 - [Playing on a loop](loop.md) — for hours, unattended.
 - [Sleep timer](sleep-timer.md) — pause after a while.
 - [Skipping openings](skip-intro.md) — skip a series' opening or ending.
 - [Screenshots](screenshots.md) — save what is on screen.
 - [HDR output](hdr.md) — send HDR video to an HDR display.
 - [Saving a frame](save-a-frame.md) — the video's own picture.
+- [Saving an HDR frame](save-an-hdr-frame.md)
 - [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence, as a new file.
 - [Copying to the clipboard](copy-to-clipboard.md) — paste it elsewhere.
 - [Media keys and the desktop](media-keys.md) — from outside the window.
-- [Opening a web address](open-a-url.md) — play a stream or a web page.
-- [When the graphics card stops responding](graphics-card.md) — how Kaveo recovers.
+- [Opening a web address](open-a-url.md) — a stream or web page.
+- [When the graphics card stops responding](graphics-card.md) — recovering.
