@@ -25,9 +25,8 @@ Tell Kaveo, before it translates, how to spell names, who is speaking and how th
 
 - Kaveo proposes names, terms and speakers you did not describe, even when the subtitle names nobody;
   subtitles in other languages inside the video help it tell a man from a woman.
-- The next episodes in the same folder reuse your names, speakers and style, add the ones each episode
-  introduces without changing yours, and reuse a line you corrected wherever it returns. New lines can
-  still need fixing.
+- **Names and terms** are one list for the whole series; a name you change or remove stays so. Later
+  episodes reuse your speakers, style and corrected lines, and add new names without changing yours.
 - Click the number beside a term to see only the lines that say it.
 - Drag the panel's edge to resize it, fold it with its arrow, or press **Move into the page**. Kaveo
   remembers the choice.

@@ -6,8 +6,8 @@ order: 62
 
 ## What it is for
 
-Translate the subtitles of a film, a season or a whole series in one go, without opening the video.
-Kaveo works through them one episode at a time.
+Translate the subtitles of a film, a season or a whole series without opening the video, one
+episode at a time.
 
 ![The dialog Translate the subtitles of “Sintel”: the film, where its text comes from, the estimate of time and cost, and the Cancel and Translate buttons](../images/subtitles/translation-queue.webp)
 
@@ -15,26 +15,28 @@ Kaveo works through them one episode at a time.
 
 1. Right-click a film, an episode or a series and choose **Subtitles…**. On a film or series page
    it is in **⋯**; a season has its own **Subtitles for this season…**.
-2. Check the episodes, where their text comes from, and the estimate of time and cost.
+2. Check the episodes, where their text comes from, and the estimate.
 3. If some already have a translation, choose **Skip them** or **Translate them again**.
 4. Press **Translate**.
 
 ## When an episode cannot be translated
 
 Kaveo translates from English text. If an episode's English subtitles are only pictures (PGS), or
-missing, the dialog says so with a warning and does not queue it.
+missing, the dialog says so and does not queue it.
 
 ![The dialog for the series Morevna: cannot be translated, no English subtitles, what to do, a note that an OpenSubtitles key would let Kaveo look online, and the Translate button turned off](../images/subtitles/translation-queue-blocked.webp)
 
-Put an English text subtitle beside the video, with the same name ending in *.en.srt*, or find one
-with **Search online…** in the player. On Jellyfin, add it on the server. Then try again.
+Put an English text subtitle beside the video, named like it and ending in *.en.srt*, or find one
+with **Search online…** in the player. On Jellyfin, add it on the server.
 
 ## Good to know
 
 - To follow or retry what is queued, see [Following the translation queue](translation-queue-panel.md).
 - Online: [OpenSubtitles for a series](translation-queue-online.md).
+- Subtitles in your language from elsewhere give a series its terms first: the dialog says
+  **Glossary read from the subtitles of season 1**.
 - On a new series, keep **Stop after the first episode** ticked; in the queue, press **Check names
   and people…**, correct them, then **Continue**: the next episodes use them.
 - A playing video gets the graphics card first.
-- Jellyfin titles can be queued too; a title in both places shares its subtitles. Provider:
+- Jellyfin titles can be queued, sharing subtitles with a local copy. Provider:
   [Translating subtitles](translate.md).
