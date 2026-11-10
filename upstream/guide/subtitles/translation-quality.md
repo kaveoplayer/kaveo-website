@@ -8,7 +8,7 @@ order: 70
 
 Tell Kaveo, before it translates, how to spell names, who is speaking and how the result should sound.
 
-![The Names and people panel, with Move into the page and the arrow that folds it: Names and terms holding Franck and Victor, each spelled the same way, with how many lines of this subtitle say each, and Add a term; Who is speaking holds two people](../images/subtitles/translation-quality-lists.webp)
+![The Names and people panel, with Move into the page and the arrow that folds it: Names and terms with the All, To check, Proposed and Yours filters above Franck and Victor, each spelled the same way, with how many lines of this subtitle say each, and Add a term; Who is speaking holds two people](../images/subtitles/translation-quality-lists.webp)
 
 ## How to use it
 
@@ -23,12 +23,11 @@ Tell Kaveo, before it translates, how to spell names, who is speaking and how th
 
 ## Good to know
 
-- Kaveo proposes names, terms and speakers you did not describe, even when the subtitle names nobody;
-  subtitles in other languages inside the video help it tell a man from a woman.
-- **Names and terms** are one list for the whole series; a name you change or remove stays so. Later
-  episodes reuse your speakers, style and corrected lines, and add new names without changing yours.
+- **Names and terms** is one list for the whole series. Kaveo proposes terms and speakers, and reads
+  terms from subtitles already in your language; later episodes reuse yours.
+- **To check** shows terms another subtitle or the audio disagrees with. Click **to check** to see why,
+  with the lines that show it, then change the term or click **Keep**: either way it becomes yours.
+- Under a person, **Changes from an episode on…** says how they speak or address others from that
+  episode on; earlier episodes keep what is written above.
 - Click the number beside a term to see only the lines that say it.
-- Drag the panel's edge to resize it, fold it with its arrow, or press **Move into the page**. Kaveo
-  remembers the choice.
-- Lines that do not fit can be fixed on the translation's **All lines…** page: **Break the row** and
-  **Give time** change no word.
+- Drag the panel's edge to resize it, fold it with its arrow, or press **Move into the page**.

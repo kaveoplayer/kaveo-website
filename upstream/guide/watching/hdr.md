@@ -19,8 +19,7 @@ an HDR-capable display so it looks the way it was mastered.
    **Save**. If Kaveo misses your screen's HDR, pick
    **On — HDR even if the display does not report it** (Linux); Windows'
    **On — strict HDR passthrough** sends the film uncompressed.
-3. For the best result, calibrate first: on Windows, run Windows HDR Calibration (from the Microsoft
-   Store) and Kaveo reads the saved value by itself.
+3. On Windows, run Windows HDR Calibration first; Kaveo reads its value by itself.
 4. Otherwise, or if your screen's peak is under 400 or over 2000 nits (Kaveo then assumes 600), set
    **Display peak** (unused by strict passthrough) to **Override** and type your screen's rated HDR peak
    in the number beside it.
@@ -30,5 +29,6 @@ an HDR-capable display so it looks the way it was mastered.
 - HDR engages only while an HDR video plays; Kaveo restores your display when it closes.
 - An SDR film never switches the display, unless you turn on **Use HDR on SDR content** (off by default).
 - Music never switches the display: there is no picture to show in HDR.
+- Dolby Vision profiles 5 and 8 play in full; profile 7 plays as HDR10.
 - On Linux, KDE Plasma switches the display and shows HDR in the window by itself. On other desktops
   the window stays SDR: their compositor cannot yet be told that the picture is HDR.

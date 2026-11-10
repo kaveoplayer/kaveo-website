@@ -14,9 +14,9 @@ What each action ships with is [Keyboard shortcuts](../keyboard-shortcuts.md).
 
 ## How to use it
 
-1. Each row is one action this platform has, with its shortcuts beside it, in five groups —
-   **Playback**, **Sound**, **Subtitles**, **Picture & window**, **Tools**; what they do is
-   [Player controls](../watching/player-controls.md).
+1. Each row is one action this platform has, with its shortcuts beside it, in six groups —
+   **Playback**, **Sound**, **Subtitles**, **Picture & window**, **Tools**, **Disc menu**; what
+   they do is [Player controls](../watching/player-controls.md).
 2. Click **Add** on a row — it asks you to *press a key or mouse…* — and press what you want.
    **Cancel**, or **Esc**, backs out.
 3. Click the cross beside a shortcut to drop it: an action can hold several, so the rest stay.
