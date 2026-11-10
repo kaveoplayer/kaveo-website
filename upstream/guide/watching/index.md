@@ -24,9 +24,10 @@ A video fills the window; the controls appear when you reach for them.
 - [Next episode and queue](next-episode.md) — between episodes and tracks.
 - [Playing on a loop](loop.md) — for hours, unattended.
 - [Sleep timer](sleep-timer.md) — pause after a while.
-- [Skipping openings](skip-intro.md) — skip a series' opening or ending.
+- [Skipping openings](skip-intro.md) — a series' opening or ending.
 - [Screenshots](screenshots.md) — save what is on screen.
-- [HDR output](hdr.md) — send HDR video to an HDR display.
+- [HDR output](hdr.md) — on an HDR display.
+- [Dolby Vision](dolby-vision.md)
 - [Saving a frame](save-a-frame.md) — the video's own picture.
 - [Saving an HDR frame](save-an-hdr-frame.md)
 - [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence.
