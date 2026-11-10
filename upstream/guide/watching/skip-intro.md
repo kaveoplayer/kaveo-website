@@ -23,7 +23,7 @@ else what the season's episodes share in their sound.
 
 ### Turn it off
 
-![Settings with Behaviour selected in the rail, showing Offer to skip intros and endings and Find intros and endings from the audio switched on, above the Reading a server's episodes, Saved frames and Web video quality rows](../images/watching/skip-intro-setting.webp)
+![Settings with Behaviour selected in the rail, showing Offer to skip intros and endings and Find intros and endings from the audio switched on, above the Reading a server's episodes, Discs, Saved frames and Web video quality rows](../images/watching/skip-intro-setting.webp)
 
 1. Open **Settings › Behaviour** ([Behaviour](../settings/behaviour.md)), turn off **Offer to skip
    intros and endings** and click **Save**: Kaveo never offers or makes a skip.

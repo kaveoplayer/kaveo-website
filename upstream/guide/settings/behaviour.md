@@ -10,7 +10,7 @@ order: 70
 ending, how a Blu-ray disc plays, the format of a frame you save from the player, and how sharp a
 video opened from a web address plays.
 
-![Settings with Behaviour chosen under Playback in the rail, a Restore defaults button under the caption, and the section's six rows — Offer to skip intros and endings, on, Find intros and endings from the audio, on, Reading a server's episodes with Full chosen, Discs with Ask chosen, Saved frames with JPEG chosen, and Web video quality on Automatic](../images/watching/skip-intro-setting.webp)
+![Settings with Behaviour chosen under Playback in the rail, a Restore defaults button under the caption, and the section's six rows — Offer to skip intros and endings, on, Find intros and endings from the audio, on, Reading a server's episodes with Full chosen, Discs with Ask chosen and a line under it saying the Java installed is too new for disc menus, Saved frames with JPEG chosen, and Web video quality on Automatic](../images/watching/skip-intro-setting.webp)
 
 ## How to use it
 
@@ -19,9 +19,9 @@ video opened from a web address plays.
 2. **Find intros and endings from the audio** is on to begin with: it is what lets the button appear
    on an episode whose chapters name nothing. See [Skipping openings](../watching/skip-intro.md).
 3. **Reading a server's episodes** is **Full** to begin with: Skip is ready on the server episode you
-   are watching. Choose **Data saver** on a metered connection.
-4. **Discs** is **Ask** to begin with; **The film** or **The disc** stops the question. See
-   [Blu-ray disc images](../sources/disc-images.md).
+   watch. Choose **Data saver** on a metered connection.
+4. **Discs** is **Ask** to begin with; **The film** or **The disc** stops the question. A line
+   flags missing Java. See [Blu-ray disc images](../sources/disc-images.md).
 5. **Saved frames** is **JPEG** to begin with; choose **PNG** for pictures that lose nothing. See
    [Saving a frame](../watching/save-a-frame.md).
 6. **Web video quality** is **Automatic** to begin with: the sharpest the stream offers, up to your
