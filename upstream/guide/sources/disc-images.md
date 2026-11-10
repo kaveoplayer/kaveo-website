@@ -24,9 +24,9 @@ copied from the disc. Kaveo plays the film inside it, from your computer or your
 - Over a menu, seeking waits until a title plays; its keys are under **Disc menu** in the
   shortcuts.
 - Java menus, on most recent discs, need Java 8 to 23; without it the film plays and **Discs**
-  says why.
-- A resumed film and the next title in a list play the film; one started from the menu keeps its
-  place. An unreadable or encrypted disc, or a DVD image, does not open, and Kaveo says why.
-- Kaveo picks the film's version with your preferred soundtrack language, and names the forced
-  and SDH subtitles once it has read them. A disc folder on Jellyfin plays one soundtrack, no
+  says why. On Linux, **Install Java for disc menus** there adds one, after asking.
+- A resumed film and the next title in a list play the film. An unreadable or encrypted disc, or a
+  DVD image, does not open, and Kaveo says why.
+- Kaveo picks the film's version in your soundtrack language, and names forced and SDH subtitles
+  once read. A disc folder on Jellyfin plays one soundtrack, no
   subtitles yet.
