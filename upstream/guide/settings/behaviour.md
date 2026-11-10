@@ -21,7 +21,7 @@ video opened from a web address plays.
 3. **Reading a server's episodes** is **Full** to begin with: Skip is ready on the server episode you
    watch. Choose **Data saver** on a metered connection.
 4. **Discs** is **Ask** to begin with; **The film** or **The disc** stops the question. A line
-   flags missing Java and, on Linux, offers it. See [Blu-ray disc images](../sources/disc-images.md).
+   flags missing Java and, on Linux, offers it. See [Blu-ray and DVD disc images](../sources/disc-images.md).
 5. **Saved frames** is **JPEG** to begin with; choose **PNG** for pictures that lose nothing. See
    [Saving a frame](../watching/save-a-frame.md).
 6. **Web video quality** is **Automatic** to begin with: the sharpest the stream offers, up to your

@@ -67,5 +67,5 @@ Six more keys cannot be changed:
 - Photos have keys of their own — see [Viewing photos](library/view-photos.md).
 - While the subtitle editor is open it takes **[**, **]**, **↑** and **↓**: retime the line and move between lines.
 - While the video editor (*Edit a copy*) is open it takes **I** and **O**: mark where the copy starts and ends.
-- The five **Disc menu** keys work only while a Blu-ray's own menu is on screen, and while it is they take the arrows and **Enter** from the volume, seeking and fullscreen — see [Blu-ray disc images](sources/disc-images.md).
+- The five **Disc menu** keys work only while a Blu-ray's own menu is on screen, and while it is they take the arrows and **Enter** from the volume, seeking and fullscreen — see [Blu-ray and DVD disc images](sources/disc-images.md).
 - **Skip effects for now** compares the sound with and without your Effects, at the same loudness. It lasts until Kaveo closes and is never saved.
