@@ -19,5 +19,5 @@ plain HDR10.
 ## Good to know
 
 - Profiles 5, 7, 8 and 10 play in full, a profile 7's enhancement layer included.
-- A profile 7 whose enhancement layer is a separate video stream, as on a Blu-ray disc, still plays as HDR10.
+- That holds when the enhancement layer is a separate video stream too, as in a Blu-ray's stream files or an MP4 with two video tracks.
 - A profile 5 film shows no picture under the pointer on the seek bar: without its scene instructions the colours would be wrong.
