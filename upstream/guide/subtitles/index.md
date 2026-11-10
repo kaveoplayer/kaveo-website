@@ -8,11 +8,12 @@ Most of this starts from the **Subtitles** submenu, and its **Tools**: right-cli
 Online search, translation and the **Position** setting are set up first in
 **Settings › Subtitles**.
 
-- [Loading subtitles](load.md) — a file beside the video, a track inside it, or a file on your server.
+- [Loading subtitles](load.md) — from a file, the video or your server.
 - [Importing subtitle files](import.md) — for a title or a whole series.
 - [Finding subtitles online](online-search.md) — search OpenSubtitles for a subtitle in your language.
 - [Syncing subtitles](sync.md) — move a subtitle onto the right timing.
 - [Resyncing a whole series](resync-all.md) — fix every episode's timing at once.
+- [Taking subtitle positions](take-positions.md) — place signs where the original does.
 - [Subtitle delay](delay.md) — shift every line while you watch, and keep that timing.
 - [Writing and editing subtitles](edit.md) — create a subtitle, fix its lines and timing, or delete one.
 - [Saving a subtitle](save.md) — write your changes to a file.
@@ -24,5 +25,4 @@ Online search, translation and the **Position** setting are set up first in
 - [Following the translation queue](translation-queue-panel.md) — its progress, pause and retry.
 - [Choosing a translation model](choosing-a-model.md) — quality, cost and speed of each kind.
 - [Better translations](translation-quality.md) — names, speakers, style, and lines that do not fit.
-- [Translating on your own computer](local-models.md) — use Ollama or LM Studio, and let Kaveo listen
-  to the film.
+- [Translating on your own computer](local-models.md) — with Ollama or LM Studio.

@@ -6,11 +6,11 @@ order: 70
 
 ## What it is for
 
-**Settings › Behaviour** holds five rows: the player's decisions about skipping a series' opening or
-ending, the format of a frame you save from the player, and how sharp a video opened from a web
-address plays.
+**Settings › Behaviour** holds six rows: the player's decisions about skipping a series' opening or
+ending, how a Blu-ray disc plays, the format of a frame you save from the player, and how sharp a
+video opened from a web address plays.
 
-![Settings with Behaviour chosen under Playback in the rail, a Restore defaults button under the caption, and the section's five rows — Offer to skip intros and endings, on, Find intros and endings from the audio, on, Reading a server's episodes with Full chosen, Saved frames with JPEG chosen, and Web video quality on Automatic](../images/watching/skip-intro-setting.webp)
+![Settings with Behaviour chosen under Playback in the rail, a Restore defaults button under the caption, and the section's six rows — Offer to skip intros and endings, on, Find intros and endings from the audio, on, Reading a server's episodes with Full chosen, Discs with Ask chosen, Saved frames with JPEG chosen, and Web video quality on Automatic](../images/watching/skip-intro-setting.webp)
 
 ## How to use it
 
@@ -20,12 +20,14 @@ address plays.
    on an episode whose chapters name nothing. See [Skipping openings](../watching/skip-intro.md).
 3. **Reading a server's episodes** is **Full** to begin with: Skip is ready on the server episode you
    are watching. Choose **Data saver** on a metered connection.
-4. **Saved frames** is **JPEG** to begin with; choose **PNG** for pictures that lose nothing. See
+4. **Discs** is **Ask** to begin with; **The film** or **The disc** stops the question. See
+   [Blu-ray disc images](../sources/disc-images.md).
+5. **Saved frames** is **JPEG** to begin with; choose **PNG** for pictures that lose nothing. See
    [Saving a frame](../watching/save-a-frame.md).
-5. **Web video quality** is **Automatic** to begin with: the sharpest the stream offers, up to your
+6. **Web video quality** is **Automatic** to begin with: the sharpest the stream offers, up to your
    screen's height. Choose a height to cap it there; the player's right-click **Quality** menu
    changes it for the video playing.
-6. Click **Save** to keep a change — see [Saving changes](saving.md).
+7. Click **Save** to keep a change — see [Saving changes](saving.md).
 
 ## Good to know
 
