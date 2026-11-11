@@ -19,7 +19,7 @@ A video fills the window; the controls appear when you reach for them.
 - [The song screen](now-playing.md) — what a song shows.
 - [The music queue](music-queue.md) — choose what plays next.
 - [Music while you browse](music-bar.md) — shuffle, repeat.
-- [Lyrics](lyrics.md) — a song's words as it plays.
+- [Lyrics](lyrics.md) — a song's words.
 - [Visualizer](visualizer.md) — what the music looks like.
 - [Next episode and queue](next-episode.md) — between episodes and tracks.
 - [Playing on a loop](loop.md) — for hours, unattended.
@@ -28,7 +28,8 @@ A video fills the window; the controls appear when you reach for them.
 - [Screenshots](screenshots.md) — what is on screen.
 - [HDR output](hdr.md) — on an HDR display.
 - [Dolby Vision](dolby-vision.md)
-- [HLG video](hlg.md)
+- [HLG](hlg.md)
+- [HDR10+](hdr10-plus.md)
 - [Saving a frame](save-a-frame.md) — the video's own picture.
 - [Saving an HDR frame](save-an-hdr-frame.md)
 - [Editing a copy of a video](edit-a-copy.md) — trim, turn or silence.
