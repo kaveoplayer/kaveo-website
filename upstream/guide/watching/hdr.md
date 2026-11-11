@@ -29,6 +29,6 @@ an HDR-capable display so it looks the way it was mastered.
 - HDR engages only while an HDR video plays; Kaveo restores your display when it closes.
 - An SDR film never switches the display, unless you turn on **Use HDR on SDR content** (off by default).
 - Music never switches the display: there is no picture to show in HDR.
-- Dolby Vision plays in full: see [Dolby Vision](dolby-vision.md).
+- Dolby Vision and HLG: see [Dolby Vision](dolby-vision.md) and [HLG video](hlg.md).
 - On Linux, KDE Plasma switches the display and shows HDR in the window by itself. On other desktops
   the window stays SDR: their compositor cannot yet be told that the picture is HDR.
