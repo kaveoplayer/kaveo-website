@@ -27,7 +27,7 @@ disc folder. Kaveo plays the film inside it, locally or from your Jellyfin serve
   says why. On Linux, **Install Java for disc menus** there adds one, after asking.
 - A resumed film and the next title in a list play the film. An unreadable or encrypted disc does
   not open; Kaveo says why.
-- A DVD plays its film, without menus or track names.
+- A DVD plays its film, without menus, its tracks named.
 - Kaveo picks the film's version in your soundtrack language, and names forced and SDH subtitles
   once read. A disc folder on Jellyfin plays one soundtrack, no
   subtitles yet.
