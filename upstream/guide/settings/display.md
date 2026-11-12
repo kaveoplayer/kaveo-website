@@ -33,6 +33,9 @@ order: 100
 - A screen with no profile uses **Global (displays without a profile)**; a saved one follows the
   player to its screen, and an unidentified screen gets none.
 - **Disc subtitle brightness in HDR** is for disc subtitles.
-- **Output gamut** on **Auto** fits an HDR picture into the colours your screen reports, so a colour
-  it cannot show keeps its hue instead of being clipped; a screen that reports none gets BT.2020.
+- **Output gamut** on **Auto** fits an HDR picture into the colours your screen can show: a colour
+  beyond them keeps its hue and its shading, and the most vivid colours are softened slightly, as in
+  other players. **BT.2020** sends the picture unchanged, so the screen cuts off what it cannot show —
+  vivid shades merge and some colours change tint. A screen that reports no colours gets BT.2020 on
+  **Auto** too.
 - Nothing is kept until **Save** ([Saving changes](saving.md)), which also switches HDR on or off.
