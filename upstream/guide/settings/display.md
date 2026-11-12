@@ -6,7 +6,7 @@ order: 100
 
 ## What it is for
 
-**Settings › Display & HDR** decides what your screen is sent, and how an HDR film is fitted to it.
+**Settings › Display & HDR** decides what your screen is sent and how HDR is fitted to it.
 
 ![Settings, Display & HDR selected in the rail with its HDR output, Tone mapping and Format & refresh sub-items. Beside it the Output group — HDR output on Auto, Use HDR on SDR content off, Display peak on Auto with a note that both apply live, then Disc subtitle brightness in HDR on As on the disc — and Signal & calibration with Mastering peak, Mastering black and Calibration LUT. The three tabs and the Per-display settings group are above the picture.](../images/settings/display.webp)
 
@@ -24,14 +24,13 @@ order: 100
    **Dynamic tone-mapping (peak detection)**: **Peak detection**, **Peak percentile**, **Smoothing
    period**, **Scene-change threshold (low)** and **Scene-change threshold (high)**.
 4. **Format & refresh** holds **Output (bit depth & gamut)**: **Display bit depth** (on
-   **Auto**, 12 needs KDE's "Prefer color accuracy"), **Output range**,
-   **Output gamut**, **Picture gamma**; **Display refresh**: **Match
+   **Auto**, 12 needs KDE's "Prefer color accuracy", a few watts; 12 skips costly **Error
+   diffusion**), **Output range**, **Output gamut**, **Picture gamma**; **Display refresh**: **Match
    refresh to content**, **Refresh policy**; **Presentation**: **Lighter presentation**, **Full brightness in fullscreen**.
 
 ## Good to know
 
 - A screen with no profile uses **Global (displays without a profile)**; a saved one follows the
   player to its screen, and an unidentified screen gets none.
-- **Disc subtitle brightness in HDR** is for a disc's own subtitles.
-- Nothing is kept until **Save** ([Saving changes](saving.md)), which is also when the screen
-  switches into or out of HDR.
+- **Disc subtitle brightness in HDR** is for disc subtitles.
+- Nothing is kept until **Save** ([Saving changes](saving.md)), which also switches HDR on or off.
