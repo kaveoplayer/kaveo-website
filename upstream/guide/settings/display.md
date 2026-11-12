@@ -26,7 +26,7 @@ order: 100
 4. **Format & refresh** holds **Output (bit depth & gamut)**: **Display bit depth** (on
    **Auto**, 12 needs KDE's "Prefer color accuracy", a few watts, and a connection that carries
    more than 10 bits — the note says when it does not; on Windows **Auto** follows the bit depth set in
-   the graphics driver's control panel; 12 skips costly **Error diffusion**), **Output range**, **Output gamut**, **Picture gamma**; **Display refresh**: **Match
+   the graphics driver's control panel; 12, and HDR shown on the scRGB surface, skip costly **Error diffusion**), **Output range**, **Output gamut**, **Picture gamma**; **Display refresh**: **Match
    refresh to content**, **Refresh policy**; **Presentation**: **Lighter presentation**, **Full brightness in fullscreen**.
 
 ## Good to know

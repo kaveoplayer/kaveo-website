@@ -21,10 +21,10 @@ switch above it.
    already fill your display.
 3. Below sit **Chroma upscale**, **Sigmoidal upscaling**, **Strength**, **Limit edge halos** and
    **Render scale**.
-4. Every tab holds more rows than this page names: **Source** cleans the file (**Reduce banding**,
+4. Each tab holds more rows: **Source** cleans the file (**Reduce banding**,
    **Sharpness**, **CAS**, **Line darkening**), **Downscaling** fits an oversized source, **Output**
    finishes it (**Anti-ringing**, **Deinterlacing**, **Output dithering**, **Error
-   diffusion**, off at 12 bits), and **Advanced** holds
+   diffusion**, off at 12 bits and on scRGB), and **Advanced** holds
    the model files and, under **Engine**, **Execution provider**.
 5. **Save** keeps it ([Saving changes](saving.md)).
 
