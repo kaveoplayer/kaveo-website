@@ -11,6 +11,7 @@ one library.
   computer.
 - [Jellyfin](jellyfin.md) — connect a Jellyfin server, play its titles, and keep your progress in sync.
 - [Blu-ray and DVD disc images](disc-images.md) — play a film kept as a whole disc, on your computer or a server.
+- [Disc menus](disc-menus.md) — play a disc as a player would: its opening, its menus, its titles.
 - [New files on a server](server-scan.md) — make a server list a file you copied there yourself.
 - [When a server moves](server-moved.md) — give Kaveo a server's new address without losing its
   categories.
