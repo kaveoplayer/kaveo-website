@@ -10,7 +10,7 @@ order: 130
 them, and is where you change them.
 What each action ships with is [Keyboard shortcuts](../keyboard-shortcuts.md).
 
-![Settings shown on the Shortcuts section: the rail with Shortcuts selected under App, and beside it the line Each action can have several shortcuts. Esc always exits fullscreen., then the Playback group — Play / Pause on Space, Seek forward 10 s and Seek backward 10 s each carrying a key, a mouse button and a wheel notch, Frame step forward and backward, Speed up and down — and the first rows of the Sound group: Volume up and down, Mute and Cycle audio track, each key with its own cross and a plus to add another.](../images/settings/shortcuts.webp)
+![Settings shown on the Shortcuts section: the rail with Shortcuts selected under App, and beside it the line Each action can have several shortcuts. Esc always exits fullscreen., then the Playback group — Play / Pause on Space, Seek forward 5 s and Seek backward 5 s each carrying a key, a mouse button and a wheel notch, Seek forward 1 s and Seek backward 1 s on Shift and an arrow, Frame step forward and backward, Speed up and down — and the first row of the Sound group, Volume up on ↑, = and a wheel notch, each shortcut with its own cross and a plus to add another.](../images/settings/shortcuts.webp)
 
 ## How to use it
 

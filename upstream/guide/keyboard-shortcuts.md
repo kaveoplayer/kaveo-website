@@ -12,8 +12,10 @@ These work while a video is playing, and every one of them can be changed — se
 | What it does | Default shortcut |
 |---|---|
 | Play / Pause | **Space** |
-| Seek forward 10 s | **→**, **Mouse Fwd**, **Wheel →** |
-| Seek backward 10 s | **←**, **Mouse Back**, **Wheel ←** |
+| Seek forward 5 s | **→**, **Mouse Fwd**, **Wheel →** |
+| Seek backward 5 s | **←**, **Mouse Back**, **Wheel ←** |
+| Seek forward 1 s | **Shift+→** |
+| Seek backward 1 s | **Shift+←** |
 | Frame step forward | **.** |
 | Frame step backward | **,** |
 | Speed up | **]** |
