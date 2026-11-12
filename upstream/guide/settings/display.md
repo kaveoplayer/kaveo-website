@@ -24,8 +24,8 @@ order: 100
    **Dynamic tone-mapping (peak detection)**: **Peak detection**, **Peak percentile**, **Smoothing
    period**, **Scene-change threshold (low)** and **Scene-change threshold (high)**.
 4. **Format & refresh** holds **Output (bit depth & gamut)**: **Display bit depth** (on
-   **Auto**, 12 needs KDE's "Prefer color accuracy", a few watts; 12 skips costly **Error
-   diffusion**), **Output range**, **Output gamut**, **Picture gamma**; **Display refresh**: **Match
+   **Auto**, 12 needs KDE's "Prefer color accuracy", a few watts, and a connection that carries
+   more than 10 bits — the note says when it does not; 12 skips costly **Error diffusion**), **Output range**, **Output gamut**, **Picture gamma**; **Display refresh**: **Match
    refresh to content**, **Refresh policy**; **Presentation**: **Lighter presentation**, **Full brightness in fullscreen**.
 
 ## Good to know
