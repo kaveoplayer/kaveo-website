@@ -23,9 +23,10 @@ switch above it.
    **Render scale**.
 4. Every tab holds more rows than this page names: **Source** cleans the file (**Reduce banding**,
    **Sharpness**, **CAS**, **Line darkening**), **Downscaling** fits an oversized source, **Output**
-   finishes it (**Anti-ringing**, **Deinterlacing**, **Output dithering**), and **Advanced** holds
+   finishes it (**Anti-ringing**, **Deinterlacing**, **Output dithering**, **Error
+   diffusion**, off at 12 bits), and **Advanced** holds
    the model files and, under **Engine**, **Execution provider**.
-5. Click **Save** to keep it — see [Saving changes](saving.md).
+5. **Save** keeps it ([Saving changes](saving.md)).
 
 ## Good to know
 
