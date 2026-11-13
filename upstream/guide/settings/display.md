@@ -39,4 +39,7 @@ order: 100
   what your screen shows best, as in other players. **BT.2020** sends the picture unchanged, so the screen cuts off what it cannot show —
   vivid shades merge and some colours change tint. A screen that reports no colours gets BT.2020 on
   **Auto** too.
+- A forced **Output gamut** limits an HDR picture to those colours. For SDR it is for a screen
+  calibrated to that gamut; where your desktop manages colour itself it does not change SDR, and the
+  row says so. **P3 (D65)** is the P3 most screens use.
 - Nothing is kept until **Save** ([Saving changes](saving.md)), which also switches HDR on or off.
