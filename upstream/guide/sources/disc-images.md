@@ -20,6 +20,7 @@ disc folder. Kaveo plays the film inside it, locally or from your Jellyfin serve
 
 ## Good to know
 
+- A disc that takes a moment to start says "Opening the disc…"; **Cancel** or **Esc** goes back.
 - A resumed film and the next title in a list play the film. An unreadable or encrypted disc does
   not open; Kaveo says why.
 - Kaveo picks the film's version in your soundtrack language and names forced and SDH subtitles
