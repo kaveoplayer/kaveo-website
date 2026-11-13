@@ -9,6 +9,8 @@ order: 23
 **Play the disc** plays a Blu-ray or DVD image as a player would: its opening, its own menus, then
 the titles you pick from them.
 
+![A disc's menu in the player, its Film button framed in red](../images/sources/disc-menus-menu.webp)
+
 ## How to use it
 
 1. Choose **Play the disc** when Kaveo asks, or from the film's page **⋯** menu.
@@ -17,6 +19,8 @@ the titles you pick from them.
 4. A menu that plays by itself goes on to the film, as a player's would.
 5. **Disc menu** in the player's **⋯** menu, or **Shift+M**, brings the menu back from a title;
    its resume button continues where you were.
+
+![The film's bar after the menu's resume button, at 0:35 of the whole film's 2:30](../images/sources/disc-menus-bar.webp)
 
 ## Good to know
 
