@@ -15,6 +15,8 @@ the titles you pick from them.
 2. **Skip to the menu** jumps the opening.
 3. In the menu, move with the arrows and press **Enter**, or point at a button and click it.
 4. A menu that plays by itself goes on to the film, as a player's would.
+5. **Disc menu** in the player's **⋯** menu, or **Shift+M**, brings the menu back from a title;
+   its resume button continues where you were.
 
 ## Good to know
 
