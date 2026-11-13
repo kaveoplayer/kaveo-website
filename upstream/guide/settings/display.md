@@ -18,7 +18,7 @@ order: 100
    subtitle brightness in HDR**; then
    **Signal & calibration**: **Mastering peak**, **Mastering black** and **Calibration LUT** (grading is
    [Picture](picture.md)). **Override** in a value's menu sets your own.
-3. **Tone mapping** holds **SDR tone-map target**, **SDR tone-map black**, **Tone-map curve**,
+3. **Tone mapping** holds **SDR tone-map target**, **Display black** (in SDR and HDR; 0 suits an OLED), **Tone-map curve**,
    **Gamut mapping**, **HDR metadata**, **Contrast recovery**, **Mastering clip**, **Film response**
    and **Inverse tone mapping**, then
    **Dynamic tone-mapping (peak detection)**: **Peak detection**, **Peak percentile**, **Smoothing
