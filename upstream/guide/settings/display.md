@@ -34,11 +34,12 @@ order: 100
 - A screen with no profile uses **Global (displays without a profile)**; a saved one follows the
   player to its screen, and an unidentified screen gets none.
 - **Disc subtitle brightness in HDR** is for disc subtitles.
-- **Output gamut** on **Auto** fits an HDR picture into the colours your screen can show: a colour
-  beyond them keeps its hue and its shading, and the most vivid colours may shift slightly towards
-  what your screen shows best, as in other players. **BT.2020** sends the picture unchanged, so the screen cuts off what it cannot show —
-  vivid shades merge and some colours change tint. A screen that reports no colours gets BT.2020 on
-  **Auto** too.
+- **Output gamut** on **Auto** follows your desktop in HDR. With KDE's "Wide Color Gamut" on, it
+  sends BT.2020 and your screen fits the colours itself; with it off, it fits the picture into the
+  colours your screen reports, so a colour beyond them keeps its hue instead of being cut off. A
+  system that describes no colours gets BT.2020. While an HDR film plays, a note under the row says
+  which. **BT.2020** sends the picture unchanged: with "Wide Color Gamut" off, vivid shades merge
+  and some colours change tint.
 - A forced **Output gamut** limits an HDR picture to those colours. For SDR it is for a screen
   calibrated to that gamut; where your desktop manages colour itself it does not change SDR, and the
   row says so. **P3 (D65)** is the P3 most screens use.
