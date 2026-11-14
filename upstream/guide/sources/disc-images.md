@@ -13,14 +13,14 @@ disc folder. Kaveo plays the film inside it, locally or from your Jellyfin serve
 
 1. Put the image or folder in a library folder: Kaveo lists it as a film.
 2. Open the film's page and click **Play**.
-3. For a disc with a menu, Kaveo asks: **Play the film**, or **Play the disc** from its start, as a
-   player would. Tick **Remember my choice** to stop asking; **Discs** in
+3. For a disc with a menu, Kaveo reads it, then asks: **Play the film**, or **Play the disc** from
+   its start, as a player would. Tick **Remember my choice** to stop asking; **Discs** in
    [Behaviour](../settings/behaviour.md) changes it. The page's **⋯** menu offers the other way.
 4. Playing the disc, its menus work as [Disc menus](disc-menus.md) says.
 
 ## Good to know
 
-- A disc that takes a moment to start says "Opening the disc…"; **Cancel** or **Esc** goes back.
+- While a disc is read or opened, the player says so; **Cancel** or **Esc** goes back.
 - A resumed film and the next title in a list play the film. An unreadable or encrypted disc does
   not open; Kaveo says why.
 - Kaveo picks the film's version in your soundtrack language and names forced and SDH subtitles
