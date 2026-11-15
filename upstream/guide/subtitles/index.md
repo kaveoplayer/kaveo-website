@@ -11,14 +11,15 @@ Online search, translation and the **Position** setting are set up first in
 - [Loading subtitles](load.md) — from a file, the video or your server.
 - [Importing subtitle files](import.md) — for a title or a whole series.
 - [Extracting subtitles](extract.md) — out of video files.
-- [Finding subtitles online](online-search.md) — search OpenSubtitles for a subtitle in your language.
+- [Subtitles from another release](extract-onto.md) — onto your episodes.
+- [Finding subtitles online](online-search.md) — search OpenSubtitles in your language.
 - [Syncing subtitles](sync.md) — move a subtitle onto the right timing.
 - [Resyncing a whole series](resync-all.md) — fix every episode's timing at once.
 - [Taking subtitle positions](take-positions.md) — place signs where the original does.
-- [Subtitle delay](delay.md) — shift every line while you watch, and keep that timing.
+- [Subtitle delay](delay.md) — shift every line while you watch.
 - [Writing and editing subtitles](edit.md) — create, fix or delete a subtitle.
 - [Saving a subtitle](save.md) — write your changes to a file.
-- [Position and style](position-and-style.md) — move a line, fonts and colours, every subtitle.
+- [Position and style](position-and-style.md) — move a line, fonts and colours.
 - [Translating subtitles](translate.md) — translate a subtitle with an AI model.
 - [Translating a whole series](translation-queue.md) — queue a film, a season or a series.
 - [Subtitles from OpenSubtitles for a series](translation-queue-online.md) — in your language, or English to
