@@ -26,8 +26,9 @@ Each track becomes its own file, in the format the video holds it, named after i
 
 - The languages ticked at first are the subtitle languages set in **Settings › Subtitles**.
 - A file that already exists is never replaced: the new one gets a number, such as *Episode.2.it.ass*.
-- **Also extract attached fonts** puts the fonts a styled subtitle needs into a fonts folder beside the
-  files.
+- Picture subtitles (PGS, VobSub): **Keep original** writes them as they are, **Read as text (OCR)**
+  as an SRT file. Reading takes a while and needs Tesseract (**Settings › Components**).
+- **Also extract attached fonts** puts a styled subtitle's fonts into a fonts folder beside the files.
 - **Delete source files after extraction** moves each video to the Trash once every subtitle chosen
   for it was written and read back. You confirm first, and a video the library holds says so. Where
   no Trash exists, a second question asks before deleting for good; **Keep the files** keeps them.
