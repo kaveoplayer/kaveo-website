@@ -20,6 +20,7 @@ organised by what you are trying to do.
 - [From your file manager](file-manager.md) — play or file a video, or open a photo, with a
   right-click.
 - [Command line](command-line.md) — start Kaveo on a file, a photo or a folder from a terminal.
+- [Settings from an AI assistant](control.md) — let an assistant change the running Kaveo.
 - [Keyboard shortcuts](keyboard-shortcuts.md) — every key and mouse button the player answers to.
 - [Settings](settings/index.md) — a reference page for each section of the settings screen.
 - [Troubleshooting](troubleshooting.md) — the messages Kaveo shows, and what to send when you report a problem.
