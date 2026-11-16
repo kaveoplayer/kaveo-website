@@ -39,8 +39,8 @@ Control playback, and leave the player with or without stopping it.
 
 ![The now-playing pill, with the film's name and a cross, beside the search field and Open in the top bar](../images/watching/player-controls-pill.webp)
 
-1. Click the arrow at the top left, or press **Esc**: the film stops, saved, and its page opens
-   (an episode's series, a song's album). Each step of the path opens its place.
+1. Click the arrow at the top left, or press **Esc**: the film stops, saved, and you are back
+   where you were. A step of the path opens its place instead.
 2. Or right-click and choose **Settings**: the film keeps playing.
 3. Click the pill beside **Open** to return to the player, or its cross to stop the film.
 

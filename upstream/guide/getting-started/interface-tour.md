@@ -39,7 +39,7 @@ fixes a bad match — see [Correcting a wrong match](../library/correct-a-match.
 copy? The row under **Play** lists them — see [Several copies](../organizing/versions.md). A series'
 page starts with **Play** or **Resume**; an episode plays from its picture.
 
-Above it, the path back: click a step, or the arrow.
+The arrow above goes back; a path step goes up.
 
 ## The player
 

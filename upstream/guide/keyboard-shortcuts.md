@@ -54,9 +54,11 @@ These work while a video is playing, and every one of them can be changed — se
 | Disc menu: right | **→** |
 | Disc menu: choose | **Enter**, **Enter (num)** |
 
-Six more keys cannot be changed:
+Nine more keys cannot be changed:
 
-- **Esc** leaves fullscreen, on any screen; otherwise it goes back — in the player to where the film was started from, on a library page one step up its path.
+- **Esc** leaves fullscreen, on any screen; otherwise it goes back to where you were, like the arrow at the top left — from the player and from a library page.
+- **Alt+←**, or the mouse's back button, goes back to where you were; **Alt+→**, or its forward button, goes forward again. In the player the mouse buttons keep their own shortcuts.
+- **Alt+↑** goes one step up the path above a page — to an episode's series, or to a film's category.
 - **Ctrl+O** opens **Open file…**, and **Ctrl+L** opens **Open URL…**, on any screen.
 - **/** puts the cursor in the search field.
 - **F12** saves a picture of what is on screen — see [Screenshots](watching/screenshots.md).

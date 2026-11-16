@@ -17,7 +17,7 @@ films and series.
 1. In **Settings › Library › Categories**, add a category, tick **Personal**, then **Add folder…**
    and pick the folder of your photos and videos.
 2. Click the category at the top of the library: one folder opens straight onto its content, several
-   ask which first. The breadcrumb above the page is the path you are in.
+   ask which first. The path above the page shows the folder you are in; click a step to go up to it.
 3. A folder shows its subfolders first, then its photos and videos, newest first. Click a video to
    play it, or **Play all** — a [slideshow](slideshow.md) once the folder holds a photo.
 4. **Folders / All** switches between the tree and one flat list of every photo and video in the
