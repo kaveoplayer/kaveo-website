@@ -26,10 +26,12 @@ the titles you pick from them.
 
 - Over a menu, seeking waits until a title plays; the menu's keys are under **Disc menu** in
   shortcuts.
-- The film watched from the menu resumes like the film opened directly; a menu or another title
-  keeps no place.
+- A box a disc draws over the film stays visible, but the bar and keys stay yours until
+  **Disc menu**.
+- The film watched from the menu resumes like the film opened directly, with its chapters; a
+  menu or another title has neither.
 - Started from the menu partway in, by its resume button or a chapter, the film's bar still shows
   the whole film, and you can seek back before that point too. A faint part of the bar is out of
   reach from there.
-- Java menus (most recent Blu-rays) need Java 8 to 23; without it the film plays and **Discs** says
-  why. On Linux, **Install Java for disc menus** there adds one, after asking.
+- Java menus (most recent Blu-rays) need Java 8 to 23 and libbluray's BD-J file (Debian, Ubuntu:
+  libbluray-bdj); without them the film plays and **Discs** says why.
