@@ -47,6 +47,7 @@ These work while a video is playing, and every one of them can be changed — se
 | Edit a copy | **T** |
 | Skip effects for now | **D** |
 | Disc menu | **Shift+M** |
+| Disc: play the film | **Shift+P** |
 | Disc menu: up | **↑** |
 | Disc menu: down | **↓** |
 | Disc menu: left | **←** |
@@ -70,5 +71,5 @@ Six more keys cannot be changed:
 - Photos have keys of their own — see [Viewing photos](library/view-photos.md).
 - While the subtitle editor is open it takes **[**, **]**, **↑** and **↓**: retime the line and move between lines.
 - While the video editor (*Edit a copy*) is open it takes **I** and **O**: mark where the copy starts and ends.
-- **Disc menu** opens a disc's own menu while you play the disc. The five keys after it work only while that menu is on screen, and then they take the arrows and **Enter** from the volume, seeking and fullscreen — see [Disc menus](sources/disc-menus.md).
+- **Disc menu** opens a disc's own menu while you play the disc. The five keys after it work only while that menu is on screen, and then they take the arrows and **Enter** from the volume, seeking and fullscreen — see [Disc menus](sources/disc-menus.md). **Disc: play the film** leaves the disc's menus for its film.
 - **Skip effects for now** compares the sound with and without your Effects, at the same loudness. It lasts until Kaveo closes and is never saved.
