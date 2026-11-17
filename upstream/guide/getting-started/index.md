@@ -10,3 +10,4 @@ guide talks about.
 - [Licence](licence.md) — the key a beta copy needs, and what happens when it ends.
 - [First launch](first-launch.md) — the empty library, and adding your first folder.
 - [A tour of the interface](interface-tour.md) — the top bar, the home, a title page and the player.
+- [Using the keyboard](keyboard.md) — every screen, and every control on it, without a mouse.

@@ -54,7 +54,7 @@ These work while a video is playing, and every one of them can be changed — se
 | Disc menu: right | **→** |
 | Disc menu: choose | **Enter**, **Enter (num)** |
 
-Nine more keys cannot be changed:
+Eleven more keys cannot be changed:
 
 - **Esc** leaves fullscreen, on any screen; otherwise it goes back to where you were, like the arrow at the top left — from the player and from a library page.
 - **Alt+←**, or the mouse's back button, goes back to where you were; **Alt+→**, or its forward button, goes forward again. In the player the mouse buttons keep their own shortcuts.
@@ -63,6 +63,7 @@ Nine more keys cannot be changed:
 - **/** puts the cursor in the search field.
 - **F12** saves a picture of what is on screen — see [Screenshots](watching/screenshots.md).
 - **Ctrl+H** opens the live picture panel while a film plays.
+- **Ctrl+K**, or **F1**, opens the command palette — every command Kaveo has, on any screen, filtered as you type.
 
 ## Good to know
 
