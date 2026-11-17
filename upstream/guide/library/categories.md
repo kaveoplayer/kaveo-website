@@ -35,5 +35,6 @@ want.
 - A server's library is mapped into a category from its connection wizard.
 - An empty category says why: a folder it cannot read is named, with **Edit the category** beside it.
 - When the categories do not all fit at the top, the last ones fold into **More**; a long name is cut
-  after a whole word.
+  after a whole word. In a very narrow window they all fold into one button named after the
+  category you are in.
 - On a title's page, the category it belongs to is the one lit at the top.

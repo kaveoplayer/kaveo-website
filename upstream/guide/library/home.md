@@ -6,8 +6,8 @@ order: 10
 
 ## What it is for
 
-The home screen lays your titles out in rows so you find something to watch without hunting for a
-file name, with a band at the top featuring a few of them.
+The home lays your titles out in rows so you find something to watch without hunting for a file
+name, with a band at the top.
 
 ![The library home, with the featured band above two Recently played cards, both resuming partway through](../images/library/home-rows.webp)
 
@@ -31,13 +31,14 @@ file name, with a band at the top featuring a few of them.
 
 ## Good to know
 
+- A row holding more than fits pages with its arrows, or by dragging it — and a flick carries on.
 - Which rows a page shows, and their order, are yours to choose: [Arranging the rows](arrange-rows.md).
 
 - *Recently played* shows one card per title — a series stays on the episode you're partway through,
   then moves to the next one.
 - Albums have their own row, *New music*, with square covers; *Recently added* holds films and series.
-- A design with wide images shows only once every title in the band has one; until then the band
-  uses its poster version.
+- A design with wide images shows only once every title in the band has one; until then, its poster
+  version.
 - The featured band is on the home screen only — a category or source page starts with its rows.
-- After a moment the band plays a clip — *TRAILER* or *PREVIEW* says which. Its **×** stops it, and
-  no clip plays there again until Kaveo restarts.
+- After a moment the band plays a clip — *TRAILER* or *PREVIEW* says which. Its **×** stops it for
+  the session.
