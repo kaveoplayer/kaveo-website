@@ -25,3 +25,8 @@ once. A category holds it as one of its roots.
 ## Good to know
 
 - Only **WebDAV** for now; **SMB**, **S3** and **SFTP** are greyed out, the reason on hover.
+- Its titles appear in the category and play like any other. Kaveo cannot watch a network folder, so
+  a file added on the server appears after the next scan.
+- A folder that stops answering — a NAS asleep, a cable unplugged — keeps the titles of the last
+  scan that reached it instead of emptying its category, and they are still there the next time
+  Kaveo starts.
