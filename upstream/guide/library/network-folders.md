@@ -6,27 +6,29 @@ order: 45
 
 ## What it is for
 
-A folder on another machine — a NAS or a WebDAV server — reached through a connection you set up
-once. A category holds it as one of its roots.
+A folder on another machine — a NAS, a WebDAV server or an S3 bucket — reached through a connection
+you set up once.
 
 ## How to use it
 
-1. Open **Settings › Library › Network**.
-2. Click **Add connection…**: a name, the host and the folder inside it — empty means the server's
-   root. Add a user name and password if it asks.
-3. Click **Test**: Kaveo asks the server whether the folder is there. **Save** appears only after a
-   pass — nothing is stored before.
-4. **Edit** changes a connection, **Delete** removes it. One a category uses cannot be deleted; the
-   message names the categories.
-5. Open **Settings › Library › Categories**, choose the category and click **Add a network root…**:
-   pick the connection and the folder inside it — empty is the connection's own root — then click
-   **Add**. **×** removes it again.
+1. Open **Settings › Library › Network**, click **Add connection…**.
+2. Choose what it is, then the host and the folder inside it — empty is the server's root — with a
+   user name and password if needed.
+3. For **S3**: the **Endpoint** (empty for Amazon), the **Bucket**, the **Region**, the **Prefix**
+   that is the root, and the **Access key** with its **Secret key**. **List buckets…** is optional —
+   a token that reads one bucket cannot list them all, so type the name.
+4. Click **Test**: Kaveo asks whether the folder is there; **Save** appears after a pass.
+5. In **Settings › Library › Categories** click **Add a network root…**: pick the connection and a
+   folder. **×** removes it.
 
 ## Good to know
 
-- Only **WebDAV** for now; **SMB**, **S3** and **SFTP** are greyed out, the reason on hover.
-- Its titles appear in the category and play like any other. Kaveo cannot watch a network folder, so
-  a file added on the server appears after the next scan.
-- A folder that stops answering — a NAS asleep, a cable unplugged — keeps the titles of the last
-  scan that reached it instead of emptying its category, and they are still there the next time
-  Kaveo starts.
+- **WebDAV**, **SMB** and **S3**; **SFTP** is greyed out, the reason on hover. SMB needs a share and
+  a user name — no guest session.
+- Its titles appear and play like any other; a file added on the server appears after the next scan —
+  Kaveo cannot watch a folder.
+- An S3 bucket costs **traffic**: a provider that charges for downloads makes watching expensive;
+  choose one without egress fees.
+- When the connection stops answering the player says so — *Waiting for the network…*, then *The
+  connection was lost* with **Retry** — and the position is kept.
+- A folder that stops answering keeps its last scan's titles, next start too.

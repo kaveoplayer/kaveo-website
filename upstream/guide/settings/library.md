@@ -25,8 +25,8 @@ order: 20
    **Music naming**, the **Standard**, **Plex** and **Kodi** presets and the **Available tokens**
    reference — [Naming templates](../organizing/naming-templates.md).
 4. Open **Network** for a folder on another machine — [Network folders](../library/network-folders.md).
-   **Add connection…**, fill in its address, and **Test** it; only **WebDAV** works, the others are
-   greyed out.
+   **Add connection…**, fill in its address, and **Test** it; **WebDAV** and **SMB** work, the
+   others are greyed out.
 5. At the foot of **Folders**, **Clear history…** empties *Recently played* once confirmed; it
    is greyed out with nothing to clear.
 
