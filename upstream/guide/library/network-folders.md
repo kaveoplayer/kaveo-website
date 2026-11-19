@@ -22,11 +22,12 @@ A folder on a NAS, a WebDAV server or an S3 bucket, reached through a connection
 
 ## Good to know
 
-- **WebDAV**, **SMB** and **S3**; **SFTP** is greyed out, the reason on hover. SMB needs a share and
-  a user name.
-- Titles play like any other; a file added on the server appears after the next scan.
+- **WebDAV**, **SMB**, **S3** and **SFTP**; SMB needs a share and a user name.
+- A file added on the server appears after the next scan.
 - An S3 bucket costs **traffic**: a provider that charges for downloads makes watching expensive.
 - A connection that stops answering says so — *Waiting for the network…*, then *The connection was
-  lost* with **Retry**, position kept — and its last scan's titles stay, next start too.
+  lost* with **Retry**, position kept — and its last scan's titles stay.
 - **Keep a copy on this computer** (under **Disk cache**) keeps what you watch, so a second viewing
-  downloads nothing. At **Space it may use** the oldest copies go. A hidden title is never cached.
+  downloads nothing. At **Space it may use** the oldest copies go; a hidden title is never cached.
+- A song's tags can be edited here too, only when you ask — see
+  [Editing music tags](edit-tags.md).
