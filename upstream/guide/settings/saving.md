@@ -23,8 +23,8 @@ screen or already kept.
 
 ## Good to know
 
-- Not everything waits for **Save**. On **Settings › Library**, **Categories** applies and rescans
-  at once and **Clear history…** empties the list — **Revert** undoes neither. Nor does an action on
+- Not everything waits for **Save**. On **Settings › Library**, **Clear history…** empties the
+  list at once — **Revert** does not undo it. Nor does an action on
   your files or the outside world wait: importing, **Recatalogue library**, connecting a server,
   **Start recording** and **Export a diagnostic bundle** all happen the moment you click. The one
   switch that does not wait is **File manager integration**, on [Interface](interface.md); and no

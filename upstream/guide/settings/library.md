@@ -29,6 +29,6 @@ order: 20
 
 ## Good to know
 
-- Two things do not wait for **Save**: **Categories** applies and rescans at once, and
-  **Clear history…** empties the list once confirmed. **Revert** undoes neither.
+- Folders and categories wait for **Save** like everything else here — the scan runs then, and
+  **Revert** puts them back. **Clear history…** does not wait: it empties the list once confirmed.
 - Clearing the history cannot be undone, but it does not forget where you stopped in a film.

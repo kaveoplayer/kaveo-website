@@ -6,16 +6,18 @@ order: 10
 
 ## What it is for
 
-The folders Kaveo scans on this computer, for films, series and music. Their titles appear under
-*All* and under no category — to file a folder under *Movies* or *Series*, add it to that category
-instead, see [Categories](../library/categories.md).
+The folders Kaveo scans on this computer, for films, series and music. Every folder belongs to a
+category: one added here goes into *Library*, a category made the first time that takes
+everything and stays the one, however you rename it, as long as it accepts every kind. To file a folder under *Movies* or *Series*,
+add it to that category instead, see
+[Categories](../library/categories.md).
 
-![Settings › Library › Folders, with one folder under Library folders: its full path, Normalize… and the cross that removes it, and Add folder… below](../images/sources/local-folders-settings.webp)
+![Settings › Library › Folders, with four folders under Library folders: each with its full path, its category, Normalize… and the cross that removes it, and Add folder… below](../images/sources/local-folders-settings.webp)
 
 ## How to use it
 
-1. Open **Settings › Library › Folders** — each folder is listed under **Library folders**, with its
-   full path.
+1. Open **Settings › Library › Folders** — every folder is listed under **Library folders**, with
+   its full path and its category.
 2. Click **Add folder…** and choose another folder to scan.
 3. Click the cross (**Remove**) beside a folder to stop scanning it, or **Normalize…** to rename what
    is in it — see [Tidying a folder](../organizing/tidy-a-folder.md).
