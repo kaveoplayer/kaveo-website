@@ -8,7 +8,7 @@ order: 10
 
 The folders Kaveo scans on this computer, for films, series and music. Every folder belongs to a
 category: one added here goes into *Library*, a category made the first time that takes
-everything and stays the one, however you rename it, as long as it accepts every kind. To file a folder under *Movies* or *Series*,
+everything; renaming it changes nothing, giving it kinds does. To file a folder under *Movies* or *Series*,
 add it to that category instead, see
 [Categories](../library/categories.md).
 
