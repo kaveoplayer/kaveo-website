@@ -6,14 +6,14 @@ order: 20
 
 ## What it is for
 
-**Settings › Library** holds what is in your library and what it is called. Its four sub-pages —
-**Folders**, **Categories**, **Naming** and **Network** — appear in the rail and as tabs.
+**Settings › Library** holds what is in your library and what it is called. Its three sub-pages —
+**Folders**, **Categories** and **Naming** — appear in the rail and as tabs across the page.
 
-![The Library settings rail and its sub-page tabs](../images/sources/local-folders-settings.webp)
+![The settings rail with Library selected and its four sub-pages under it — Folders, Categories, Naming and History — repeated as tabs above the Folders page's first group](../images/sources/local-folders-settings.webp)
 
 ## How to use it
 
-1. Open **Settings › Library › Folders** for the groups: **Library folders**
+1. Open **Settings › Library › Folders** for the folder groups: **Library folders**
    ([Local folders](../sources/local-folders.md)), **Download folders**
    ([Download folders](../organizing/download-folders.md)), **Private folder**
    ([Hiding a title](../private/hide-a-title.md)) and **Adult content**
@@ -24,15 +24,11 @@ order: 20
 3. Open **Naming** for the groups **Options**, **Movies**, **TV Series**, **Anime** and
    **Music naming**, the **Standard**, **Plex** and **Kodi** presets and the **Available tokens**
    reference — [Naming templates](../organizing/naming-templates.md).
-4. Open **Network** for a folder on another machine — [Network folders](../library/network-folders.md).
-   **Add connection…**, fill in its address, and **Test** it; **WebDAV** and **SMB** work, the
-   others are greyed out.
-5. At the foot of **Folders**, **Clear history…** empties *Recently played* once confirmed; it
+4. At the foot of **Folders**, **Clear history…** empties *Recently played* once you confirm; it
    is greyed out with nothing to clear.
 
 ## Good to know
 
-- Three things do not wait for **Save**: **Categories** applies and rescans at once, a connection
-  is written by its own form, and **Clear history…** empties the list once confirmed. **Revert**
-  undoes none of them.
+- Two things do not wait for **Save**: **Categories** applies and rescans at once, and
+  **Clear history…** empties the list once confirmed. **Revert** undoes neither.
 - Clearing the history cannot be undone, but it does not forget where you stopped in a film.

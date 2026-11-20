@@ -16,7 +16,7 @@ store the loudness Kaveo measured in them.
 1. On an album's or an artist's page, click **⋯** › **Edit tags…**; for one song, use its menu.
 2. Change the fields. With several songs, a field reading *Multiple values — type to replace them all* stays as it is unless you type in it.
 3. Click **Save to files**.
-4. To store loudness, use **⋯** › **Write ReplayGain tags…** on an album or artist page, then **Write tags**.
+4. To store loudness, click **⋯** › **Write ReplayGain tags…** on an album's or an artist's page, then **Write tags**.
 5. To undo a write, click **⋯** › **Restore previous tags…** where you made it, choose it, then **Restore**.
 
 ## Good to know
@@ -24,6 +24,3 @@ store the loudness Kaveo measured in them.
 - Only what changes is written, a file is never left half-written, and a file changed since a write is not restored.
 - In **Identify album…**, **Use this and write to the files…** shows every change first; a song placed on a track with another title starts unticked.
 - DSF, DFF, MKA, WMA and AC3 files, and songs on a Jellyfin server, are listed and left alone.
-- A song on a network folder is left alone too, unless you tick it (or it is the one you opened).
-  On an SMB share its tags are rewritten in place — a few KB, the file does not move — and the size
-  on the button is the cost only when they do not fit. Elsewhere it is uploaded again.
