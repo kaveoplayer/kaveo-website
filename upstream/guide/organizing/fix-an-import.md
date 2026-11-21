@@ -28,5 +28,5 @@ moves until you say where it belongs.
 - **Don't import** leaves files in the download folder; **Don't ask again** stops Kaveo mentioning
   them at the next launch.
 - A folder you name here is created only when you import.
-- **{MediaInfo …}** tokens are read from the file: check that FFprobe is installed.
+- **{MediaInfo …}** tokens are read from the file itself; a file Kaveo cannot read leaves them empty.
 - Samples and bonus material are never imported, and a file still downloading is left out.
