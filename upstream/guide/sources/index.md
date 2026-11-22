@@ -9,6 +9,8 @@ one library.
 
 - [Local folders](local-folders.md) — the folders Kaveo scans for films, series and music on this
   computer.
+- [Network folders](network-folders.md) — add a shared folder on a NAS or another computer (SMB,
+  WebDAV) to a category.
 - [Jellyfin](jellyfin.md) — connect a Jellyfin server, play its titles, and keep your progress in sync.
 - [Blu-ray and DVD disc images](disc-images.md) — play a film kept as a whole disc, on your computer or a server.
 - [Disc menus](disc-menus.md) — play a disc as a player would: its opening, its menus, its titles.
