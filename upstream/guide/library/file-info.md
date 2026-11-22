@@ -19,5 +19,5 @@ or on your server, with everything its container declares.
 ## Good to know
 
 - **Before import** shows the name a file was downloaded under.
-- A local file is read with FFprobe; a server copy's details come from the server. If it does not answer, click **Retry**.
+- A local file is read by Kaveo itself, with nothing to install; a server copy's details come from the server. If it does not answer, click **Retry**.
 - A hidden title shows only its **Overview**.
