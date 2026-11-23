@@ -11,6 +11,8 @@ one library.
   computer.
 - [Network folders](network-folders.md) — add a shared folder on a NAS or another computer (SMB,
   WebDAV) to a category.
+- [When the network drops](network-drops.md) — what Kaveo says when a network folder's server stops
+  answering while a title plays.
 - [Jellyfin](jellyfin.md) — connect a Jellyfin server, play its titles, and keep your progress in sync.
 - [Blu-ray and DVD disc images](disc-images.md) — play a film kept as a whole disc, on your computer or a server.
 - [Disc menus](disc-menus.md) — play a disc as a player would: its opening, its menus, its titles.
