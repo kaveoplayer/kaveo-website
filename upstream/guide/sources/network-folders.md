@@ -23,5 +23,8 @@ of your categories.
 ## Good to know
 
 - Network folders are not read into the library yet: no title from them appears.
+- A title played from one is kept in **Recently played** and starts again where you stopped
+  (**Start over** in the player's menu goes back to the beginning); an episode goes on to the next
+  episode in its folder.
 - The password stays in your computer's password store.
 - A new server address asks whether it is the same server; **Same server** keeps where you stopped.
