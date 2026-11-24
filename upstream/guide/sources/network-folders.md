@@ -18,13 +18,14 @@ of your categories, and shows its films and series in your library.
 
 ## Good to know
 
-- Kaveo reads the folder's films and series into the library when you add it, and each time Kaveo
-  starts. Music, photos, discs, and a **Personal** or **Podcasts** category's folders are not read yet.
-- The folder's chip and its category row say how the scan went: **scanning…**, the titles found
-  and folders skipped, or why it was **not reached** — then it keeps its titles and is tried again
-  when Kaveo next starts. A scan waits while a title from that server plays.
-- A title played from one is kept in **Recently played** and starts again where you stopped
-  (**Start over** in the player's menu goes back to the beginning); an episode goes on to the next
-  episode in its folder.
+- Kaveo reads the folder's films and series when you add it and at each start, showing the last
+  scan's titles meanwhile. Music, photos, discs, **Personal** and **Podcasts** folders are not
+  read yet.
+- The folder's chip and category row say how the scan went, or why it was **not reached**: then
+  its titles stay, marked *last seen*, and **Retry** on its card reads it again. One that answers
+  empty keeps its titles until you choose, under **Empty folder…**. A scan waits while a title from
+  that server plays.
+- A title played from one is kept in **Recently played** and resumes where you stopped
+  (**Start over** in the player's menu restarts it); an episode goes on to the next in its folder.
 - The password stays in your computer's password store.
 - A new server address asks whether it is the same server; **Same server** keeps where you stopped.
