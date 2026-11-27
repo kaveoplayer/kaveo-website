@@ -7,8 +7,7 @@ order: 50
 Kaveo gathers titles from folders on your computer and from media servers, and shows them together in
 one library.
 
-- [Local folders](local-folders.md) — the folders Kaveo scans for films, series and music on this
-  computer.
+- [Local folders](local-folders.md) — the folders Kaveo scans on this computer.
 - [Network folders](network-folders.md) — add a shared folder on a NAS or another computer (SMB,
   WebDAV) to a category.
 - [When a network folder can't be reached](network-status.md) — how Kaveo says a NAS or shared
@@ -19,10 +18,10 @@ one library.
   answering while a title plays.
 - [Open a network address](network-address.md) — play a file by its SMB or WebDAV address.
 - [Browse a network folder](network-browse.md) — play or add what a share holds.
+- [A network connection's diagnostics](network-diagnostics.md) — why a network folder fails.
 - [Jellyfin](jellyfin.md) — connect a Jellyfin server and keep your progress in sync.
 - [Blu-ray and DVD disc images](disc-images.md) — play a film kept as a whole disc, on your computer or a server.
 - [Disc menus](disc-menus.md) — play a disc as a player would: its opening, its menus, its titles.
 - [New files on a server](server-scan.md) — make a server list a file you copied there yourself.
 - [When a server moves](server-moved.md) — give Kaveo a server's new address, keeping its categories.
-- [Leaving files out](leave-out.md) — keep folders and files out of the library, by rule or with a
-  marker file.
+- [Leaving files out](leave-out.md) — keep folders and files out of the library.

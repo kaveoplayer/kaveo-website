@@ -19,5 +19,6 @@ an MCP server, so an AI assistant such as Claude Code can tune Kaveo while a fil
 ## Good to know
 
 - It reaches the player's settings — picture, sound, subtitles, languages, playback — and each display's and audio output's, never your library, servers, keys or private titles.
+- It also reads your network connections — each one's health, a Test, its diagnostics — and never changes one.
 - The .deb, .rpm and Arch packages and the tarball's installer put kaveo-ctl beside kaveo; the AppImage must be unpacked with its own extract option first. From a terminal, kaveo-ctl's help lists its commands.
 - If a second Kaveo is the one playing, changes go to it, and it cannot save them.
