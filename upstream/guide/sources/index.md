@@ -17,6 +17,7 @@ one library.
   you add it again.
 - [When the network drops](network-drops.md) — what Kaveo says when a network folder's server stops
   answering while a title plays.
+- [Open a network address](network-address.md) — play a file by its SMB or WebDAV address.
 - [Jellyfin](jellyfin.md) — connect a Jellyfin server, play its titles, and keep your progress in sync.
 - [Blu-ray and DVD disc images](disc-images.md) — play a film kept as a whole disc, on your computer or a server.
 - [Disc menus](disc-menus.md) — play a disc as a player would: its opening, its menus, its titles.

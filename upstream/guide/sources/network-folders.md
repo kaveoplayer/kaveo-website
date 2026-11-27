@@ -25,7 +25,7 @@ of your categories, and shows its films and series in your library.
 - The folder's chip and category row say how the scan went, or why it was **not reached** (see
   *When a network folder can't be reached*). One that answers empty keeps its titles until you
   choose, under **Empty folder…**.
-- A title played from one is kept in **Recently played** and resumes where you stopped; an episode
-  goes on to the next.
+- A title played from one, or from [its address](network-address.md), is kept in **Recently
+  played** and resumes where you stopped; an episode goes on to the next.
 - The password stays in your computer's password store; nothing is saved before **Add folder**.
 - A new server address asks whether it is the same server; **Same server** keeps where you stopped.

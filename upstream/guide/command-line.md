@@ -1,6 +1,6 @@
 ---
 title: Command line
-description: Start Kaveo on a file, a folder or a web address from a terminal.
+description: Start Kaveo on a file, a folder, a web address or a network address from a terminal.
 order: 90
 ---
 
@@ -16,7 +16,8 @@ Start Kaveo from a terminal.
    kaveo "Big Buck Bunny.mkv"
    ```
 
-2. Give it a web address — a stream or a video page — and it plays.
+2. A web stream or video page plays; a [network address](sources/network-address.md) plays,
+   or opens its server's setup.
 
    ```
    kaveo https://example.com/film.m3u8
@@ -58,7 +59,6 @@ Start Kaveo from a terminal.
 - Only the first Kaveo owns your library, history and settings. A second one brings that window
   forward; given a file, it plays it and reports where you stopped; given a web address, that
   window plays it.
-- Translating asks nothing; **Already translated** decides.
 - `kaveo --version` prints the version. There is no help option, and an unknown option is ignored.
 - Everything but translating is also in your file manager's **Kaveo** menu — see
   [From your file manager](file-manager.md).
