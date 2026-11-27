@@ -20,8 +20,8 @@ folder — in one of your categories.
 
 ## Good to know
 
-- Kaveo reads the folder's films and series, with the poster, NFO file and subtitles beside each,
-  when you add it and at each start. Music, photos, discs, trailer files, **Personal** and
+- Kaveo reads the folder's films and series, with the poster, NFO file, subtitles and trailer file
+  beside each, when you add it and at each start. Music, photos, discs, **Personal** and
   **Podcasts** folders are not read yet.
 - The folder's chip and category row say how the scan went, or why it was **not reached** (see
   *When a network folder can't be reached*). One that answers empty keeps its titles until you

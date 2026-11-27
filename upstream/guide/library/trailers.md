@@ -21,11 +21,12 @@ language you prefer.
 
 ## Good to know
 
-- The first play downloads the trailer (a few seconds); after that it starts at once.
+- The first play downloads the trailer (a few seconds); then it starts at once.
 - With no trailer in the chosen language, one in another language plays.
 - A trailer kept beside a film plays first: name it like the film with *-trailer* added
   (*Film (2016)-trailer.mkv*), or put it in a *Trailers* folder. It never becomes a title of its own.
-- Many trailers exist only in 1080p, so a 4K screen shows them at 1080p.
+  A network folder's trailer plays on the page only.
+- Many trailers exist only in 1080p.
 - A Jellyfin title plays the trailer the server keeps or knows, or one found for it.
 - When nothing else has one, Kaveo asks AniList (for anime) and KinoCheck, free trailer services.
   When neither has one, a short clip cut from the title itself plays instead — behind **Trailer**
