@@ -21,10 +21,9 @@ of your categories, and shows its films and series in your library.
 - Kaveo reads the folder's films and series when you add it and at each start, showing the last
   scan's titles meanwhile. Music, photos, discs, **Personal** and **Podcasts** folders are not
   read yet.
-- The folder's chip and category row say how the scan went, or why it was **not reached**: then
-  its titles stay, marked *last seen*, and **Retry** on its card reads it again. One that answers
-  empty keeps its titles until you choose, under **Empty folder…**. A scan waits while a title from
-  that server plays.
+- The folder's chip and category row say how the scan went, or why it was **not reached** (see
+  *When a network folder can't be reached*). One that answers empty keeps its titles until you
+  choose, under **Empty folder…**. A scan waits while a title from that server plays.
 - A title played from one is kept in **Recently played** and resumes where you stopped
   (**Start over** in the player's menu restarts it); an episode goes on to the next in its folder.
 - The password stays in your computer's password store.

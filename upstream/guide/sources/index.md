@@ -11,6 +11,10 @@ one library.
   computer.
 - [Network folders](network-folders.md) — add a shared folder on a NAS or another computer (SMB,
   WebDAV) to a category.
+- [When a network folder can't be reached](network-status.md) — how Kaveo says a NAS or shared
+  folder is not answering, and how to read it again.
+- [Removing a network connection](network-remove.md) — remove one, and get back what you watched if
+  you add it again.
 - [When the network drops](network-drops.md) — what Kaveo says when a network folder's server stops
   answering while a title plays.
 - [Jellyfin](jellyfin.md) — connect a Jellyfin server, play its titles, and keep your progress in sync.
