@@ -9,7 +9,7 @@ order: 10
 The first time Kaveo runs there is nothing to show yet — this is how you point it at your films and
 shows, or just play one file with no library at all.
 
-![Kaveo's library screen on a first launch, with no folder added yet and an Add a folder button](../images/getting-started/first-launch-empty.webp)
+![Kaveo's library screen on a first launch, with no folder added yet and the Add a folder and Add a network folder buttons](../images/getting-started/first-launch-empty.webp)
 
 ## How to use it
 
@@ -20,7 +20,8 @@ shows, or just play one file with no library at all.
 
 ![The Welcome to Kaveo dialog, listing what is worth a look, with Open Components, the two ticked boxes and Continue](../images/getting-started/first-launch-welcome.webp)
 
-2. With nothing added, the library screen says **Your library is empty** — click **Add a folder**.
+2. With nothing added, the library screen says **Your library is empty** — click **Add a folder**
+   (or [**Add a network folder**](../sources/network-folders.md)).
 3. That opens **Settings › Library › Folders**; click **Add folder…** and choose your films' folder.
 4. Click **Save** — titles appear within seconds, and a large folder is refined for a minute after.
 5. Repeat for another folder, or split your library into kinds first — see
@@ -35,6 +36,5 @@ shows, or just play one file with no library at all.
   manager's right-click menu is the box you ticked or not — see
   [From your file manager](../file-manager.md).
 - A folder can be removed later from the same page; nothing on disk is touched — see
-  [Local folders](../sources/local-folders.md) for what that page does.
-- See [The library home](../library/home.md) for what the rows and the featured band do once titles
-  appear.
+  [Local folders](../sources/local-folders.md).
+- See [The library home](../library/home.md) for the rows shown once titles appear.
