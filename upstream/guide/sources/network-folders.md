@@ -15,14 +15,14 @@ one of your categories.
    library, click **Add a network folder**.
 2. Fill in **Server**, **Share** (or **Folder on the server**), **User name** and **Password**,
    click **Test**, and answer if Kaveo asks you to trust something. At **It works**, click **Next**.
-3. Open your films' folder (**Up one folder** goes back), then click **Next**.
+3. Open your folder (**Up one folder** goes back), then click **Next**.
 4. Pick a category, or **A new category** and its name, and click **Add folder**.
 
 ## Good to know
 
 - Kaveo reads it when added and at each start: films with poster, NFO, subtitles and trailer;
-  albums with tags and covers (metered: after **Read tags**); lyrics as a track plays. Photos,
-  discs, **Personal** and **Podcasts** are not read yet.
+  albums with tags and covers (metered: after **Read tags**); lyrics as a track plays;
+  **Personal** photos and videos (photos without pictures yet); not discs or **Podcasts**.
 - The folder's chip and category row say how the scan went, or why it was **not reached** (see
   *When a network folder can't be reached*). One that answers empty keeps its titles until you
   choose, under **Empty folder…**.

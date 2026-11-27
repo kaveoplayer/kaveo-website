@@ -22,7 +22,7 @@ films and series.
    play it, or **Play all** — a [slideshow](slideshow.md) once the folder holds a photo.
 4. **Folders / All** switches between the tree and one flat list of every photo and video in the
    place you are in. Kaveo remembers the choice for the category.
-5. **New folder** creates a subfolder on disk.
+5. **New folder** creates a subfolder on disk, not on a network folder.
 6. Click a photo to open it on its own — see [Viewing photos](view-photos.md).
 
 ![A folder's page: its subfolders, then its photos and videos in one grid, newest first](../images/library/personal-videos-folder.webp)
