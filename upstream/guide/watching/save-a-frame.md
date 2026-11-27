@@ -26,5 +26,7 @@ it was filmed, and the place when the video recorded one.
   to a *Kaveo* folder in your Pictures folder, with no date.
 - Kaveo never replaces a picture: a second frame of the same second is numbered, as in *(2)*.
 - There is no **Save frame** for a private title, a video playing from a server, or a trailer.
+  For a video in a [network folder](../sources/network-folders.md) it is greyed out, with why:
+  not available yet.
 - When a video is [made private](../private/hide-a-title.md), the frames saved beside it go into
   the vault with it, and come back out with it.
