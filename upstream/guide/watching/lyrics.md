@@ -21,8 +21,8 @@ Follow the words of a song as it plays, and jump to any line.
 
 ## Good to know
 
-- Kaveo reads a lyrics file with the same name as the track, beside it: an LRC file, an enhanced
-  LRC file, or a plain text file. It also reads the lyrics stored inside the track itself.
+- Kaveo reads a lyrics file named like the track, beside it (LRC, enhanced LRC or plain text),
+  and the lyrics stored inside the track — in a [network folder](../sources/network-folders.md) too.
 - When a track has both timed and plain lyrics, the timed ones are shown.
 - The **Lyrics** [layout](now-playing.md) shows them larger.
 - A track without lyrics has no microphone button.

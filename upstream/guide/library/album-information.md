@@ -30,3 +30,5 @@ missing cover — without changing your files.
 - Last.fm and AcoustID allow non-commercial use only; entering a key accepts their terms.
 - An *album.nfo* Kaveo did not write is never replaced.
 - Albums on a Jellyfin server keep the server's information.
+- A [network folder](../sources/network-folders.md)'s albums too; on a metered connection
+  AcoustID is not used, and the album page says so.

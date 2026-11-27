@@ -20,9 +20,9 @@ one of your categories.
 
 ## Good to know
 
-- Kaveo reads it when you add it and at each start: films with their poster, NFO, subtitles and
-  trailer; albums with tags and covers (on a metered connection, after **Read tags**). Photos,
-  discs, **Personal** and **Podcasts** folders are not read yet.
+- Kaveo reads it when added and at each start: films with poster, NFO, subtitles and trailer;
+  albums with tags and covers (metered: after **Read tags**); lyrics as a track plays. Photos,
+  discs, **Personal** and **Podcasts** are not read yet.
 - The folder's chip and category row say how the scan went, or why it was **not reached** (see
   *When a network folder can't be reached*). One that answers empty keeps its titles until you
   choose, under **Empty folder…**.
