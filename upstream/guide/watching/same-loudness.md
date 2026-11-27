@@ -25,3 +25,4 @@ song.
 - To make everything louder or quieter, use the volume, not the target.
 - With **Off**, lowering Kaveo's volume leaves room for the peaks; a device's own volume does not.
 - **Song not measured yet** sets how quietly a song plays until it is measured.
+- A title in a [network folder](../sources/network-folders.md) is measured after it first plays, once nothing is playing, and is levelled from its next play; on a metered connection it is never measured.
