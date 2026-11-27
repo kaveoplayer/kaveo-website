@@ -21,6 +21,8 @@ without looking for it in your library.
 ## Good to know
 
 - SMB and WebDAV addresses work; an SFTP address says Kaveo can't open it yet.
+- An address that names a folder, or a file Kaveo can't play, opens [the browser](network-browse.md)
+  there.
 - A password written in the address is never kept: the form asks for it.
 - With Kaveo already open, the address plays in that window.
 - Full screen applies when the file plays; other options given with an address, such as looping
