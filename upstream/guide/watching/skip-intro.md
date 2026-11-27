@@ -17,9 +17,12 @@ else what the season's episodes share in their sound.
 ### Skip an opening or ending
 
 1. Click **Skip** on the card in the bottom-right corner: Kaveo jumps to just before its end.
-   Ignored, it goes away.
 2. Skip the same part in two episodes, and the next ones skip it by themselves.
 3. Click **Watch it** to see it after all — Kaveo then offers the button again instead of skipping.
+
+### A series in a network folder
+
+Choose **Find intros and endings** in its **⋯** menu; it runs once nothing plays.
 
 ### Turn it off
 
@@ -34,8 +37,7 @@ else what the season's episodes share in their sound.
 
 - Named chapters come first (*Opening*, *OP*, *Ending*, *ED*, *Prologue*); with none named, a
   theme-length chapter near the start or the end is used.
-- Failing both, the server's segments or the sound decide, and a boundary within three seconds of a
-  chapter's takes the chapter's. Nothing is uploaded.
+- Failing both, the server's segments or the sound decide. Nothing is uploaded.
 - The season playing is analysed first — with **Data saver**, a server's afterwards.
 - An *Intro* before an *Opening* is the prologue.
 - Jumping into it yourself is never skipped.
