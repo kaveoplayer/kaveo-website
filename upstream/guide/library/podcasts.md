@@ -22,8 +22,10 @@ Follow podcasts without an account: Kaveo reads each show's RSS feed and lists i
 
 ## Good to know
 
-- A folder of episodes in one of the category's folders becomes a show of its own.
+- A folder of episodes in one of the category's folders becomes a show of its own, on this
+  computer or in a [network folder](../sources/network-folders.md); a network one plays through
+  its connection. While that connection plays something else, the page says the folder waits; if it lists empty, its shows stay until you click **Refresh**.
 - Feeds are checked when Kaveo starts and every six hours; **Refresh** checks now.
 - A feed that stops answering says so; its episodes stay listed and Kaveo keeps asking.
-- Downloads go to the folder set in **Settings › Library › Folders**.
+- Downloads go to the folder set in **Settings › Library › Folders**, on this computer.
 - Speed and chapters work as for any other track.
