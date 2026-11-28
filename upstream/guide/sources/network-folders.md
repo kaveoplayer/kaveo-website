@@ -9,7 +9,11 @@ order: 15
 Kaveo shows the films, series and music of a shared folder on your network (SMB or WebDAV) in
 one of your categories.
 
+![The Network folders section of the Sources page: Living room NAS, Online, with Films in Movies holding 2 titles and Series in Series holding 1](../images/sources/network-folders-card.webp)
+
 ## How to use it
+
+![The Add a network folder dialog at its connection step: Name, Server, Port, Share, User name, Password and Domain, then Test, with Next waiting for a Test that passes](../images/sources/network-folders-form.webp)
 
 1. Click **Sources**, then **Connect a server** and **SMB** or **WebDAV** — or, with an empty
    library, click **Add a network folder**.
@@ -17,6 +21,8 @@ one of your categories.
    click **Test**, and answer if Kaveo asks you to trust something. At **It works**, click **Next**.
 3. Open your folder (**Up one folder** goes back), then click **Next**.
 4. Pick a category, or **A new category** and its name, and click **Add folder**.
+
+![The folder step of the same dialog: the share's address, Up one folder, and its folders Films and Series](../images/sources/network-folders-folder.webp)
 
 ## Good to know
 

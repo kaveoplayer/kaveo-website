@@ -9,6 +9,8 @@ order: 18
 Removing a connection takes its folders out of your library without forgetting where you stopped,
 what you watched or your history on it.
 
+![The question Remove asks: the folders that leave the library, what is kept, and Cancel or Remove](../images/sources/network-remove-dialog.webp)
+
 ## How to use it
 
 1. Click **Sources**, then **Remove** on the connection's card.

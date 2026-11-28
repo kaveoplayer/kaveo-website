@@ -9,6 +9,8 @@ order: 24
 When a network folder does not work, its diagnostics show what Kaveo asked the server and what it
 answered: enough to tell a wrong password from a missing share or a server that is off.
 
+![The Diagnostics dialog of a connection whose sign-in was refused: its status, no session yet, the last error and two recent operations, with Test and Close](../images/sources/network-diagnostics-view.webp)
+
 ## How to use it
 
 1. Click **Sources**, then **Diagnostics** on the connection's card.

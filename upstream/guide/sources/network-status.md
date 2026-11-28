@@ -9,6 +9,8 @@ order: 17
 Each network connection says whether Kaveo can reach it, so a server that is off or unplugged is
 named rather than leaving titles that do not play.
 
+![A network folder's card reading Unreachable, its folder not reached, and the reason shown on hover: no file sharing service is listening on that port](../images/sources/network-status-hover.webp)
+
 ## How to use it
 
 1. Click **Sources**: each connection's card shows **Online**, **Unreachable** or **Sign-in

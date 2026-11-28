@@ -9,6 +9,8 @@ order: 21
 Play a file from a NAS or a shared folder without adding it to your library, or find the folder to
 add by looking through the share.
 
+![Browsing a share: its address, Up one folder, the folders Films and Series, a clip marked Play and a text file marked Not a file Kaveo plays, and Add this folder…](../images/sources/network-browse-browser.webp)
+
 ## How to use it
 
 1. Click **Sources**, then **Browse** on a network folder's card.
