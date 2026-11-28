@@ -22,7 +22,8 @@ one of your categories.
 
 - Kaveo reads it when added and at each start: films with poster, NFO, subtitles and trailer;
   albums with tags and covers (metered: after **Read tags**); lyrics as a track plays;
-  **Personal** photos and videos; **Podcasts** shows on their page; not discs.
+  **Personal** photos and videos; **Podcasts** shows on their page;
+  [discs](disc-images.md).
 - The folder's chip and category row say how the scan went, or why it was **not reached** (see
   *When a network folder can't be reached*). One that answers empty keeps its titles until you
   choose, under **Empty folder…**.

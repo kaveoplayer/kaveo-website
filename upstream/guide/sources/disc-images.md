@@ -1,13 +1,13 @@
 ---
 title: Blu-ray and DVD disc images
-description: Play a film kept as a Blu-ray or DVD disc image or a copied disc folder, on your computer or on your Jellyfin server.
+description: Play a film kept as a Blu-ray or DVD disc image or a copied disc folder, on your computer, in a network folder or on your Jellyfin server.
 order: 22
 ---
 
 ## What it is for
 
-Some films are kept as a whole-disc copy: a Blu-ray or DVD image (an ISO file) or a copied
-disc folder. Kaveo plays the film inside it, locally or from your Jellyfin server.
+A whole-disc copy — a Blu-ray or DVD image (an ISO file) or a copied disc folder — plays from
+your computer, a [network folder](network-folders.md) or your Jellyfin server.
 
 ## How to use it
 
