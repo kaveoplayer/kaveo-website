@@ -16,7 +16,7 @@ the titles you pick from them.
 1. Choose **Play the disc** when Kaveo asks, or from the film's page **⋯** menu.
 2. **Skip to the menu** jumps the opening.
 3. In the menu, move with the arrows and press **Enter**, or point at a button and click it.
-4. A menu that plays by itself goes on to the film, as a player's would.
+4. A menu that plays by itself goes on to the film.
 5. **Disc menu** in the player's **⋯** menu, or **Shift+M**, brings the menu back from a title;
    its resume button continues where you were.
 
@@ -33,5 +33,5 @@ the titles you pick from them.
 - Started partway in from the menu, the film's bar still shows the whole film; you can seek back
   before that point. A faint part of the bar is out of reach.
 - Java menus (most recent Blu-rays) need Java 8 to 23 and libbluray's BD-J file (Debian, Ubuntu:
-  libbluray-bdj); without them the film plays and **Discs** says why. One with no video
+  libbluray-bdj), in a network folder too; without them the film plays and **Discs** says why. One with no video
   behind it shows over black, with **Play the film** in the corner (or **Shift+P**).
