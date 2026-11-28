@@ -23,3 +23,6 @@ named rather than leaving titles that do not play.
 - Its titles stay in the library, marked *last seen*, until a scan reads the folder again.
 - Above the library, each connection has its own source button beside **Local**, to show only its
   titles.
+- A queued [subtitle translation](../subtitles/translation-queue.md) of one of its episodes waits,
+  and says why in the queue, while the folder can't be reached, its connection is metered, or a
+  title from it is open in the player.

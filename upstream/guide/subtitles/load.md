@@ -24,14 +24,14 @@ pick, or a track you extract, becomes your own copy to sync, edit or translate.
 2. To add a file, click **Load subtitle file…**, or save one beside the video named like it, such
    as *Film (2016).ita.srt*. Many at once: [Importing](import.md).
 3. To pull a track out, open **Tools** › **Extract from this file** and click it. Kaveo reads the
-   video, then lists it under **Beside the video**.
+   video (network: after playback), then lists it under **Beside the video**.
 
 ## Good to know
 
 - A picture-based track, as on most Blu-rays, cannot be extracted: its row is greyed.
 - On a Jellyfin title, the server's files are under **Subtitle files on the server**: click one to play
-  it (later episodes follow its language), or its bin to delete it from the server. Copied one there? See
+  it (later episodes follow its language), or its bin to delete it. Copied one there:
   [New files on a server](../sources/server-scan.md).
 - A private title plays only the tracks inside its video.
-- If a file shows broken accents (*Ã¨* instead of *è*), **Subtitles** › **Tools** offers
+- If a file shows broken accents (*Ã¨* for *è*), **Subtitles** › **Tools** offers
   **Fix accented letters**; **Undo the accent fix** puts it back.
