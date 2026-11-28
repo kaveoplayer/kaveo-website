@@ -27,6 +27,6 @@ Gather songs from any album into a list of your own, and play it whenever you li
 - An M3U file dropped on the window, opened with **Open** › **Open file…**, or opened with Kaveo from your
   [file manager](../file-manager.md) plays at once; **Save as playlist…** in the queue keeps it.
 - A song that is not on disk stays, marked **Not found**, and is skipped when the playlist plays.
-- **Export as M3U…** writes a file other players read. Songs only on a server are left out.
+- **Export as M3U…** writes a file other players read. Server-only and network-folder songs are left out.
 - A [Jellyfin server](../sources/jellyfin.md)'s playlists appear under its name. They play here but
   change only on the server; **Save a copy to my playlists** gives you one you can edit.
