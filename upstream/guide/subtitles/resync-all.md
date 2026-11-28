@@ -24,7 +24,7 @@ a season or a series against its own video and fixes what is off.
   transcriber is set up in **Settings › Subtitles**, and moves it only when the match is certain.
 - A reference you choose is the only one used, and its result is kept even when it fits poorly:
   the panel then warns you. Change it under the episode, at **Reference**, to resync it again.
-- Kaveo corrects its own copy, never your files.
+- Kaveo corrects its own copy, never your files. Metered network folders wait.
 - What it could not place is listed under its episode: **Open episode** lets you
   [sync it by hand](sync.md).
 - **Restore previous sync** undoes a correction. Edits made since are lost.
